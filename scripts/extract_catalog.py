@@ -23,8 +23,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ILLUS = re.compile(r'Illustration:\s*([0-9]{3}-[0-9]{2})')
 HEADER = re.compile(r'\bPos\b.*Part Number.*Description')
-# Porsche part numbers: 9 digits + optional 2-digit suffix, space-separated.
-PN_ROW = re.compile(r'^\s*(\d{1,3})?\s+(\d{3}\s\d{3}\s\d{3}(?:\s\d{2})?)\s{2,}(.+)$')
+# Part numbers: the 9(+2)-digit assembly numbers, OR "N ddd ddd d(d)" Norm
+# (DIN/ISO standard) numbers used for fasteners.
+PN = r'(N\s*\d{3}\s+\d{3}\s+\d{1,2}|\d{3}\s\d{3}\s\d{3}(?:\s\d{2})?)'
+PN_ROW = re.compile(rf'^\s*(\d{{1,3}})?\s+{PN}\s{{2,}}(.+)$')
+# A metric thread spec on the continuation line, e.g. "M 8 X 30", "M 12 X 1,5".
+# Thread diameters are 1–2 digits (M3–M30); avoids option codes like "M573".
+SPEC = re.compile(r'^M\s*\d{1,2}(?:\s*[xX]\s*[\d.,]+)?$')
 
 # Main-group (first digit of the illustration id) → friendly name.
 GROUPS = {
@@ -62,17 +67,36 @@ def render(pdf: str, page: int, dest: Path) -> bool:
         return False
 
 
+def norm_spec(s: str) -> str:
+    return re.sub(r'\s+', '', s).replace(',', '.').replace('x', '×').replace('X', '×')
+
+
 def parse_parts(page_text: str) -> list[dict]:
+    lines = page_text.splitlines()
     parts = []
-    for line in page_text.splitlines():
+    for i, line in enumerate(lines):
         m = PN_ROW.match(line)
         if not m:
             continue
         pos, pn, rest = m.group(1), m.group(2), m.group(3)
+        pn = re.sub(r'\s+', ' ', pn).strip()  # tidy "N 011  525 13"
         # Description is the text before the next big column gap (Remark/Qty/Model).
         desc = re.split(r'\s{2,}', rest.strip())[0].strip()
-        if desc:
-            parts.append({'pos': pos or '', 'pn': pn, 'desc': desc})
+        if not desc:
+            continue
+        # A metric thread size often sits on the next continuation line.
+        spec = None
+        for j in range(i + 1, min(i + 3, len(lines))):
+            nxt = lines[j].strip()
+            if not nxt or PN_ROW.match(lines[j]):
+                break
+            if SPEC.match(nxt):
+                spec = norm_spec(nxt)
+                break
+        part = {'pos': pos or '', 'pn': pn, 'desc': desc}
+        if spec:
+            part['spec'] = spec
+        parts.append(part)
     return parts
 
 

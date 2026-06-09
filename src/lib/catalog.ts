@@ -4,6 +4,8 @@ export interface CatalogPart {
   pos: string;
   pn: string;
   desc: string;
+  /** Metric thread size for fasteners, e.g. "M8×20". */
+  spec?: string;
 }
 export interface Illustration {
   id: string;

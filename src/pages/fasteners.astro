@@ -1,0 +1,180 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getFasteners, FASTENER_TYPES, STANDARDS, THREADS } from '../lib/fasteners';
+import { withBase } from '../lib/url';
+
+const fasteners = getFasteners();
+const sizes = [...new Set(fasteners.map((f) => f.sizeKey).filter(Boolean))].sort(
+  (a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)),
+);
+const ebay = (pn: string) => `https://www.ebay.com/sch/i.html?_nkw=${encodeURIComponent(pn)}`;
+const catLink = (u: { catalog: string; id: string }) => withBase(`/catalog/${u.catalog}/${u.id}`);
+const typeCount = (t: string) => fasteners.filter((f) => f.type === t).length;
+---
+
+<BaseLayout title="Fasteners — Bolts, Nuts & Washers" description="Find Porsche 944 bolts, nuts and washers with their ISO/DIN standard, thread size and OEM number — so you can source generic equivalents.">
+  <p class="text-sm font-bold uppercase tracking-wider text-guards">Reference</p>
+  <h1 class="mt-1 font-display text-4xl font-extrabold uppercase tracking-tight text-ink">Fasteners</h1>
+  <p class="mt-2 max-w-3xl text-ink-soft">
+    Every bolt, nut, screw and washer in the factory catalog — with its thread size and the matching
+    <strong class="text-ink">ISO/DIN standard</strong>, so you can buy a cheap generic equivalent from any
+    hardware supplier instead of an expensive OEM number. Porsche <span class="font-mono text-guards-light">N</span>-numbers
+    are themselves standardized Norm parts.
+  </p>
+
+  <!-- ── ISO/DIN reference ────────────────────────────── -->
+  <details class="mt-6 rounded-xl border border-line bg-surface p-5">
+    <summary class="flex cursor-pointer items-center gap-2 font-display text-sm font-bold uppercase tracking-wider text-ink">
+      <svg class="h-4 w-4 text-guards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" /></svg>
+      ISO / DIN standards reference
+    </summary>
+    <div class="mt-4 grid gap-6 lg:grid-cols-[1.4fr_1fr]">
+      <div>
+        <p class="mb-2 font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/50">Common standards</p>
+        <div class="overflow-hidden rounded-lg border border-line">
+          <table class="w-full text-sm">
+            <tbody class="divide-y divide-line/70">
+              {STANDARDS.map((s) => (
+                <tr class="align-top">
+                  <td class="whitespace-nowrap px-3 py-2 font-mono text-xs font-semibold text-guards-light">{s.std}</td>
+                  <td class="px-3 py-2"><span class="font-semibold text-ink">{s.name}</span><span class="block text-xs text-ink-soft/80">{s.note}</span></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <p class="mb-2 font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/50">Thread pitch &amp; wrench (coarse)</p>
+        <div class="overflow-hidden rounded-lg border border-line">
+          <table class="w-full text-sm">
+            <thead class="bg-paper text-left font-mono text-[0.58rem] uppercase tracking-wider text-ink-soft/60">
+              <tr><th class="px-3 py-2">Size</th><th class="px-3 py-2">Pitch</th><th class="px-3 py-2">Hex</th></tr>
+            </thead>
+            <tbody class="divide-y divide-line/70">
+              {THREADS.map((t) => (
+                <tr><td class="px-3 py-1.5 font-mono font-semibold text-ink">{t.size}</td><td class="px-3 py-1.5 text-ink-soft">{t.pitch} mm</td><td class="px-3 py-1.5 text-ink-soft">{t.hex}</td></tr>
+              ))}
+            </tbody>
+          </table>
+          <p class="px-3 py-2 text-[0.7rem] text-ink-soft/60">Porsche also uses fine pitches (e.g. M12×1.5) — always confirm against the catalog spec.</p>
+        </div>
+      </div>
+    </div>
+  </details>
+
+  <!-- ── Finder ───────────────────────────────────────── -->
+  <div class="mt-6">
+    <p class="font-mono text-[0.65rem] font-bold uppercase tracking-[0.18em] text-ink-soft/50">Type</p>
+    <div id="type-filter" class="mt-2 flex flex-wrap gap-2">
+      <button type="button" data-type="all" aria-pressed="true" class="type-chip rounded-full border border-guards bg-guards/15 px-3 py-1 text-xs font-semibold text-guards transition">All ({fasteners.length})</button>
+      {FASTENER_TYPES.map((t) => (
+        <button type="button" data-type={t} aria-pressed="false" class="type-chip rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft transition hover:border-guards/40">{t}s ({typeCount(t)})</button>
+      ))}
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <p class="font-mono text-[0.65rem] font-bold uppercase tracking-[0.18em] text-ink-soft/50">Thread size</p>
+    <div id="size-filter" class="mt-2 flex flex-wrap gap-2">
+      <button type="button" data-size="all" aria-pressed="true" class="size-chip rounded-full border border-guards bg-guards/15 px-3 py-1 text-xs font-semibold text-guards transition">All</button>
+      {sizes.map((s) => (
+        <button type="button" data-size={s} aria-pressed="false" class="size-chip rounded-full border border-line bg-surface px-3 py-1 text-xs font-mono font-semibold text-ink-soft transition hover:border-guards/40">{s}</button>
+      ))}
+    </div>
+  </div>
+
+  <div class="mt-4 flex items-center gap-2 rounded-lg border border-line bg-surface px-4 py-2.5 focus-within:border-guards/50">
+    <svg viewBox="0 0 24 24" class="h-4.5 w-4.5 text-ink-soft/50" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7" /><path d="m21 21-4.3-4.3" /></svg>
+    <input id="fastener-search" type="search" placeholder="Search — description, part number or DIN (e.g. hex bolt, N 010, DIN 912)…" class="w-full bg-transparent text-sm text-ink outline-none placeholder:text-ink-soft/40" />
+  </div>
+
+  <p id="fastener-count" class="mt-5 font-mono text-xs uppercase tracking-wider text-ink-soft/50"></p>
+
+  <div class="mt-3 overflow-x-auto rounded-xl border border-line">
+    <table class="w-full min-w-[40rem] text-sm">
+      <thead class="bg-surface text-left font-mono text-[0.58rem] uppercase tracking-wider text-ink-soft/60">
+        <tr>
+          <th class="px-3 py-2">Type</th>
+          <th class="px-3 py-2">Size</th>
+          <th class="px-3 py-2">Description</th>
+          <th class="px-3 py-2">Porsche №</th>
+          <th class="px-3 py-2">ISO / DIN</th>
+          <th class="px-3 py-2 text-right">Find</th>
+        </tr>
+      </thead>
+      <tbody id="fastener-rows" class="divide-y divide-line/70">
+        {fasteners.map((f) => (
+          <tr class="fastener-row align-top hover:bg-surface/60" data-type={f.type} data-size={f.sizeKey} data-search={[f.desc, f.pn, f.standard, f.spec].filter(Boolean).join(' ').toLowerCase()}>
+            <td class="px-3 py-2 text-ink-soft">{f.type}</td>
+            <td class="whitespace-nowrap px-3 py-2 font-mono text-xs font-semibold text-ink">{f.spec ?? '—'}</td>
+            <td class="px-3 py-2 text-ink">
+              {f.desc}
+              {f.uses[0] && (
+                <a href={catLink(f.uses[0])} class="ml-1 text-[0.7rem] text-ink-soft/50 hover:text-guards-light">↗ {f.uses[0].title}{f.uses.length > 1 ? ` +${f.uses.length - 1}` : ''}</a>
+              )}
+            </td>
+            <td class="whitespace-nowrap px-3 py-2">
+              <button class="copy-pn rounded font-mono text-xs font-semibold text-guards-light hover:underline" data-pn={f.pn} title="Copy part number">{f.pn}</button>
+              {f.isNorm && <span class="ml-1 rounded bg-guards/15 px-1 py-px text-[0.55rem] font-bold uppercase text-guards-light" title="Porsche Norm / DIN standard part">Norm</span>}
+            </td>
+            <td class="px-3 py-2 text-xs text-ink-soft">{f.standard}</td>
+            <td class="whitespace-nowrap px-3 py-2 text-right">
+              <a href={ebay(f.pn)} target="_blank" rel="noopener nofollow" class="text-xs font-semibold text-ink-soft hover:text-guards-light">eBay</a>
+            </td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p id="fastener-empty" class="mt-10 hidden text-center text-ink-soft">No fasteners match. Try another type, size or term.</p>
+
+  <p class="mt-4 text-xs text-ink-soft/60">
+    Sizes and numbers are read from the factory catalog. The ISO/DIN mapping is a guide to the equivalent
+    standard part — confirm head drive, grade (8.8/10.9) and exact length before buying. Browse the
+    <a href={withBase('/catalog')} class="font-semibold text-guards-light hover:underline">visual catalog</a> to see where each one goes.
+  </p>
+</BaseLayout>
+
+<script>
+  const rows = [...document.querySelectorAll<HTMLElement>('.fastener-row')];
+  const search = document.getElementById('fastener-search') as HTMLInputElement | null;
+  const count = document.getElementById('fastener-count');
+  const empty = document.getElementById('fastener-empty');
+  let type = 'all', size = 'all', term = '';
+
+  function apply() {
+    let shown = 0;
+    for (const r of rows) {
+      const ok = (type === 'all' || r.dataset.type === type) &&
+                 (size === 'all' || r.dataset.size === size) &&
+                 (!term || (r.dataset.search ?? '').includes(term));
+      r.classList.toggle('hidden', !ok);
+      if (ok) shown++;
+    }
+    if (count) count.textContent = `${shown} fastener${shown === 1 ? '' : 's'}`;
+    empty?.classList.toggle('hidden', shown > 0);
+  }
+
+  function wire(sel: string, attr: string, set: (v: string) => void) {
+    const chips = [...document.querySelectorAll<HTMLButtonElement>(sel)];
+    chips.forEach((b) => b.addEventListener('click', () => {
+      set(b.dataset[attr]!);
+      chips.forEach((x) => { x.classList.remove('border-guards', 'bg-guards/15', 'text-guards'); x.classList.add('border-line', 'bg-surface', 'text-ink-soft'); x.setAttribute('aria-pressed', 'false'); });
+      b.classList.add('border-guards', 'bg-guards/15', 'text-guards');
+      b.classList.remove('border-line', 'bg-surface', 'text-ink-soft');
+      b.setAttribute('aria-pressed', 'true');
+      apply();
+    }));
+  }
+  wire('.type-chip', 'type', (v) => (type = v));
+  wire('.size-chip', 'size', (v) => (size = v));
+  search?.addEventListener('input', () => { term = search.value.trim().toLowerCase(); apply(); });
+
+  document.querySelectorAll<HTMLButtonElement>('.copy-pn').forEach((btn) =>
+    btn.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(btn.dataset.pn ?? ''); const o = btn.textContent; btn.textContent = 'copied!'; setTimeout(() => (btn.textContent = o), 900); } catch {}
+    }),
+  );
+  apply();
+</script>

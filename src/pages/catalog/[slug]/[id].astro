@@ -81,6 +81,7 @@ const slugId = (i: { id: string }) => withBase(`/catalog/${catalog.slug}/${i.id}
                   </td>
                   <td class="px-3 py-2 text-ink">
                     {p.desc}
+                    {p.spec && <span class="ml-1.5 rounded bg-paper px-1.5 py-0.5 font-mono text-[0.62rem] font-semibold text-ink-soft/80">{p.spec}</span>}
                     {curated && (
                       <span class="mt-1 flex flex-wrap gap-1.5">
                         {curated.buy.map((b) => (
