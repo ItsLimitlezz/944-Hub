@@ -1,7 +1,7 @@
 ---
 title: "Checking the Brake System"
-category: brakes-suspension
-subsystem: "Brakes"
+category: maintenance
+subsystem: "Inspections"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-07.htm

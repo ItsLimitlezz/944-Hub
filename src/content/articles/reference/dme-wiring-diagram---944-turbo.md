@@ -1,7 +1,7 @@
 ---
 title: "DME Wiring Diagram - 944 Turbo"
-category: fuel-ignition
-subsystem: "DME / Engine Management"
+category: reference
+subsystem: "Wiring Diagrams"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/dme-03.htm

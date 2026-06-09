@@ -1,7 +1,7 @@
 ---
 title: "Jacking a 944 / Placing a 944 on Jack Stands"
-category: body
-subsystem: "Body & Interior"
+category: maintenance
+subsystem: "Service Basics"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-07.htm

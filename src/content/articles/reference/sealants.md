@@ -1,7 +1,7 @@
 ---
 title: "Sealants"
 category: reference
-subsystem: "Reference"
+subsystem: "Specs"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/info-02.htm

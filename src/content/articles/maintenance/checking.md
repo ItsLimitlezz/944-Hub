@@ -1,7 +1,7 @@
 ---
 title: "Motor Mounts - Checking"
-category: engine
-subsystem: "Engine"
+category: maintenance
+subsystem: "Inspections"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-11.htm

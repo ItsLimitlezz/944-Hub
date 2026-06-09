@@ -1,7 +1,7 @@
 ---
 title: "Battery Checks"
-category: electrical
-subsystem: "Electrical"
+category: maintenance
+subsystem: "Inspections"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-15.htm

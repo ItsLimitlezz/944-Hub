@@ -11,7 +11,7 @@ code: ELECT-16
 
 ## Procedure
 
-1. If the starter does not turn, the battery should be first checked using [ELECT-15](/manual/electrical/battery-checks). If the battery is determined to be good, check the operation of the starter as follows:
+1. If the starter does not turn, the battery should be first checked using [ELECT-15](/manual/maintenance/battery-checks). If the battery is determined to be good, check the operation of the starter as follows:
 
    **CAUTION**
 

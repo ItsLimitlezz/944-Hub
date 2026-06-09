@@ -1,7 +1,7 @@
 ---
 title: "Headlight Operating Mechanism Lubrication"
-category: body
-subsystem: "Body & Interior"
+category: maintenance
+subsystem: "Lubrication"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-22.htm

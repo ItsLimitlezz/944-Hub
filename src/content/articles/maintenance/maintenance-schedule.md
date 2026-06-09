@@ -1,7 +1,7 @@
 ---
 title: "Periodic Maintenance Schedule"
 category: maintenance
-subsystem: "Maintenance"
+subsystem: "Schedule"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/maint-01.htm

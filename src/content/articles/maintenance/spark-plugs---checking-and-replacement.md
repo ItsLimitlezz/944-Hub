@@ -1,7 +1,7 @@
 ---
 title: "Changing Spark Plugs / Checking the Condition of the Spark Plugs"
-category: engine
-subsystem: "Engine"
+category: maintenance
+subsystem: "Tune-Up"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-18.htm

@@ -22,7 +22,7 @@ This troubleshooting guide is intented to help identify and repair problems with
 
 - **Improper coolant level** — Check coolant level and fill if necessary.
 - **Cooling fans, thermofan switch, or fan relay not operating correctly** — Check cooling fan operation using COOL-01. → [COOL-01](/manual/engine/fan-operation-and-troubleshooting)
-- **Air in cooling system** — Fill and vent cooling system using COOL-02. → [COOL-02](/manual/engine/system-draining-filling-and-venting)
+- **Air in cooling system** — Fill and vent cooling system using COOL-02. → [COOL-02](/manual/maintenance/system-draining-filling-and-venting)
 - **Head gasket** — A leaking head gasket can allow cylinder gasses to pressurize the cooling system. This will void the area around the cooling jackets, overpressurize the cooling system, and cause the reservior cap to relieve coolant which result in overheating. This may appear to be a coolant leak at first. This can often be identified by a compression test or cylinder leakdown test. Another method of identifying this leak is to take the car to a radiator shop and have them test the coolant for the presence of exhaust gasses.
 - **Faulty thermostat** — Remove and test the thermostat using COOL-08. → [COOL-08](/manual/engine/thermostat-information-testing-and-replacement)
 - **Wrong Thermostat** — When Porsche changed the water pump on later 944s, the depth of the snap ring groove from the thermostat sealing surface changed. This required the use of a different thermostat and thermostat sealing ring. If you get the wrong thermostat it can cause cooling problems. This is described in COOL-07. → [COOL-07](/manual/engine/water-pump-information-and-replacement)

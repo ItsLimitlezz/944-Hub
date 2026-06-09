@@ -1,7 +1,7 @@
 ---
 title: "Allen Head and Cheesehead Bolt Removal"
 category: reference
-subsystem: "Torque & Fasteners"
+subsystem: "Fasteners"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/bolt-01.htm

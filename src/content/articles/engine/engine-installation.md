@@ -41,13 +41,13 @@ Quick reference for the fasteners in this procedure — see the steps below for 
 
 ## Other Procedures Needed
 
-- [ENG-11](/manual/engine/checking), Motor Mounts - Checking
+- [ENG-11](/manual/maintenance/checking), Motor Mounts - Checking
 - [ENG-12](/manual/engine/replacement), Motor Mount Replacement
 - [DME-01](/manual/fuel-ignition/computer-removal-and-installation), DME Control Unit Removal and Installation
 - [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), Air Filter Housing and Air Flow Sensor - Removal and Installation
 - [IGN-01](/manual/fuel-ignition/distributor-cap-and-rotor-replacement), Distributor Cap and Rotor Replacement
 - [COOL-04](/manual/engine/radiator-removal-and-installation), Radiator Removal and Installation
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 ## Procedure
 
@@ -62,7 +62,7 @@ As the engine removal procedure is written assuming the engine is removed from b
 
    **Note**
 
-   Prior to installing the cross-member, check the motor mounts using [ENG-11](/manual/engine/checking), to see if they need to be replaced.
+   Prior to installing the cross-member, check the motor mounts using [ENG-11](/manual/maintenance/checking), to see if they need to be replaced.
 7. Ensure the engine motor mounts are installed into the cross-member. Install the lower motor mount bolts (10 mm) but, do not fully tighten until the cross-member is raised into place.
 
    **NOTE**
@@ -99,7 +99,7 @@ As the engine removal procedure is written assuming the engine is removed from b
 36. Install the air flow sensor and air filter housing using [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation).
 37. Attach the engine wiring harness to the firewall using appropriate cable ties.
 38. Inside car, connect the wiring harness to the DME control unit (and KLR on turbo models).
-39. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), fill and vent the coolant system.
+39. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), fill and vent the coolant system.
 40. Fill the power steering reservoir.
 41. Check the engine oil for proper level.
 42. Connect the battery leads.

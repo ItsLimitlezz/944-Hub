@@ -1,7 +1,7 @@
 ---
 title: "Fuel and Vacuum Line Diagram (16V Normally-Aspirated 944s)"
-category: fuel-ignition
-subsystem: "Fuel System"
+category: reference
+subsystem: "Diagrams"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-14.htm

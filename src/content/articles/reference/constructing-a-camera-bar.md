@@ -1,7 +1,7 @@
 ---
 title: "Camera Bar Construction"
 category: reference
-subsystem: "Reference"
+subsystem: "Shop Tools"
 author: CG
 difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/misc-01.htm

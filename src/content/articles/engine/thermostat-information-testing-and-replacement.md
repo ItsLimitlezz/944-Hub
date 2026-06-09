@@ -38,14 +38,14 @@ There are two different thermostats for the 924S, 944, and 944 Turbo. The correc
 
 ## Other Procedures Needed
 
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 ## Replacement
 
 1. Disconnect the battery negative lead.
 2. Raise the front of the vehicle on ramps or jack stands.
 3. Remove the belly pan.
-4. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), drain the cooling system. Have a large enough catch pan for approximately 2 gallons of coolant and catch rags to clean up any spilled coolant.
+4. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), drain the cooling system. Have a large enough catch pan for approximately 2 gallons of coolant and catch rags to clean up any spilled coolant.
 5. Remove the cooling hose going from the water pump to the bottom of the radiator.
 6. Using angled snap ring pliers, remove the thermostat retaining snap ring. This can be very difficult and requires a lot of patience.
 7. Remove the old thermostat from the pump housing. The thermostat has an sealing o-ring and a spacer washer. Both should come out with the thermostat.
@@ -53,7 +53,7 @@ There are two different thermostats for the 924S, 944, and 944 Turbo. The correc
 9. Install new thermostat with o-ring and support washer (if required) into the pump housing. The newer style thermostat and seal which goes into the newer style water pump requires the 2.5mm support washer between the snap ring and the thermostat. On the newer style water pumps, there is a 7mm gap between the thermostat sealing surface and the snap ring groove as opposed to a 4.5mm gap on the older style water pumps.
 10. Install the snap ring into the pump housing. Bear in mind that correctly orienting the holes on the snap ring can make removal of the snap ring much easier if the thermostat needs to be replaced in the future. Generally, the holes in the snap ring should be oriented toward the top of the pump housing or toward the bottom.
 11. Install the cooling hose from the water pump to the radiator.
-12. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), fill and vent the cooling system.
+12. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), fill and vent the cooling system.
 13. Connect the battery negative lead.
 14. Start the vehicle and run until it reaches normal operating temperature and check for leaks and proper operation of the thermostat.
 15. Install the belly pan and lower the vehicle.

@@ -25,7 +25,7 @@ code: CYL-01
 - [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), Fuel Injector and Fuel Rail Removal and Installation
 - [CAM-01](/manual/engine/camshaft-assembly-removal), Camshaft Assembly Removal
 - [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), Intake Manifold Removal and Installation
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 ## Procedure
 
@@ -34,7 +34,7 @@ code: CYL-01
 3. Using [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), remove the fuel rail and fuel injectors.
 4. Using [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), remove the intake manifold.
 5. Using [CAM-01](/manual/engine/camshaft-assembly-removal), remove the camshaft assembly.
-6. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), drain the cooling system.
+6. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), drain the cooling system.
 
    **NOTE ( from Tim Richards )**
 

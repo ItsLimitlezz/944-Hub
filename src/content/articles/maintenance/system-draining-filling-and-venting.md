@@ -1,7 +1,7 @@
 ---
 title: "Coolant System Draining, Filling, and Venting"
-category: engine
-subsystem: "Cooling System"
+category: maintenance
+subsystem: "Fluids & Filters"
 author: CG
 difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-02.htm

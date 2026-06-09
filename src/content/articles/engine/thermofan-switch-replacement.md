@@ -29,7 +29,7 @@ Quick reference for the fasteners in this procedure — see the steps below for 
 
 ## Other Procedures Needed
 
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Cooling System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Cooling System Draining, Filling, and Venting
 
 ## Procedure
 
@@ -50,4 +50,4 @@ Quick reference for the fasteners in this procedure — see the steps below for 
 11. If the threads in the radiator for the switch are plastic, torque the switch to 20 Nm. If the threads are brass torque the switch to 28 Nm.
 12. Reconnect the electrical connector to the switch.
 13. Reinstall the fan assembly.
-14. Fill coolant system with properly mixed coolant and vent using the [COOL-02](/manual/engine/system-draining-filling-and-venting) procedure.
+14. Fill coolant system with properly mixed coolant and vent using the [COOL-02](/manual/maintenance/system-draining-filling-and-venting) procedure.

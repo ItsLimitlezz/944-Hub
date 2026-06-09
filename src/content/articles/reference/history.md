@@ -1,7 +1,7 @@
 ---
 title: "Balance Shafts - A Little History and Why 944s Use Them"
-category: engine
-subsystem: "Engine"
+category: reference
+subsystem: "Background"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-07.htm

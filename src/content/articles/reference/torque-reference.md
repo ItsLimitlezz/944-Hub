@@ -1,7 +1,7 @@
 ---
 title: "944 / 968 Torque Reference (Master List)"
 category: reference
-subsystem: "Torque & Fasteners"
+subsystem: "Torque Specs"
 author: CG
 difficulty: beginner
 description: "Every torque spec across the 944 Hub shop manual, gathered into one searchable list and grouped by system — from drain plugs to the crankshaft bolt."
@@ -29,7 +29,7 @@ Head **bolts** are not a single value — they use a staged torque-plus-angle pr
 
 | Fastener | Size | Torque |
 | --- | --- | --- |
-| Cylinder-head bolts | — | Staged by engine — see the [torque-sequence guide](/manual/engine/torque-specifications-and-tightening-sequence) |
+| Cylinder-head bolts | — | Staged by engine — see the [torque-sequence guide](/manual/reference/torque-specifications-and-tightening-sequence) |
 | Front cylinder-head Allen bolts | M8 (6 mm head) | 20 Nm (15 ft-lb) |
 | Exhaust manifold nuts | — | 20 Nm (15 ft-lb) |
 
@@ -84,7 +84,7 @@ From: [Crank scraper installation](/manual/engine/crank-scraper-installation) ·
 | Oil pressure relief valve | — | 45 Nm (33 ft-lb) |
 | Oil pressure sending unit | — | 35 Nm (26 ft-lb) |
 
-From: [Oil & filter change](/manual/engine/oil-and-filter-replacement) · [Oil pan gasket](/manual/engine/oil-pan-gasket-replacement) · [Oil pump R&I](/manual/engine/oil-pump-removal-and-installation) · [Oil cooler](/manual/engine/general-information-and-seal-replacement)
+From: [Oil & filter change](/manual/maintenance/oil-and-filter-replacement) · [Oil pan gasket](/manual/engine/oil-pan-gasket-replacement) · [Oil pump R&I](/manual/engine/oil-pump-removal-and-installation) · [Oil cooler](/manual/engine/general-information-and-seal-replacement)
 
 ## Cooling
 
@@ -107,7 +107,7 @@ From: [Water pump replacement](/manual/engine/water-pump-information-and-replace
 | Speed / reference sensor retaining bolts | — | 8 Nm (6 ft-lb) |
 | Spark plugs | — | 25–30 Nm (18–22 ft-lb) |
 
-From: [Intake manifold R&I](/manual/fuel-ignition/intake-manifold-removal-and-installation) · [Fuel rail & injectors](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation) · [Spark plugs](/manual/engine/spark-plugs---checking-and-replacement)
+From: [Intake manifold R&I](/manual/fuel-ignition/intake-manifold-removal-and-installation) · [Fuel rail & injectors](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation) · [Spark plugs](/manual/maintenance/spark-plugs---checking-and-replacement)
 
 ## Exhaust & turbo
 
@@ -154,7 +154,7 @@ From: [Clutch replacement](/manual/transmission-clutch/replacement-clutch-01)
 | CV joint to flange bolt (cheesehead) | M8 · 8 mm 12-point | 42 Nm (30 ft-lb) |
 | Shift rod retaining bolt (Loctite) | — | 21 Nm (15 ft-lb) |
 
-From: [Transaxle R&I](/manual/transmission-clutch/transmission-removal-and-installation) · [Manual transmission fluid change](/manual/transmission-clutch/changing-manual-transmission-fluid) · [CV joints](/manual/brakes-suspension/general-information-removal-installation-and-maintenance)
+From: [Transaxle R&I](/manual/transmission-clutch/transmission-removal-and-installation) · [Manual transmission fluid change](/manual/maintenance/changing-manual-transmission-fluid) · [CV joints](/manual/brakes-suspension/general-information-removal-installation-and-maintenance)
 
 ## Engine mounts & cross-member
 
@@ -207,4 +207,4 @@ From: [Steering rack replacement](/manual/brakes-suspension/replacement-steer-01
 | --- | --- | --- |
 | Wheel lug nuts | — | 130 Nm (96 ft-lb) |
 
-From: [Brake pad replacement](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement)
+From: [Brake pad replacement](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement)

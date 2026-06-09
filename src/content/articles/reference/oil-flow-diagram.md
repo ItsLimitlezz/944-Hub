@@ -1,7 +1,7 @@
 ---
 title: "Oil System Flow Diagram"
-category: engine
-subsystem: "Lubrication & Oil"
+category: reference
+subsystem: "Diagrams"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-11.htm

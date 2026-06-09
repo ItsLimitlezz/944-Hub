@@ -31,7 +31,7 @@ I'd like to thank Heinrich Smit for providing the oil cooler pictures I'm using 
 ## Other Procedures Needed
 
 - [COOL-02, Cooling System Draining, Filling,
-  and Venting](/manual/engine/system-draining-filling-and-venting)
+  and Venting](/manual/maintenance/system-draining-filling-and-venting)
 
 ## Parts
 
@@ -67,7 +67,7 @@ I'd like to thank Heinrich Smit for providing the oil cooler pictures I'm using 
 6. Using the thin head 24mm open end wrench, remove the oil pressure sending unit.
 7. Remove the oil pressure relief valve.
 8. If your vehicle has an external oil cooler disconnect the oil cooler supply and return lines from the oil cooler housing.
-9. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), drain the coolant from the vehicle.
+9. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), drain the coolant from the vehicle.
 10. Using a 10mm socket and ratchet or 10mm combination wrench remove the heat shield above the oil cooler housing.
 
     **NOTE**
@@ -97,6 +97,6 @@ I'd like to thank Heinrich Smit for providing the oil cooler pictures I'm using 
 28. Install the heat shield above the oil cooler housing. Torque the heat shield bolts (M6) to 8 Nm (6 ft-lbs).
 29. Apply a light coat of oil to the seal of a new oil filter and install filter. Tighten filter to 20 Nm (15 ft-lbs).
 30. Install the exhaust headers.
-31. If the cooler seal failure was evidenced by a "milkshake" solution in the coolant reservoir, flush the cooling system thoroughly. After flushing, fill and vent the cooling system using [COOL-02](/manual/engine/system-draining-filling-and-venting).
+31. If the cooler seal failure was evidenced by a "milkshake" solution in the coolant reservoir, flush the cooling system thoroughly. After flushing, fill and vent the cooling system using [COOL-02](/manual/maintenance/system-draining-filling-and-venting).
 32. If there is reason to believe that coolant may have entered the oil system, change the oil, run the engine until it is warm, then, change the oil and install a new filter.
 33. Install belly pan and remove vehicle from jack stands.

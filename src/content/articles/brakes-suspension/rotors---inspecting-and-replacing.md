@@ -18,7 +18,7 @@ code: BRAKE-04
 
 ## Other Procedures Needed
 
-- [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement), Brake Pads - Checking Thickness and Replacing Pads
+- [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement), Brake Pads - Checking Thickness and Replacing Pads
 - [SUSP-08](/manual/brakes-suspension/front---checking-adjustment-repacking-and-replacement), Front Wheel Bearings - Checking, Adjustment, Repacking, and Replacement
 
 ## Inspecting Brake Rotors
@@ -44,7 +44,7 @@ code: BRAKE-04
    \* Cars equipped with option M758.
 5. Check front brake rotor run out as follows:
    1. Adjust front wheel bearing play using [SUSP-08](/manual/brakes-suspension/front---checking-adjustment-repacking-and-replacement).
-   2. Remove the front brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+   2. Remove the front brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).
    3. Attach a dial indicator to the brake caliper.
    4. Set the dial indicator to zero and place the indicator pointer near the center of the brake rotor.
    5. Turn the rotor by hand and check the run out. Lateral run out should not exceed 0.1 mm.
@@ -59,7 +59,7 @@ code: BRAKE-04
 ## Removing the Brake Rotors
 
 1. For 944s through the 1986 model year, remove the front brake rotor as follows:
-   1. Remove the brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+   1. Remove the brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).
    2. Remove the two caliper retaining bolts that attach the caliper to the steering knuckle, slide the caliper off the rotor, and hang the caliper out of the way with shock cord or wire.
    3. Remove the dust cap on the front wheel.
    4. Loosen the Allen bolt on the clamping nut.
@@ -67,7 +67,7 @@ code: BRAKE-04
    6. If the rotor is to be reused, mark the orientation of the rotor to the hub.
    7. Separate the rotor from the hub by removing the rotor retaining bolts.
 2. For model year 1987 and newer cars (944, 944 S, 944 S2, and 944 Turbo), remove the front brake rotor as follows:
-   1. Remove the brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+   1. Remove the brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).
    2. Remove the retaining bolts that attach the caliper to the to the steering knuckle, slide the caliper off the rotor, and hang the caliper out of the way with shock cord or wire.
    3. If the brake rotor is to be reused, mark the orientation of the rotor to the hub.
    4. Remove the countersunk screws that attach the brake rotor to the hub.
@@ -90,7 +90,7 @@ code: BRAKE-04
    5. Check the grease packing on the outer wheel bearing, slide the outer bearing onto the spindle, and seat the bearing into the hub.
    6. Adjust the front bearing play using SUSP-08.
    7. Slide the caliper on to the rotor and attach the caliper to the steering knuckle using the retaining bolts.
-   8. Install the brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+   8. Install the brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).
 2. For model year 1987 and newer cars (944, 944S, 944 S2, and 944 Turbo), install the front rotor as follows:
    1. Install the brake rotor on to the hub.
    2. Install the countersunk screws that attach the rotor to the hub.
@@ -100,4 +100,4 @@ code: BRAKE-04
    2. Install the countersunk screw that holds the rotor to the hub.
    3. Adjust the parking brake using [BRAKE-05](/manual/brakes-suspension/parking-brake-adjustment).
    4. Slide the brake caliper on to the rotor and attach the caliper to the trailing arm using the retaining bolts.
-   5. Install the rear brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+   5. Install the rear brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).

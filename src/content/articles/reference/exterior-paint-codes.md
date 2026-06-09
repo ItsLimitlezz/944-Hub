@@ -1,7 +1,7 @@
 ---
 title: "944 Paint Codes"
-category: body
-subsystem: "Body & Interior"
+category: reference
+subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-02.htm

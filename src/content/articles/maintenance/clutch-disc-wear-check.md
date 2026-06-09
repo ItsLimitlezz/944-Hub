@@ -1,7 +1,7 @@
 ---
 title: "Checking Clutch Disc Wear"
-category: transmission-clutch
-subsystem: "Clutch"
+category: maintenance
+subsystem: "Inspections"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/clutch-03.htm

@@ -1,7 +1,7 @@
 ---
 title: "Transaxle - General Information, Codes, and Gear Ratios"
-category: transmission-clutch
-subsystem: "Transmission"
+category: reference
+subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-04.htm

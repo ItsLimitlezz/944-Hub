@@ -19,10 +19,10 @@ code: COOL-04
 
 ## Other Procedures Needed
 
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 1. Disconnect the battery negative lead.
-2. Using [COOL-02, Coolant System Draining, Filling, and Venting](/manual/engine/system-draining-filling-and-venting), drain the coolant system.
+2. Using [COOL-02, Coolant System Draining, Filling, and Venting](/manual/maintenance/system-draining-filling-and-venting), drain the coolant system.
 3. In the engine compartment, cut the any retaining straps attached to the fan shroud. Remove the three bolts which attach the fan assembly to the upper radiator support.
 4. Underneath the car, cut any retaining straps attaching the fan wires to the fan housing and unplug the fans.
 5. Remove the three bolts from the bottom of the fan assembly and remove the assembly from the car.
@@ -55,4 +55,4 @@ code: COOL-04
 7. On turbocharged cars, perform the following:
    1. Install the coolant cross-over pipe and attach hoses.
    2. Attach the external oil cooler to the side of the radiator housing.
-8. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), fill and vent the cooling system.
+8. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), fill and vent the cooling system.

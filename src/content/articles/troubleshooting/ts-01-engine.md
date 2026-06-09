@@ -32,8 +32,8 @@ This situation is by far the easiest to troubleshoot as there are fewer possible
 
 **Engine Will Not Turn Over**
 
-- **Discharged or Faulty Battery** → [ELECT-15](/manual/electrical/battery-checks)
-- **Battery Terminals Loose or Corroded** → [ELECT-15](/manual/electrical/battery-checks)
+- **Discharged or Faulty Battery** → [ELECT-15](/manual/maintenance/battery-checks)
+- **Battery Terminals Loose or Corroded** → [ELECT-15](/manual/maintenance/battery-checks)
 - **Bad Starter Motor or Starter Solenoid** → [ELECT-16](/manual/electrical/checking-starter-operation)
 - **Bad Ignition Switch** → [ELECT-17](/manual/electrical/ignition-switch-and-wiring-test)
 - **Broken or Loose Wiring In Starter Circuit** → [ELECT-17](/manual/electrical/ignition-switch-and-wiring-test)
@@ -107,15 +107,15 @@ If you get good spark at the main lead to the distributor and no spark at the sp
 
 - **Dead spot in Air Flow Sensor / Air Flow Meter (AFM) potentiometer** — Test AFM. → [ELECT-19](/manual/electrical/gauge-troubleshooting)
 - **Vacuum Leak** — With a large vacuum leak, the car may idle correctly. However, as soon as you open the throttle, the car may hesitate, stumble, or even cutoff. The best way to look for vacuum leaks is to connect a source of compressed air (approximately 10 psi will do it) to the intake manifold with the engine not running and listen for air leaks.
-- **Spark Plugs Fouled** — Remove spark plugs and check condition. → [ENG-18](/manual/engine/spark-plugs---checking-and-replacement)
+- **Spark Plugs Fouled** — Remove spark plugs and check condition. → [ENG-18](/manual/maintenance/spark-plugs---checking-and-replacement)
 
 ## Engine Misses.
 
 - **Bad spark plug wires** — Run the engine in a dark area and look for arcing from the spark plug wires to the engine.
 - **Cracked distributor cap** — Remove cap and check condition.
-- **Faulty spark plug** — Remove spark plugs individually and inspect for broken or excessively worn electrode or cracked insulator. Check the condition of the spark plugs by color. → [ENG-18](/manual/engine/spark-plugs---checking-and-replacement)
+- **Faulty spark plug** — Remove spark plugs individually and inspect for broken or excessively worn electrode or cracked insulator. Check the condition of the spark plugs by color. → [ENG-18](/manual/maintenance/spark-plugs---checking-and-replacement)
 - **Vacuum leak** — Check for vacuum leaks by pressuizing the intake manifold with compressed air. Listen for leaks.
-- **Clogged fuel filter** — Replace filter. → [FUEL-03](/manual/fuel-ignition/fuel-filter-replacement)
+- **Clogged fuel filter** — Replace filter. → [FUEL-03](/manual/maintenance/fuel-filter-replacement)
 - **DME Computer** — A faulty DME computer can cause a variety of starting and running problems. Normally, problems with the DME computer are the result of bad solder joints which can frequently be repaired. There's really no way to test the DME unless you can swap it into another vehicle or unless you can borrow a known good DME to install for testing purposes. And, even a good used DME computer is a little pricey. So, I don't like to run out and replace the DME unless I've eliminated all other possible causes. If you suspect the DME computer is bad, as a minimum, I would open it up and inspect for bad solder joints (and repair them) before replacing the computer. → [DME-05](https://www.clarks-garage.com/shop-manual/dme-05.htm)
 
 ## Engine Backfires.

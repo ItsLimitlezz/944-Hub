@@ -1,7 +1,7 @@
 ---
 title: "Cylinder Head Tightening Sequence and Torque Specifications"
-category: engine
-subsystem: "Cylinder Head"
+category: reference
+subsystem: "Torque Specs"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/cyl-03.htm

@@ -28,7 +28,7 @@ If you can't keep you car off the road long enough to wait for a rebuild, purcha
 
 ## Other Procedures Needed
 
-[COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting (Turbocharged Cars)
+[COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting (Turbocharged Cars)
 
 ## Removal
 
@@ -69,5 +69,5 @@ If you can't keep you car off the road long enough to wait for a rebuild, purcha
    2. Install the rubber inlet plenum boot on the turbocharger suction.
    3. Install the intercooler discharge pipe to the intake manifold.
 10. Install the air flow meter and air box.
-11. On turbocharged cars, fill and vent the coolant system using [COOL-02](/manual/engine/system-draining-filling-and-venting).
+11. On turbocharged cars, fill and vent the coolant system using [COOL-02](/manual/maintenance/system-draining-filling-and-venting).
 12. Install the skid pan.

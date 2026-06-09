@@ -28,7 +28,7 @@ If you are installing a turbocharger other than a factory replacement (K26-6 or 
 - [BOLT-01](/manual/reference/allen-head-and-cheesehead-bolt-removal), Allen Head and Cheesehead Bolt Removal
 - [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), Fuel Injector and Fuel Rail Removal and Installation
 - [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), Intake Manifold Removal and Installation
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 |  |  |
 | --- | --- |
@@ -71,7 +71,7 @@ If you are installing a turbocharger other than a factory replacement (K26-6 or 
 6. Using [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), remove the fuel rail and injectors.
 7. Using [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), remove the intake manifold.
 8. Remove the belly pan.
-9. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), drain the coolant system.
+9. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), drain the coolant system.
 10. Remove the alternator air supply flexible hose.
 11. Remove the turbocharger cooling pump as follows:
     1. Disconnect the turbocharger cooling pump electrical connector (located along the shock tower near the cooling pump.
@@ -110,4 +110,4 @@ If you are installing a turbocharger other than a factory replacement (K26-6 or 
 17. Using [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), install the intake manifold.
 18. Using [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), install the fuel injectors and fuel rail.
 19. Using [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), install the air flow sensor and air filter housing.
-20. Fill and vent the cooling system using [COOL-02](/manual/engine/system-draining-filling-and-venting).
+20. Fill and vent the cooling system using [COOL-02](/manual/maintenance/system-draining-filling-and-venting).

@@ -1,7 +1,7 @@
 ---
 title: "CV Joint Boot Check"
-category: brakes-suspension
-subsystem: "Suspension"
+category: maintenance
+subsystem: "Inspections"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-14.htm

@@ -1,7 +1,7 @@
 ---
 title: "Engine Oil and Filter Change"
-category: engine
-subsystem: "Engine"
+category: maintenance
+subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-17.htm

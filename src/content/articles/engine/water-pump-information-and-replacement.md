@@ -35,7 +35,7 @@ Quick reference for the fasteners in this procedure — see the steps below for 
 - [ENG-13](/manual/engine/locating-and-setting-engine-to-tdc), Locating and Setting Engine to Top Dead Center (TDC), Cylinder 1
 - [ENG-03](/manual/engine/flywheel-lock-installation), Flywheel Lock Installation
 - [ENG-05](/manual/engine/belt-removal), Camshaft and Balance Shaft Belt Removal
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 - [ENG-06](/manual/engine/belt-installation), Camshaft and Balance Shaft Belt Installation
 - [ENG-10](/manual/engine/belt-tensioning), Camshaft and Balance Shaft Belt Tension - Checking and Adjusting
 - [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), Air Filter Housing and Air Flow Sensor - Removal and Installation
@@ -87,7 +87,7 @@ On Turbocharged cars, there is a nozzle on the water pump which supplies cooling
 3. Using [ENG-13](/manual/engine/locating-and-setting-engine-to-tdc), set engine at TDC on cylinder number 1.
 4. Using [ENG-03](/manual/engine/flywheel-lock-installation), remove the starter and install the flywheel lock (P9206).
 5. Using [ENG-05](/manual/engine/belt-removal), remove the balance shaft belt, timing belt, rollers, balance shaft sprockets, crankshaft gear, and rear timing cover.
-6. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), drain the cooling system to an appropriate catch pan.
+6. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), drain the cooling system to an appropriate catch pan.
 7. Disconnect the coolant hoses from the water pump.
 8. Loosen the water pump retaining bolts and nuts (10 mm socket) and remove the water pump from the car.
 
@@ -108,7 +108,7 @@ On Turbocharged cars, there is a nozzle on the water pump which supplies cooling
 14. Using [ENG-06](/manual/engine/belt-installation) install the timing belt, balance shaft belt and all rollers. The belts are tensioned during the performance of ENG-06 using [ENG-10](/manual/engine/belt-tensioning).
 15. Install the air filter assembly ([AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation)).
 16. Reconnect battery.
-17. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), fill and vent the cooling system.
+17. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), fill and vent the cooling system.
 18. Install skid pan.
 19. Remove car from jack stands/ramps.
 

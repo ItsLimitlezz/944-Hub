@@ -1,7 +1,7 @@
 ---
 title: "Brake Pads - Checking Thickness and Replacing Pads"
-category: brakes-suspension
-subsystem: "Brakes"
+category: maintenance
+subsystem: "Wear Items"
 author: CG
 difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-02.htm
@@ -94,5 +94,5 @@ The minimum allowed thickness for the brakes pads is 2 mm. However, Porsche gene
 11. Ensure parking brake is engaged. You may also wish to install wheel chocks.
 12. Check brake fluid reservoir level and fill if necessary.
 13. Start vehicle and pump brakes until the brake pedal has a solid feel at it's normal pedal height. Do not move vehicle until this is done. Check brake fluid reservoir level again after pumping brakes.
-14. If brakes feel spongy after pumping, bleed the brakes using [BRAKE-01](/manual/brakes-suspension/fluid-replacement-and-bleeding).
+14. If brakes feel spongy after pumping, bleed the brakes using [BRAKE-01](/manual/maintenance/fluid-replacement-and-bleeding).
 15. Take the car for a drive (few miles) making a few stops along the way. Make easy stops at first and then progressively harder, quicker stops. The will help ensure the brake pads are seated properly. An acrid, burning smell and some smoke from the brakes is normal until they are properly seated.

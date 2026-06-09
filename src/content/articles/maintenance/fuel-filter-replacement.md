@@ -1,7 +1,7 @@
 ---
 title: "Fuel Filter Replacement"
-category: fuel-ignition
-subsystem: "Fuel System"
+category: maintenance
+subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-03.htm

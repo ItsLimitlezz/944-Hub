@@ -43,7 +43,7 @@ code: SUSP-08
 
 1. Raise the front of the vehicle on jack stands.
 2. Remove the front wheels.
-3. Remove the brake pads using [BRAKE-02](/manual/brakes-suspension/checking-brake-pad-thickenss-and-brake-pad-replacement).
+3. Remove the brake pads using [BRAKE-02](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement).
 4. Remove the two caliper retaining bolts that attach the caliper to the steering knuckle, slide the caliper off the rotor, and hang the caliper out of the way with shock cord or wire.
 5. Remove the wheel bearing grease cap by tapping around the back edge with of the cap with a hammer and chisel. On early models (pre-1985.5), the speedometer is driven by a cable off of the left front wheel. To remove the grease cap on that side, you'll first have to remove the E-clip from the end of the cable using a small flat tip screwdriver or probe.
 6. After the grease cap is removed, loosen the locking collar Allen head bolt using a 6 mm Allen head wrench or long Allen head socket. To get the wrench into the head you'll have to turn the hub until the detent in the lip of the hub lines up with the head of Allen bolt.

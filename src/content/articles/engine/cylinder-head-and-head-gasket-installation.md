@@ -32,7 +32,7 @@ General fastener torques (used where a specific value isn't called out) plus the
 
 ## Other Procedures Needed
 
-- [CYL-03](/manual/engine/torque-specifications-and-tightening-sequence), Cylinder Head Tightening Sequence and Torque Specifications
+- [CYL-03](/manual/reference/torque-specifications-and-tightening-sequence), Cylinder Head Tightening Sequence and Torque Specifications
 - [FUEL-09](/manual/fuel-ignition/intake-manifold-removal-and-installation), Intake Manifold Removal and Installation
 - [CAM-02](/manual/engine/camshaft-assembly-installation), Camshaft Assembly Installation
 - [FUEL-02](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation), Fuel Injector and Fuel Rail Removal and Installation
@@ -40,7 +40,7 @@ General fastener torques (used where a specific value isn't called out) plus the
 - [ENG-10](/manual/engine/belt-tensioning), Camshaft and Balance Shaft Belt Tension - Checking and Adjusting
 - [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), Air Filter Housing and Air Flow Sensor - Removal and Installation
 - [IGN-01](/manual/fuel-ignition/distributor-cap-and-rotor-replacement), Distributor Cap and Rotor Replacement
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 ## Parts
 
@@ -87,7 +87,7 @@ If not specified apply the following fastener torque specs.
   I've never tried it personally but, Tim Richards suggests removing the cylinder head with the exhaust manifolds still attached. According to Tim, it saves a couple hours of work. The cylinder head can also be installed with the exhaust manifolds attached. Thanks for the suggestion Tim.
 - Install the cylinder head onto the block.
 - Install the two M8 Allen head bolts (6 mm head) at the front of the cylinder head. Tighten the bolts to 20 Nm (15 ft-lbs).1. Coat the head stud threads with a light film of engine oil. Do not use anything other than engine oil.
-2. Install all head stud nuts finger tight and then torque in three steps to the appropriate torque for your engine. Refer to [CYL-03](/manual/engine/torque-specifications-and-tightening-sequence) for appropriate torque specs for your vehicle and tightening pattern.
+2. Install all head stud nuts finger tight and then torque in three steps to the appropriate torque for your engine. Refer to [CYL-03](/manual/reference/torque-specifications-and-tightening-sequence) for appropriate torque specs for your vehicle and tightening pattern.
 3. Connect the coolant hose at the back of the cylinder head going to the heater control valve.
 4. Connect the coolant outlet hose at the front of the cylinder head.
 5. Place the exhaust manifold in position in the car.
@@ -100,7 +100,7 @@ If not specified apply the following fastener torque specs.
 12. Using [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), install the air filter housing and air flow sensor.
 13. Using [IGN-01](/manual/fuel-ignition/distributor-cap-and-rotor-replacement), install the rotor and distributor cap.
 14. Route coil wire to the distributor and plug wires from the distributor to the spark plugs.
-15. Using [COOL-02](/manual/engine/system-draining-filling-and-venting), fill and vent the coolant system.
+15. Using [COOL-02](/manual/maintenance/system-draining-filling-and-venting), fill and vent the coolant system.
 16. Reconnect battery leads.
 
     **NOTE**

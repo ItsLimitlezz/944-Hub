@@ -1,7 +1,7 @@
 ---
 title: "Turbo Identification"
-category: engine
-subsystem: "Engine"
+category: reference
+subsystem: "Identification"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-19.htm

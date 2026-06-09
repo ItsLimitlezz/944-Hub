@@ -1,7 +1,7 @@
 ---
 title: "Brake Fluid - Changing / Brake Bleeding"
-category: brakes-suspension
-subsystem: "Brakes"
+category: maintenance
+subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-01.htm

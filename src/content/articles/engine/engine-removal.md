@@ -27,7 +27,7 @@ code: ENG-01
 - [AF-01](/manual/fuel-ignition/air-filter-housing-removal-and-installation), Air Filter Housing and Air Flow Sensor - Removal and Installation
 - [IGN-01](/manual/fuel-ignition/distributor-cap-and-rotor-replacement), Distributor Cap and Rotor Replacement
 - [COOL-04](/manual/engine/radiator-removal-and-installation), Radiator Removal and Installation
-- [COOL-02](/manual/engine/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
+- [COOL-02](/manual/maintenance/system-draining-filling-and-venting), Coolant System Draining, Filling, and Venting
 
 ## Procedure
 

@@ -1,7 +1,7 @@
 ---
 title: "Manual Transaxle Fluid Change"
-category: transmission-clutch
-subsystem: "Transmission"
+category: maintenance
+subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-06.htm
