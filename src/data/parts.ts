@@ -76,6 +76,24 @@ export const PARTS: Part[] = [
       { label: 'Pelican Parts', url: 'https://www.pelicanparts.com/More_Info/99919220450.htm?pn=999-192-204-50-M21&bc=c&SVSVSI=0753' },
     ],
   },
+  {
+    id: 'clutch-kit-944-turbo',
+    name: 'Sachs Clutch Kit — 944 Turbo (951)',
+    partNumber: '951 116 911 00',
+    note: 'Stock Sachs clutch kit for the 944 Turbo. Includes the 951 pressure plate (951-116-023-01), 951 stock sprung disc (951-116-011-15) and 951 release bearing (951-116-082-01).',
+    buy: [
+      { label: 'Lindsey Racing', url: 'https://www.lindseyracing.com/LR/Porsche/951-116-911-00.html' },
+    ],
+  },
+  {
+    id: 'clutch-kit-944-na',
+    name: 'Sachs Clutch Kit — 944 8V / 924S / 944S / 944S2',
+    partNumber: '944 116 911 01',
+    note: 'Stock Sachs clutch kit for the 944 8V normally-aspirated (through 1989), 924S, 944S and 944S2. Includes the sprung-hub disc, pressure plate and release bearing.',
+    buy: [
+      { label: 'Lindsey Racing', url: 'https://www.lindseyracing.com/LR/Porsche/944-116-911-01.html' },
+    ],
+  },
 ];
 
 const BY_ID = new Map(PARTS.map((p) => [p.id, p]));

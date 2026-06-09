@@ -5,6 +5,7 @@ subsystem: "Clutch"
 author: CG
 difficulty: advanced
 tools: [timing-belt-locking-tool, harmonic-balancer-holding-tool, multimeter, torque-wrench-large, torque-wrench-small]
+parts: [clutch-kit-944-turbo, clutch-kit-944-na]
 sourceUrl: https://www.clarks-garage.com/shop-manual/clutch-01.htm
 description: "Replacing the clutch on a 944 can be one of the most intimidating jobs a home mechanic can undertake. Although there is nothing about a clutch replacement th…"
 code: CLUTCH-01
