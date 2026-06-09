@@ -13,10 +13,21 @@ export interface Shop {
   /** Coarse location — country / "Mail-order" to avoid stale specifics. */
   location: string;
   url: string;
+  /** Optional map / directions link (e.g. Google Maps). */
+  maps?: string;
   blurb: string;
 }
 
 export const SHOPS: Shop[] = [
+  {
+    name: 'Wolff Autowerks',
+    type: ['Service'],
+    location: 'Burlington, ON, Canada',
+    url: 'https://wolffautowerks.com',
+    maps: 'https://share.google/WxzJhRSVce8uFForn',
+    blurb:
+      'Independent European specialist focused on Porsche (also BMW and other Euro makes). Affiliated with the Porsche Club of America DE Tech Centre — known for honest, high-quality work in the Greater Toronto / Hamilton area.',
+  },
   {
     name: 'Pelican Parts',
     type: ['Parts'],
