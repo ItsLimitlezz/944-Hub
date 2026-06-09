@@ -32,6 +32,28 @@ export const PARTS: Part[] = [
     ],
   },
   {
+    id: 'engine-oil-castrol-gtx-classic-20w50',
+    name: 'Castrol GTX Classic 20W-50 (5 L)',
+    note: 'A 20W-50 mineral oil well suited to the 944 engine — a sensible choice for higher-mileage motors and warmer climates. Confirm grade and spec for your build.',
+    buy: [
+      {
+        label: 'Amazon.ca',
+        url: 'https://www.amazon.ca/Castrol-GTX-Classic-20W-50-Motor/dp/B0BZDPJN2K?crid=2D0X4NNVPI1D6&dib=eyJ2IjoiMSJ9.oaHdvmQuFrL4qd7xd8alIWGjZOwfu1iZVc4leyNhYwU1yQETvA-llBizrPrZzPR3oVEtY_3UG-Jp65OywzcskfHzY4jzxxbLylg8ELAvPQetN9rfdP6vVZ7QSd49sChfl8BAafU8h71U7I2qHcWJRR-TkiGiCDDzinRKIRE2Pg-edk2NCw6K4BcSI_ov-TYAIRTarpZ3YwI5a7KZBJDi8Ax6d1JdlpHknKFEgvjCSYSU_i5XUesHXw1882tDigPcuEUKSYBbDPen_7G0sZpo_ECGk-F8iLJ_g6XmrX8wmnQ.j9vC5y1UblBFWBvyQQPHhBqA1TOtL2LaAprTuy2in2A&dib_tag=se&keywords=20w50&qid=1781037337&sprefix=20w%2Caps%2C194&sr=8-5&linkCode=ll2&tag=ffp03a-20&linkId=0074effdec926699d7bf8684ec8607ef&ref_=as_li_ss_tl',
+      },
+    ],
+  },
+  {
+    id: 'engine-oil-millers-classic-sport-20w50',
+    name: 'Millers Oils Classic Sport High Performance 20W-50',
+    note: 'A high-performance 20W-50 engine oil formulated for classic engines. Confirm grade and spec for your build.',
+    buy: [
+      {
+        label: 'Ultraray Motorsports',
+        url: 'https://ultraraymotorsports.com/product/classic-high-performance-20w50-nt/',
+      },
+    ],
+  },
+  {
     id: 'serpentine-belt-ac',
     name: 'Accessory Drive Belt — with A/C',
     partNumber: '999 192 206 50',
