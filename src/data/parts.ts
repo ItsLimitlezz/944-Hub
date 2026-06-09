@@ -54,6 +54,17 @@ export const PARTS: Part[] = [
     ],
   },
   {
+    id: 'brake-fluid-millers-300-plus',
+    name: 'Millers Oils Racing Brake Fluid 300 Plus',
+    note: 'High-temperature racing brake fluid with a very high dry boiling point — well suited to track and spirited street use. Also works for bleeding the clutch hydraulics. Renew regularly, as it is hygroscopic.',
+    buy: [
+      {
+        label: 'Ultraray Motorsports',
+        url: 'https://ultraraymotorsports.com/product/racing-brake-fluid-300-plus/',
+      },
+    ],
+  },
+  {
     id: 'serpentine-belt-ac',
     name: 'Accessory Drive Belt — with A/C',
     partNumber: '999 192 206 50',
