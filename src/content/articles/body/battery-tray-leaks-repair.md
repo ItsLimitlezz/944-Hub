@@ -3,7 +3,7 @@ title: "Battery Tray Repairs"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: beginner
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-06.htm
 description: "A leaking battery tray can be catastrophic. Particularly if you own a 944 which has it's DME located in the passenger's footwell. When the battery tray leaks…"
 code: BODY-06

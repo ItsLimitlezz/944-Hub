@@ -3,7 +3,7 @@ title: "Rear Hatch Strut Replacement"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-23.htm
 description: "The most important part of replacing the rear hatch struts is making sure you have the correct parts. If you get the wrong struts in the wrong location, your…"
 code: BODY-23

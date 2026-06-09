@@ -3,7 +3,7 @@ title: "Water Pump Information and Replacement"
 category: engine
 subsystem: "Cooling System"
 author: CG
-difficulty: beginner
+difficulty: advanced
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-07.htm
 description: "There are two different styles of water pumps used on the 924S and 944 (including Turbos). The new style coolant pump has a guard rail for the timing belt an…"
 code: COOL-07

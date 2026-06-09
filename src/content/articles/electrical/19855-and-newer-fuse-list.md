@@ -3,7 +3,7 @@ title: "Late 944 Fuse List"
 category: electrical
 subsystem: "Electrical"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-11.htm
 code: ELECT-11
 ---

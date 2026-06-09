@@ -3,7 +3,7 @@ title: "Fuel Pump Information and Replacement"
 category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
-difficulty: beginner
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-10.htm
 description: "The Bosch fuel pumps used in Porsches are generally extremely reliable and not prone to failure. If you have a fuel pump that needs to be replaced, there is …"
 code: FUEL-10

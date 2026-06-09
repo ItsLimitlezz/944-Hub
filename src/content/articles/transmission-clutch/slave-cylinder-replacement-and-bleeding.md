@@ -3,7 +3,7 @@ title: "Clutch Slave Cylinder Replacement"
 category: transmission-clutch
 subsystem: "Clutch"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/clutch-02.htm
 description: "Replacing the clutch slave cylinder on a 944 is a fairly simple procedure. The difficult part of the job is bleeding the slave cylinder. This procedure will …"
 code: CLUTCH-02

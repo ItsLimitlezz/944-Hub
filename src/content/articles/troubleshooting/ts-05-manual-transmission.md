@@ -3,7 +3,7 @@ title: "Troubleshooting - Manual Transmission"
 category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-05.htm
 description: "This troubleshooting guide is intented to help identify and repair manual transmission problems. The following is a list of problem symptoms discussed in thi…"
 code: TS-05

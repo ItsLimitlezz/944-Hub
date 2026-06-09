@@ -3,7 +3,7 @@ title: "Speedometer, Gear Ratio, and Tire Size Calculator"
 category: transmission-clutch
 subsystem: "Transmission"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-01.htm
 code: TRANS-01
 ---

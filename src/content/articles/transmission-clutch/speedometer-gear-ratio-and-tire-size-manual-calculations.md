@@ -3,7 +3,7 @@ title: "Speedometer, Gear Ratio, and Tire Size Manual Calculations"
 category: transmission-clutch
 subsystem: "Transmission"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-02.htm
 description: "Use the following formula to determine tire circumference:"
 code: TRANS-02

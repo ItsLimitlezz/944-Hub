@@ -3,7 +3,7 @@ title: "Headlight Motor Circuit Operation and Repair"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-05.htm
 description: "The following procedure, written by Dave Simms, is based on the headlight motor circuits in 1983 and 1984 model 944s. Dave has also included information on h…"
 code: BODY-05

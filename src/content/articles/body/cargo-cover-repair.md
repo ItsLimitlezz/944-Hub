@@ -3,7 +3,7 @@ title: "Cargo Cover Repair"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-28.htm
 description: "When the cargo cover fails to retract, there are normally two causes. The coil spring for the cover retracting mechanism is broken or the spring has come out…"
 code: BODY-28

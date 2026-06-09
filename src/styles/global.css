@@ -7,10 +7,10 @@
   --font-display: 'Archivo', 'Inter', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
 
-  /* Porsche Guards Red brand accent + a deeper brick red for legacy/CG. */
-  --color-guards: #e10821;
-  --color-guards-dark: #b00518;
-  --color-guards-light: #ff5563; /* links/accents on dark surfaces */
+  /* FormFactor Performance teal brand accent + a deeper brick red for legacy/CG. */
+  --color-guards: #0e9b91; /* primary accent — buttons, badges, highlights */
+  --color-guards-dark: #0a766e; /* hover / deeper teal */
+  --color-guards-light: #5fd0c5; /* links/accents on dark surfaces */
   --color-brick: #b21a0e;
 
   /* Permanent dark palette — graphite + carbon. */

@@ -3,7 +3,7 @@ title: "Flywheel Lock Installation"
 category: engine
 subsystem: "Engine"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-03.htm
 code: ENG-03
 ---

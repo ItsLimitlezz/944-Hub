@@ -3,7 +3,7 @@ title: "Hood Crest - Removal and Installation"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-13.htm
 description: "When you remove the nose panel, you will find that the crest is held in place by two posts. The posts will be held by one of two different types of retaining…"
 code: BODY-13

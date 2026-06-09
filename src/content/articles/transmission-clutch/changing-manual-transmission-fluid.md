@@ -3,7 +3,7 @@ title: "Manual Transaxle Fluid Change"
 category: transmission-clutch
 subsystem: "Transmission"
 author: CG
-difficulty: advanced
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-06.htm
 description: "The factory service manual calls for the transmission fluid to be changed every 60,000 miles. There's always been a lot of discussion about what type of tran…"
 code: TRANS-06

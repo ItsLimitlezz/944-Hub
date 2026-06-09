@@ -3,7 +3,7 @@ title: "Hood Strut Replacement"
 category: body
 subsystem: "Body & Interior"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-19.htm
 description: "Hood strut replacement on a 944 is fairly straight forward. However, I've offered a few tips here which may save you some trouble during the installation. It…"
 code: BODY-19

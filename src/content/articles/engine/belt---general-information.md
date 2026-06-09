@@ -3,7 +3,7 @@ title: "Camshaft / Balance Shaft Belt Information"
 category: engine
 subsystem: "Engine"
 author: CG
-difficulty: advanced
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-04.htm
 description: "Timing belts have long been the source of many heated discussions and much heartache for 944 owners. Every new or potential 944 owner should read Jim Pasha's…"
 code: ENG-04

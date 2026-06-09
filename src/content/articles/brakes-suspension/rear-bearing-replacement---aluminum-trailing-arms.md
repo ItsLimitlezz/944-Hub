@@ -3,7 +3,7 @@ title: "Rear Wheel Bearing Replacement - Aluminum Trailing Arm"
 category: brakes-suspension
 subsystem: "Suspension"
 author: CG
-difficulty: intermediate
+difficulty: advanced
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-11.htm
 description: "Changing the wheel bearing on an aluminum trailing arm is somewhat different than a steel trailing arm. First, the aluminum trailing arm uses a single sealed…"
 code: SUSP-11

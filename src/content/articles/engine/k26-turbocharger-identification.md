@@ -3,7 +3,7 @@ title: "Turbo Identification"
 category: engine
 subsystem: "Engine"
 author: CG
-difficulty: intermediate
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-19.htm
 description: "As more and more 944 Turbos are becoming modified for increased performance, one of the popular and least expensive ways of increasing performance is to repl…"
 code: ENG-19

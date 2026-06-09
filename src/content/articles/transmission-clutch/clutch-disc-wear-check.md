@@ -3,7 +3,7 @@ title: "Checking Clutch Disc Wear"
 category: transmission-clutch
 subsystem: "Clutch"
 author: CG
-difficulty: advanced
+difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/clutch-03.htm
 description: "The clutch disc wear should be checked every 15,000 miles as a minimum. If the car is driven hard or is used on the track (Driver's Ed events, Autocross, Tim…"
 code: CLUTCH-03

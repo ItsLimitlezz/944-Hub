@@ -3,7 +3,7 @@ title: "Cooling Fan Operation and Troubleshooting"
 category: engine
 subsystem: "Cooling System"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-01.htm
 description: "Introduction(#intro)"
 code: COOL-01

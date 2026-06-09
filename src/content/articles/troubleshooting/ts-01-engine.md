@@ -3,7 +3,7 @@ title: "Troubleshooting - Engine"
 category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
-difficulty: advanced
+difficulty: intermediate
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-01.htm
 description: "This troubleshooting guide is intented to help identify and repair engine starting and running problems and engine lubrication system problems. The following…"
 code: TS-01
