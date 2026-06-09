@@ -5,30 +5,162 @@ subsystem: "Maintenance"
 author: CG
 difficulty: beginner
 sourceUrl: https://www.clarks-garage.com/shop-manual/maint-01.htm
-description: "The following maintenance schedule is based primarily on the recommendations from the Porsche Maintenance and General Repairs Manual. However, where noted, I…"
+description: "A modernized, scannable Porsche 944 / 968 maintenance schedule — a quick-reference table of the service intervals that matter, plus the full inspection checklist grouped by system."
 code: MAINT-01
 ---
 
-## Introduction
+This schedule is based primarily on the **Porsche Maintenance and General Repairs Manual**, with some additional — and in places more stringent — recommendations from Clark's Garage noted along the way.
 
-The following maintenance schedule is based primarily on the recommendations from the Porsche Maintenance and General Repairs Manual. However, where noted, I have provided some additional recommendations and in some cases more stringent recommendations than those required by Porsche.
+If you only read one thing, read the quick reference below. The detailed checklists further down are what a shop works through at each interval.
 
-|  |
-| --- |
-| **Maintenance Requirements** |
-| **Required At 500 - 2000 miles / 800 - 3200 km (New Vehicles)** |
-| Change Engine Oil and Filter    **Note:** This is initial break-in oil change recommended by Porsche for a new car. As most of our cars aren't new anymore, this generally doesn't apply. However, you should apply this recommendation for a new or freshly rebuilt engine. Engine: Visual inspection for leaks.  Cooling and Heating System: Check for leaks.  Coolant Hoses: Check condition and tighten connections  Radiator: Visual inspection for external fouling.  Coolant (antifreeze): Check level and antifreeze content.  Crankcase Ventilation: Check tightness of hose connections.  Intake Air: Check hoses, lines, and connections for tightness.   Brake Pedal: Check play of brake pedal and adjust if necessary  Brake Hoses and Lines: Visual Inspection for leaks, damage, and corrosion.   Check brake fluid level and top off if necessary.  Clutch: Check play and adjust if necessary.  Manual Transmission: Visual Inspection for leaks, check oil level, and top off if necessary.  Automatic Transmission: Check fluid level and top off if necessary.  Exhaust System: Visual inspection of the exhaust system for leaks and damage. Check screw connections for tightness and attachment  Tires: Check condition and correct tire pressure **During road or dynamometer test:**  Brake pedal, parking brake, brake power assist unit, clutch, automatic speed control, steering, heating, air conditioner, and instruments: check operation.  Kick down: check operation  Engine: visual inspection for leaks |
-| **Required At 500 - 2000 miles / 800 - 3200 km (After Timing Belt Replacement)** |
-| Check tension and condition of timing (and balance shaft) drive belts. |
-| **Required At 1800 - 3000 miles / 3000 - 5000 km (New Vehicles)** |
-| Wheel alignment service. |
-| **Required Every 7500 miles / 12000 km** |
-| Change Engine Oil and Filter (Turbo Engines Only)  **Note:**While Porsche recommends a 7500 mile oil change interval for Turbos and a 15000 mile oil change interval for normally aspirated cars, I feel that shorter oil change intervals are important to the longevity of the engine (bearings, rings, valve train). Personally, I change the oil and filter every 3000 miles (4800 km) and highly recommend that you choose an interval no longer than 5000 miles (8000 km). You should only use a Mahle oil filter with check valve or a Porsche OEM filter. |
-| **Required Every 15000 miles / 24000 km** |
-| Change Engine Oil and Filter  **Note:**While Porsche recommends a 7500 mile oil change interval for Turbos and a 15000 mile oil change interval for normally aspirated cars, I feel that shorter oil change intervals are important to the longevity of the engine (bearings, rings, valve train). Personally, I change the oil and filter every 3000 miles (4800 km) and highly recommend that you choose an interval no longer than 5000 miles (8000 km). You should only use a Mahle oil filter with check valve or a Porsche OEM filter.  Engine: Visual inspection for leaks.  Cooling and Heating System: Check for leaks.  Coolant Hoses: Check condition and tighten connections  Radiator: Visual inspection for external fouling.  Coolant (antifreeze): Check level and antifreeze content.  Crankcase Ventilation: Check tightness of hose connections.  Intake Air: Check hoses, lines, and connections for tightness.   Brake Pedal: Check play of brake pedal and adjust if necessary  Brake Hoses and Lines: Visual Inspection for leaks, damage, and corrosion.   Check brake fluid level and top off if necessary.  Brake System: Visual inspection of brake pads and discs to check for wear  Clutch: Check play and adjust if necessary.  Clutch Plate: Check for wear.  Hydraulic Clutch Actuator: Visual inspection for leaks.  Steering Gear: Check screw connections for tightness. Visual inspection of the bellows for damage.  Tie Rod Links: Check play, tightness, and dust caps.  Power Assisted Steering: Visual inspection for leaks, check fluid level and top off if necessary.  Ball Joints: Visual inspection of dust caps for damage.  Wishbone: Check screw connections for tightness.   Front Wheel Bearings: Check play and adjust if necessary.  Rear Wheel Bearings: Check play and adjust if necessary.  Lubricate clutch release lever and secondary spring.   Manual Transmission: Visual Inspection for leaks, check oil level, and top off if necessary.  Automatic Transmission: Check fluid level and top off if necessary.  Drive Shafts: Visual inspection of sleeves for leaks and damage.  Exhaust System: Visual inspection of the exhaust system for leaks and damage. Check screw connections for tightness and attachment  Tires: Check condition and correct tire pressure.  Door Arrester (latch mechanism): Check operation and lubricate.  Door Hinges: Lubricate.  Check Door , Engine Hood locks and safety hooks on front hood for tightness and function.  Seals for doors, hood, and roof: Remove abraded rubber, apply suitable agent to seals.  Check Operation of vehicle lighting.  All headlights: Check setting and adjust if necessary.  Horn: Check operation.  Retractable Headlights: Lubricate rods.  Throttle Actuator: Check for smooth running.  Windshield Washer System: Check function, check fluid level, and nozzle setting and adjust if necessary.  Headlight Washer: Check operation, fluid level, and nozzle setting and adjust if necessary.  Battery: Check fluid level and top off if necessary.  Check operation of all electrical control equipment and optional extras.  Heater, ventilation, and air conditioner blower: check operation.  **During road or dynamometer test:**  Brake pedal, parking brake, brake power assist unit, clutch, automatic speed control, steering, heating, air conditioner, and instruments: check operation.  Kick down: check operation  Engine: visual inspection for leaks |
-| **Required Every 30000 miles / 48000 km** |
-| Change Engine Oil and Filter  Check tension and condition of timing (and balance shaft) drive belts.  Check tension and condition of V-Belt (Power Steering) and Poly-Rib Belt (AC / Alternator)  Replace Spark Plugs (At least every two years)  Replace Air Filter  Automatic Transmission: Change ATF, clean ATF strainer. |
-| **Required Every 60000 miles / 96000 km** |
-| Manual Transmission: Change Oil  Automatic Transmission: Change Oil in Differential |
-| **Other Required Maintenance** |
-| Brake Fluid and Engine Coolant should be replaced every two years regardless of mileage. If the car is tracked, the brake fluid should be changed at least once a year. However, in some PCA regions, to pass a DE Event Tech Inspection, you must provide proof that your brake fluid has been changed within 3 months of the event. On 944s, the timing belt and balance shaft belt should be changed at 45,000 miles. For 968s, they should be changed at 60,000 miles. For both the 944 and 968, the belt condition and tension should be checked every 15000 miles. The 15,000 mile inspection interval assumes that the car has bee driven on a regular basis. If your timing belt is two years old and you have not reached the 15000 mile inspection interval, the timing belt tension and condition should be checked then and once per year after that.  For 944s it is unusual for a water pump to last significantly past 100000 miles. For that reason, I recommend replacing the water pump at every other belt change (90000 miles). For 968s, it may be possible to extend the life of the pump to the second belt change at 120000 miles. However, you should monitor for indications of a failing water pump closely after 100000 miles.  For timing belt and balance belt tensioners and rollers, I recommend removing the rollers and spinning by hand at each timing belt replacement. If the roller is noisy, it should be replaced. All rollers should be replaced at every other belt change unless it's an individual roller that was replaced during the previous belt change. For pre-1987 model 944s, the timing belt tension roller stud should be replaced at every other belt change. |
+## Quick reference
+
+The intervals worth memorizing for a 944 or 968:
+
+| Service | Interval |
+| --- | --- |
+| **Engine oil & filter** | Every 3,000–5,000 mi (4,800–8,000 km) — see note below |
+| **Spark plugs** | Every 30,000 mi or 2 years |
+| **Air filter** | Every 30,000 mi (48,000 km) |
+| **Timing & balance shaft belts** | 944: **45,000 mi** · 968: **60,000 mi** — inspect tension/condition every 15,000 mi or yearly |
+| **Water pump** | Every *other* belt change — 944: ~90,000 mi · 968: ~120,000 mi |
+| **Accessory drive belts** (power-steering V-belt, A/C–alternator poly-rib) | Inspect every 30,000 mi |
+| **Brake fluid** | Every 2 years (**yearly if tracked**) |
+| **Engine coolant** | Every 2 years |
+| **Manual transmission oil** | Every 60,000 mi (96,000 km) |
+| **Automatic transmission** | Fluid + strainer every 30,000 mi; differential oil every 60,000 mi |
+| **Full inspection service** | Every 15,000 mi (24,000 km) |
+| **Wheel alignment** | New car at 1,800–3,000 mi, then as needed |
+
+> **On oil changes.** Porsche specifies 7,500 mi for Turbos and 15,000 mi for normally-aspirated cars. Those intervals are long. Shorter changes protect the bearings, rings and valvetrain — Clark changes oil every 3,000 mi (4,800 km) and recommends an interval no longer than **5,000 mi (8,000 km)**. Use only a **Mahle filter with check valve or a Porsche OEM filter**.
+
+## First service — new or freshly rebuilt engine
+
+**At 500–2,000 mi (800–3,200 km).** This is Porsche's break-in service. Most of our cars aren't new, so it usually only applies after an engine rebuild.
+
+- Change engine oil and filter (break-in)
+- **Engine & cooling:** inspect engine for leaks; check cooling/heating system for leaks; check coolant hose condition and tighten connections; inspect radiator for external fouling; check coolant level and antifreeze strength; check crankcase ventilation and intake hoses for tight connections
+- **Brakes:** check brake pedal play (adjust if needed); inspect hoses and lines for leaks, damage and corrosion; check fluid level and top off
+- **Drivetrain:** check clutch play (adjust if needed); inspect manual transmission for leaks and check oil level; check automatic transmission fluid level
+- **Exhaust:** inspect for leaks/damage and check fasteners for tightness
+- **Tires:** check condition and pressure
+- **Road test:** confirm operation of brakes, parking brake, brake booster, clutch, cruise control, steering, heating, A/C, instruments and (automatics) kickdown; re-check engine for leaks
+
+Two related new-car items:
+
+- **After any timing belt replacement:** re-check tension and condition of the timing (and balance shaft) belts at 500–2,000 mi.
+- **New vehicles:** wheel alignment service at 1,800–3,000 mi (3,000–5,000 km).
+
+## Every 7,500 mi / 12,000 km — Turbo only
+
+- Change engine oil and filter (Turbo engines).
+
+(See the oil-change note above — a shorter interval is recommended regardless of engine.)
+
+## Every 15,000 mi / 24,000 km — full inspection service
+
+The big one. Change the oil and filter, then work through the full inspection below, grouped by system.
+
+**Engine & cooling**
+
+- Engine: inspect for leaks
+- Cooling and heating system: check for leaks
+- Coolant hoses: check condition, tighten connections
+- Radiator: inspect for external fouling
+- Coolant: check level and antifreeze strength
+- Crankcase ventilation: check hose connections for tightness
+- Intake air: check hoses, lines and connections for tightness
+- Exhaust system: inspect for leaks/damage; check fasteners for tightness
+
+**Brakes**
+
+- Brake pedal: check play, adjust if needed
+- Brake hoses and lines: inspect for leaks, damage and corrosion
+- Brake fluid: check level, top off
+- Brake system: inspect pads and discs for wear
+
+**Clutch & drivetrain**
+
+- Clutch: check play, adjust if needed
+- Clutch plate: check for wear
+- Hydraulic clutch actuator: inspect for leaks
+- Lubricate the clutch release lever and secondary spring
+- Manual transmission: inspect for leaks, check oil level, top off
+- Automatic transmission: check fluid level, top off
+- Drive shafts: inspect CV boots/sleeves for leaks and damage
+
+**Steering & suspension**
+
+- Steering gear: check fasteners; inspect bellows for damage
+- Tie rod ends: check play, tightness and dust caps
+- Power steering: inspect for leaks, check fluid level, top off
+- Ball joints: inspect dust caps for damage
+- Control arms (wishbones): check fasteners for tightness
+- Front wheel bearings: check play, adjust if needed
+- Rear wheel bearings: check play, adjust if needed
+
+**Body, lighting & electrical**
+
+- Door latches: check operation and lubricate
+- Door hinges: lubricate
+- Door, hood and front-hood locks and safety hooks: check tightness and function
+- Door, hood and roof seals: remove abraded rubber, treat with a suitable agent
+- Lighting: check operation of all vehicle lights
+- Headlights: check aim, adjust if needed
+- Retractable headlights: lubricate the rods
+- Horn: check operation
+- Throttle actuator: check for smooth running
+- Windshield washer: check function, fluid level and nozzle aim
+- Headlight washer: check operation, fluid level and nozzle aim
+- Battery: check fluid level, top off
+- All electrical equipment and optional extras: check operation
+- HVAC blower: check operation
+
+**Tires**
+
+- Check condition and set correct pressure
+
+**Road / dyno test**
+
+- Confirm operation of brake pedal, parking brake, brake booster, clutch, cruise control, steering, heating, A/C and instruments
+- Automatics: check kickdown operation
+- Engine: final inspection for leaks
+
+## Every 30,000 mi / 48,000 km
+
+- Change engine oil and filter
+- Check tension and condition of the timing (and balance shaft) belts
+- Check tension and condition of the V-belt (power steering) and the poly-rib belt (A/C / alternator)
+- Replace spark plugs (at least every two years)
+- Replace air filter
+- Automatic transmission: change ATF and clean the ATF strainer
+
+## Every 60,000 mi / 96,000 km
+
+- Manual transmission: change the oil
+- Automatic transmission: change the differential oil
+
+## Time- and condition-based items
+
+Some of the most important jobs are driven by age or wear rather than odometer reading.
+
+**Fluids (by time)**
+
+- **Brake fluid and engine coolant:** replace every two years regardless of mileage.
+- Tracked cars: change brake fluid **at least once a year**. Note that some PCA regions require proof of a brake-fluid change within **3 months** of a DE event to pass tech inspection.
+
+**Timing & balance shaft belts**
+
+- Replace at **45,000 mi (944)** / **60,000 mi (968)**.
+- Inspect tension and condition every 15,000 mi — *this assumes regular driving.* If the belt is two years old and you haven't reached the 15,000 mi mark, check tension and condition then, and once a year thereafter.
+
+**Water pump**
+
+- 944 water pumps rarely last much past 100,000 mi. Replace at every other belt change (~90,000 mi).
+- 968 pumps may reach the second belt change (~120,000 mi), but monitor closely for signs of failure after 100,000 mi.
+
+**Belt tensioners & rollers**
+
+- At each belt change, remove the rollers and spin them by hand — replace any that are noisy.
+- Replace all rollers at every other belt change (unless an individual roller was replaced at the previous change).
+- Pre-1987 944s: replace the timing belt **tension roller stud** at every other belt change.
