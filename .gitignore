@@ -1,0 +1,22 @@
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# porter
+scripts/.cache/
+scripts/.venv/
+__pycache__/
+
+# local tooling
+.claude/
+
+# env / editor
+.DS_Store
+*.log
+.vscode/
+.idea/
+.env
+.env.*

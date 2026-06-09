@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ManualShell from '../../../components/ManualShell.astro';
+import { CATEGORIES, getCategory } from '../../../lib/categories';
+import { getArticlesByCategory } from '../../../lib/content';
+
+export const getStaticPaths = (() =>
+  CATEGORIES.map((c) => ({ params: { category: c.id } }))) satisfies GetStaticPaths;
+
+const { category } = Astro.params;
+const cat = getCategory(category)!;
+const articles = await getArticlesByCategory(cat.id);
+---
+
+<BaseLayout title={cat.name} description={cat.blurb}>
+  <ManualShell title={cat.name} intro={cat.blurb} active={cat.id} articles={articles} />
+</BaseLayout>

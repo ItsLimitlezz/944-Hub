@@ -1,0 +1,142 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+import CategoryCard from '../components/CategoryCard.astro';
+import AttributionBadge from '../components/AttributionBadge.astro';
+import { MANUAL_CATEGORIES, EXTRA_CATEGORIES } from '../lib/categories';
+import { getCategoryCounts, getArticles } from '../lib/content';
+import { SITE } from '../lib/site';
+
+const counts = await getCategoryCounts();
+const total = Object.values(counts).reduce((a, b) => a + b, 0);
+const all = await getArticles();
+const recent = all
+  .filter((a) => a.data.updated)
+  .sort((a, b) => (b.data.updated?.getTime() ?? 0) - (a.data.updated?.getTime() ?? 0))
+  .slice(0, 6);
+---
+
+<BaseLayout bare>
+  <!-- ── Hero ─────────────────────────────────────────── -->
+  <section class="relative overflow-hidden bg-carbon-grid text-white">
+    <div class="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-guards/20 blur-3xl"></div>
+    <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-guards/60 to-transparent"></div>
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-28">
+      <div class="lg:col-span-7">
+        <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-semibold text-white/70">
+          <span class="h-1.5 w-1.5 animate-pulse rounded-full bg-guards"></span>
+          Open source · Sponsored by {SITE.sponsor.name}
+        </span>
+        <h1 class="mt-5 font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-balance sm:text-6xl">
+          The Porsche&nbsp;944<br /><span class="text-guards">repair manual</span>, rebuilt for everyone.
+        </h1>
+        <p class="mt-5 max-w-xl text-lg leading-relaxed text-white/65">
+          A free, community-driven knowledge base for the 944, 944 Turbo, 924S and 968 —
+          preserving proven wrenching wisdom and making it searchable, modern and open.
+        </p>
+        <div class="mt-8 flex flex-wrap items-center gap-3">
+          <a href="#manual" class="rounded-md bg-guards px-5 py-3 text-sm font-bold text-white shadow-lg shadow-guards/20 hover:bg-guards-dark">
+            Browse the manual
+          </a>
+          <a href={withBase('/search')} class="rounded-md border border-white/20 px-5 py-3 text-sm font-semibold text-white/85 hover:bg-white/10">
+            Search articles
+          </a>
+        </div>
+        <dl class="mt-10 flex gap-8">
+          <div>
+            <dt class="text-2xl font-extrabold text-white">{total}</dt>
+            <dd class="text-xs uppercase tracking-wider text-white/45">Articles</dd>
+          </div>
+          <div>
+            <dt class="text-2xl font-extrabold text-white">6</dt>
+            <dd class="text-xs uppercase tracking-wider text-white/45">Core systems</dd>
+          </div>
+          <div>
+            <dt class="text-2xl font-extrabold text-white">100%</dt>
+            <dd class="text-xs uppercase tracking-wider text-white/45">Free &amp; open</dd>
+          </div>
+        </dl>
+      </div>
+
+      <!-- Attribution explainer card -->
+      <div class="lg:col-span-5">
+        <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur">
+          <h2 class="font-display text-sm font-bold uppercase tracking-wider text-white/50">Every article is credited</h2>
+          <p class="mt-2 text-sm text-white/60">
+            We preserve the original authorship. Look for the small red mark on each guide:
+          </p>
+          <ul class="mt-5 space-y-4">
+            <li class="flex items-start gap-3">
+              <AttributionBadge author="CG" size="md" />
+              <span class="text-sm text-white/70"><strong class="text-white">Clark's Garage</strong> — legacy reference material, ported with credit.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <AttributionBadge author="FFP" size="md" />
+              <span class="text-sm text-white/70"><strong class="text-white">FormFactor Performance</strong> — original content &amp; upgrades.</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <AttributionBadge author="community" size="md" />
+              <span class="text-sm text-white/70"><strong class="text-white">Community</strong> — contributions from 944 owners like you.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Shop manual grid ─────────────────────────────── -->
+  <section id="manual" class="mx-auto max-w-7xl scroll-mt-20 px-4 py-16 sm:px-6 lg:px-8">
+    <div class="flex items-end justify-between gap-4">
+      <div>
+        <p class="text-sm font-bold uppercase tracking-wider text-guards">Shop Manual</p>
+        <h2 class="mt-1 font-display text-3xl font-extrabold text-ink">Six core systems</h2>
+      </div>
+      <a href={withBase('/search')} class="hidden text-sm font-semibold text-ink-soft hover:text-guards sm:block">View all articles →</a>
+    </div>
+    <div class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {MANUAL_CATEGORIES.map((c) => <CategoryCard category={c} count={counts[c.id] ?? 0} />)}
+    </div>
+  </section>
+
+  <!-- ── Beyond the manual ────────────────────────────── -->
+  <section class="border-y border-line bg-surface">
+    <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <p class="text-sm font-bold uppercase tracking-wider text-guards">Beyond the Manual</p>
+      <h2 class="mt-1 font-display text-3xl font-extrabold text-ink">More than repair steps</h2>
+      <div class="mt-8 grid gap-5 sm:grid-cols-3">
+        {EXTRA_CATEGORIES.map((c) => <CategoryCard category={c} count={counts[c.id] ?? 0} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Recently updated ─────────────────────────────── -->
+  {recent.length > 0 && (
+    <section class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <h2 class="font-display text-2xl font-extrabold text-ink">Recently updated</h2>
+      <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {recent.map((a) => (
+          <a href={withBase(`/manual/${a.data.category}/${a.id.split('/').pop()}`)} class="group rounded-lg border border-line bg-surface p-4 hover:border-guards/40">
+            <div class="flex items-center gap-2">
+              <AttributionBadge author={a.data.author} authorName={a.data.authorName} />
+            </div>
+            <h3 class="mt-2 font-semibold text-ink group-hover:text-guards-dark">{a.data.title}</h3>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- ── Sponsor / CTA band ───────────────────────────── -->
+  <section class="bg-carbon-grid">
+    <div class="mx-auto flex max-w-7xl flex-col items-start gap-6 px-4 py-14 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+      <div>
+        <h2 class="font-display text-2xl font-extrabold text-white">Know something we don't?</h2>
+        <p class="mt-2 max-w-xl text-white/60">944 Hub is open source. Add an article, fix a torque spec, or share a write-up — every contribution is credited to you.</p>
+      </div>
+      <div class="flex gap-3">
+        <a href={withBase('/contribute')} class="rounded-md bg-guards px-5 py-3 text-sm font-bold text-white hover:bg-guards-dark">Contribute</a>
+        <a href={SITE.github} class="rounded-md border border-white/20 px-5 py-3 text-sm font-semibold text-white/85 hover:bg-white/10">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

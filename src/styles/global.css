@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* ── 944 Hub design tokens ─────────────────────────────────────────── */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Archivo', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Porsche Guards Red brand accent + a deeper brick red for legacy/CG. */
+  --color-guards: #e10821;
+  --color-guards-dark: #b00518;
+  --color-guards-light: #ff5563; /* links/accents on dark surfaces */
+  --color-brick: #b21a0e;
+
+  /* Permanent dark palette — graphite + carbon. */
+  --color-ink: #f1f2f4; /* primary text */
+  --color-ink-soft: #9aa1aa; /* secondary text */
+  --color-paper: #0e0f11; /* page background */
+  --color-surface: #16181c; /* cards / raised surfaces */
+  --color-surface-2: #1c1f24; /* hover / nested surfaces */
+  --color-carbon: #0a0b0d; /* header / footer / darkest */
+  --color-carbon-700: #15181c;
+  --color-line: #282c33; /* borders */
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: 'cv05', 'ss01';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle carbon-fiber texture for dark sections. */
+.bg-carbon-grid {
+  background-color: var(--color-carbon);
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Reading typography for ported manual articles (dark). */
+.prose-944 {
+  --tw-prose-body: #c7ccd3;
+  --tw-prose-headings: var(--color-ink);
+  --tw-prose-links: var(--color-guards-light);
+  --tw-prose-bold: #ffffff;
+  --tw-prose-counters: var(--color-ink-soft);
+  --tw-prose-bullets: var(--color-guards);
+  --tw-prose-quotes: var(--color-ink);
+  --tw-prose-quote-borders: var(--color-guards);
+  --tw-prose-hr: var(--color-line);
+  --tw-prose-code: var(--color-ink);
+  --tw-prose-th-borders: var(--color-line);
+  --tw-prose-td-borders: var(--color-line);
+  max-width: none;
+}
+
+/* Diagrams from Clark's are GIF/JPEG with white/transparent backgrounds —
+   keep a white mat so they stay legible on the dark page. */
+.prose-944 :where(img):not(:where([data-inline])) {
+  border: 1px solid var(--color-line);
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 0.4rem;
+  margin-inline: auto;
+}
+
+.prose-944 :where(table) {
+  font-size: 0.9rem;
+}
+
+.prose-944 :where(a) {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}

@@ -1,0 +1,20 @@
+---
+import { DIFFICULTY, type Difficulty } from '../lib/difficulty';
+
+interface Props {
+  level: Difficulty;
+  size?: 'sm' | 'md';
+  class?: string;
+}
+const { level, size = 'sm', class: cls = '' } = Astro.props;
+const d = DIFFICULTY[level];
+const dims = size === 'md' ? 'text-[0.7rem] px-2.5 py-1' : 'text-[0.62rem] px-2 py-0.5';
+---
+
+<span
+  class={`inline-flex items-center gap-1.5 rounded-full font-mono font-bold uppercase tracking-wider ${d.bg} ${d.text} ${dims} ${cls}`}
+  title={d.help}
+>
+  <span class={`h-1.5 w-1.5 rounded-full ${d.dot}`}></span>
+  {d.label}
+</span>

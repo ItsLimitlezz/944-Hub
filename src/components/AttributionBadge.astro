@@ -1,0 +1,32 @@
+---
+import { AUTHORS, type AuthorKey } from '../lib/site';
+
+interface Props {
+  author: AuthorKey;
+  authorName?: string;
+  size?: 'sm' | 'md';
+  showFull?: boolean;
+  class?: string;
+}
+
+const { author, authorName, size = 'sm', showFull = false, class: cls = '' } = Astro.props;
+const info = AUTHORS[author];
+
+// CG + FFP are red marks per spec; community is neutral graphite.
+const tone =
+  author === 'CG'
+    ? 'bg-brick text-white'
+    : author === 'FFP'
+      ? 'bg-guards text-white'
+      : 'bg-ink-soft text-white';
+
+const dims = size === 'md' ? 'text-[0.7rem] px-2 py-0.5' : 'text-[0.62rem] px-1.5 py-px';
+---
+
+<span
+  class={`inline-flex items-center gap-1 rounded-sm font-mono font-bold uppercase tracking-wider ${tone} ${dims} ${cls}`}
+  title={info.title}
+>
+  <span class="leading-none">{info.label}</span>
+  {showFull && <span class="font-sans font-semibold normal-case tracking-normal">{authorName ?? info.full}</span>}
+</span>

@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/url';
+import { SITE } from '../lib/site';
+
+const example = `---
+title: Replacing the Front Crankshaft Oil Seal
+category: engine
+subsystem: Lubrication
+author: FFP             # CG | FFP | community
+authorName: Your Name   # optional, for community authors
+difficulty: beginner    # beginner | intermediate | advanced
+description: Stop that pesky front main leak in an afternoon.
+code: ENG-14            # optional cross-reference
+order: 0
+---
+
+## Tools you'll need
+
+- 27 mm crank bolt socket
+- Seal puller
+
+Write your guide in **Markdown**. Drop images in
+\`public/articles/<slug>/\` and reference them:
+
+![Crank seal](/articles/front-crank-seal/seal.jpg)`;
+---
+
+<BaseLayout title="Contribute" description="How to contribute articles to 944 Hub.">
+  <div class="mx-auto max-w-3xl">
+    <h1 class="font-display text-4xl font-extrabold text-ink">Contribute</h1>
+    <p class="mt-4 text-lg leading-relaxed text-ink-soft">
+      944 Hub is open source and community-driven. Every article is a plain Markdown file — if you can write
+      a forum post, you can contribute a guide. And you'll be credited.
+    </p>
+
+    <ol class="mt-10 space-y-6">
+      <li class="flex gap-4">
+        <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-guards font-bold text-white">1</span>
+        <div>
+          <h3 class="font-display text-lg font-bold text-ink">Fork the repository</h3>
+          <p class="mt-1 text-ink-soft">Head to <a href={SITE.github} class="font-semibold text-guards hover:underline">GitHub</a> and fork the project.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-guards font-bold text-white">2</span>
+        <div>
+          <h3 class="font-display text-lg font-bold text-ink">Add a Markdown file</h3>
+          <p class="mt-1 text-ink-soft">Create <code class="rounded bg-paper px-1.5 py-0.5 font-mono text-sm">src/content/articles/&lt;category&gt;/&lt;your-slug&gt;.md</code> using the template below.</p>
+        </div>
+      </li>
+      <li class="flex gap-4">
+        <span class="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-guards font-bold text-white">3</span>
+        <div>
+          <h3 class="font-display text-lg font-bold text-ink">Open a pull request</h3>
+          <p class="mt-1 text-ink-soft">Submit it for review. Once merged, your guide goes live with your attribution badge.</p>
+        </div>
+      </li>
+    </ol>
+
+    <h2 class="mt-12 font-display text-2xl font-bold text-ink">Article template</h2>
+    <pre class="mt-4 overflow-x-auto rounded-xl border border-line bg-carbon p-5 text-sm leading-relaxed text-white/90"><code>{example}</code></pre>
+
+    <div class="mt-8 flex flex-wrap gap-3">
+      <a href={SITE.github} class="rounded-md bg-guards px-5 py-3 text-sm font-bold text-white hover:bg-guards-dark">Open the repository</a>
+      <a href={withBase('/manual')} class="rounded-md border border-line px-5 py-3 text-sm font-semibold text-ink hover:border-guards/40">Browse the manual</a>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,58 @@
+---
+import { MANUAL_CATEGORIES, EXTRA_CATEGORIES } from '../lib/categories';
+import { withBase } from '../lib/url';
+import { SITE } from '../lib/site';
+const year = 2025;
+---
+
+<footer class="bg-carbon-grid border-t border-white/10 text-white/70">
+  <div class="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-4 lg:px-8">
+    <div class="md:col-span-1">
+      <div class="font-display text-xl font-extrabold text-white">944<span class="text-guards"> Hub</span></div>
+      <p class="mt-3 max-w-xs text-sm text-white/55">{SITE.description}</p>
+      <p class="mt-4 text-xs text-white/40">
+        Sponsored by
+        <a href={SITE.sponsor.url} class="font-semibold text-white/70 hover:text-guards">{SITE.sponsor.name}</a>
+      </p>
+    </div>
+
+    <div>
+      <h3 class="text-xs font-bold uppercase tracking-wider text-white/40">Shop Manual</h3>
+      <ul class="mt-3 space-y-2 text-sm">
+        {MANUAL_CATEGORIES.map((c) => (
+          <li><a href={withBase(`/manual/${c.id}`)} class="hover:text-guards">{c.name}</a></li>
+        ))}
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-xs font-bold uppercase tracking-wider text-white/40">Beyond the Manual</h3>
+      <ul class="mt-3 space-y-2 text-sm">
+        {EXTRA_CATEGORIES.map((c) => (
+          <li><a href={withBase(`/manual/${c.id}`)} class="hover:text-guards">{c.name}</a></li>
+        ))}
+        <li><a href={withBase('/search')} class="hover:text-guards">Search</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="text-xs font-bold uppercase tracking-wider text-white/40">Project</h3>
+      <ul class="mt-3 space-y-2 text-sm">
+        <li><a href={withBase('/about')} class="hover:text-guards">About</a></li>
+        <li><a href={withBase('/contribute')} class="hover:text-guards">Contribute</a></li>
+        <li><a href={SITE.github} class="hover:text-guards">GitHub</a></li>
+        <li><a href="https://www.clarks-garage.com" class="hover:text-guards">Clark's Garage (source)</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+      <p>© {year} {SITE.sponsor.name}. Content under CC BY-SA 4.0, code under MIT.</p>
+      <p class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5"><span class="rounded-sm bg-brick px-1.5 py-px font-mono text-[0.6rem] font-bold text-white">CG</span> Clark's Garage</span>
+        <span class="inline-flex items-center gap-1.5"><span class="rounded-sm bg-guards px-1.5 py-px font-mono text-[0.6rem] font-bold text-white">FFP</span> FormFactor Performance</span>
+      </p>
+    </div>
+  </div>
+</footer>

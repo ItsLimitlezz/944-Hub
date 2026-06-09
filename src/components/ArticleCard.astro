@@ -1,0 +1,45 @@
+---
+import AttributionBadge from './AttributionBadge.astro';
+import DifficultyBadge from './DifficultyBadge.astro';
+import { AUTHORS, type AuthorKey } from '../lib/site';
+import type { Difficulty } from '../lib/difficulty';
+
+interface Props {
+  href: string;
+  title: string;
+  author: AuthorKey;
+  authorName?: string;
+  difficulty?: Difficulty;
+  code?: string;
+  subsystem?: string;
+  description?: string;
+}
+const { href, title, author, authorName, difficulty, code, subsystem, description } = Astro.props;
+const authorFull = authorName ?? AUTHORS[author].full;
+// Searchable haystack for the client-side filter on the listing pages.
+const haystack = [title, subsystem, code, description, authorFull].filter(Boolean).join(' ').toLowerCase();
+---
+
+<a
+  href={href}
+  class="article-card group relative flex items-center gap-4 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-guards/50 hover:bg-surface-2"
+  data-search={haystack}
+>
+  <div class="min-w-0 flex-1">
+    <div class="flex flex-wrap items-center gap-2.5">
+      <AttributionBadge author={author} />
+      {difficulty && <DifficultyBadge level={difficulty} />}
+      {subsystem && <span class="font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/70">{subsystem}</span>}
+    </div>
+    <h3 class="mt-2 font-display text-lg font-bold text-ink transition group-hover:text-guards-light">{title}</h3>
+    {description && <p class="mt-1 line-clamp-2 text-sm leading-relaxed text-ink-soft">{description}</p>}
+    <div class="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-ink-soft/60">
+      <span class="inline-flex items-center gap-1.5">
+        <svg viewBox="0 0 24 24" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Z" /><path d="M12 7v5l3 2" /></svg>
+        {authorFull}
+      </span>
+      {code && <span class="font-mono uppercase tracking-wide">{code}</span>}
+    </div>
+  </div>
+  <svg class="h-5 w-5 shrink-0 text-ink-soft/40 transition group-hover:translate-x-0.5 group-hover:text-guards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" /></svg>
+</a>

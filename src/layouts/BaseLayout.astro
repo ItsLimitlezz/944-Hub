@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import { withBase } from '../lib/url';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE } from '../lib/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Render the page edge-to-edge (no max-width wrapper) — used by the home hero. */
+  bare?: boolean;
+}
+
+const { title, description = SITE.description, bare = false } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://944hub.org').href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href={withBase('/favicon.svg')} />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta name="theme-color" content="#15181c" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <Header />
+    <main class="flex-1">
+      {
+        bare ? (
+          <slot />
+        ) : (
+          <div class="mx-auto w-full max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+            <slot />
+          </div>
+        )
+      }
+    </main>
+    <Footer />
+  </body>
+</html>

@@ -1,0 +1,31 @@
+---
+import type { Category } from '../lib/categories';
+import { withBase } from '../lib/url';
+
+interface Props {
+  category: Category;
+  count?: number;
+}
+const { category, count } = Astro.props;
+---
+
+<a
+  href={withBase(`/manual/${category.id}`)}
+  class="group relative flex flex-col overflow-hidden rounded-xl border border-line bg-surface p-5 transition hover:-translate-y-1 hover:border-guards/40 hover:shadow-lg"
+>
+  <span class="absolute inset-x-0 top-0 h-1 origin-left scale-x-0 bg-guards transition-transform duration-300 group-hover:scale-x-100"></span>
+  <div class="flex items-center justify-between">
+    <span class="grid h-12 w-12 place-items-center rounded-lg bg-guards/10 text-guards transition group-hover:bg-guards group-hover:text-white">
+      <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d={category.icon} /></svg>
+    </span>
+    {count !== undefined && (
+      <span class="rounded-full bg-surface-2 px-2.5 py-1 text-xs font-bold text-ink-soft">{count} {count === 1 ? 'article' : 'articles'}</span>
+    )}
+  </div>
+  <h3 class="mt-4 font-display text-lg font-bold text-ink">{category.name}</h3>
+  <p class="mt-1 text-sm leading-relaxed text-ink-soft/85">{category.blurb}</p>
+  <span class="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-guards">
+    Browse
+    <svg class="h-4 w-4 transition group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
+  </span>
+</a>

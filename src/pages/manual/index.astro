@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ManualShell from '../../components/ManualShell.astro';
+import { MANUAL_CATEGORIES } from '../../lib/categories';
+import { getArticles } from '../../lib/content';
+
+const order = new Map(MANUAL_CATEGORIES.map((c, i) => [c.id, i]));
+
+// Shop Manual home = every article across the six core systems.
+const articles = (await getArticles())
+  .filter((a) => order.has(a.data.category))
+  .sort(
+    (a, b) =>
+      order.get(a.data.category)! - order.get(b.data.category)! ||
+      (a.data.subsystem ?? '').localeCompare(b.data.subsystem ?? '') ||
+      a.data.title.localeCompare(b.data.title),
+  );
+---
+
+<BaseLayout title="Shop Manual" description="Browse every Porsche 944 repair article across the six core systems.">
+  <ManualShell
+    title="Shop Manual"
+    intro="Every repair procedure across the six core systems of the Porsche 944. Pick a category or search."
+    active="all"
+    articles={articles}
+  />
+</BaseLayout>
