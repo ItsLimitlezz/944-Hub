@@ -4,6 +4,7 @@ import ToolCard from '../components/ToolCard.astro';
 import { TOOLS, TOOL_SECTIONS } from '../data/tools';
 import { getArticles } from '../lib/content';
 import { withBase } from '../lib/url';
+import { SITE } from '../lib/site';
 
 // Reverse index: tool id -> [{ title, url }] of articles that reference it.
 const articles = await getArticles();
@@ -27,6 +28,7 @@ for (const list of usedIn.values()) list.sort((x, y) => x.title.localeCompare(y.
     Porsche factory special tools and recommended alternatives for 944 service procedures. OEM tool
     numbers are listed where applicable, along with where to buy them and which guides use each one.
   </p>
+  <p class="mt-3 max-w-3xl text-xs text-ink-soft/60">{SITE.affiliate.short}</p>
 
   {TOOL_SECTIONS.map((section) => {
     const tools = TOOLS.filter((t) => t.section === section.id);

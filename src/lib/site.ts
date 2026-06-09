@@ -11,6 +11,11 @@ export const SITE = {
   },
   github: 'https://github.com/ItsLimitlezz/944-Hub',
   discord: 'https://discord.gg/qyCxuHBV',
+  // Affiliate disclosure (FTC). `short` = footer/inline note, `full` = expanded.
+  affiliate: {
+    short: 'Some product links are affiliate links — we may earn a commission at no extra cost to you.',
+    full: 'As an Amazon Associate and through other vendor programs, FormFactor Performance earns from qualifying purchases made via some of the outbound product links on this site — at no extra cost to you. This helps keep 944 Hub free and open. We only link to parts and tools we believe are relevant; always verify fitment before buying.',
+  },
 } as const;
 
 // Attribution sources → the small red badge shown on every article.

@@ -52,7 +52,13 @@ const year = 2025;
   </div>
 
   <div class="border-t border-white/10">
-    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl px-4 pt-5 sm:px-6 lg:px-8">
+      <p class="text-xs text-white/35">
+        {SITE.affiliate.short}
+        <a href={withBase('/about#affiliate-disclosure')} class="underline hover:text-guards">Learn more</a>
+      </p>
+    </div>
+    <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-5 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
       <p>© {year} {SITE.sponsor.name}. Content under CC BY-SA 4.0, code under MIT.</p>
       <p class="flex items-center gap-3">
         <span class="inline-flex items-center gap-1.5"><span class="rounded-sm bg-brick px-1.5 py-px font-mono text-[0.6rem] font-bold text-white">CG</span> Clark's Garage</span>
