@@ -4,7 +4,7 @@ category: maintenance
 subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
-tools: [multimeter, torque-wrench-small]
+tools: [oil-filter-wrench, torque-wrench-small]
 parts: [oil-filter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-17.htm
 description: "Porsche recommends replacing the oil and filter every 7500 miles for turbocharged cars and every 15000 miles for normally aspirated cars. This is one of the …"

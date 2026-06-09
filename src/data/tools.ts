@@ -129,6 +129,18 @@ export const TOOLS: Tool[] = [
     alternative: 'Rent from a local parts store. DO NOT use C-clamp style compressors.',
     buy: [amazon('MacPherson strut spring compressor')],
   },
+  {
+    id: 'oil-filter-wrench',
+    name: 'Oil Filter Wrench',
+    oem: 'Cap / cup style',
+    section: 'general',
+    description: "Cleanly removes the spin-on oil filter — a cup/cap-style wrench that grips the filter's end flutes works best in the 944's tight space.",
+    alternative: 'A strap or three-jaw wrench also works; match the size to your filter.',
+    buy: [
+      { label: 'Amazon.ca', url: 'https://amzn.to/43pUU6l' },
+      { label: 'Pelican Parts', url: 'https://www.pelicanparts.com/More_Info/PEL006653SCH01A.htm?pn=PEL-006653SCH01A&bc=c&SVSVSI=0753' },
+    ],
+  },
 
   // ── Diagnostic equipment ─────────────────────────────────
   {
