@@ -34,6 +34,8 @@ Head **bolts** are not a single value — they use a staged torque-plus-angle pr
 | Front cylinder-head Allen bolts | M8 (6 mm head) | 20 Nm (15 ft-lb) |
 | Exhaust manifold nuts | — | 20 Nm (15 ft-lb) |
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/103-00) · [85–88](/catalog/1985-1988/103-00) · [89–91](/catalog/1989-1991/103-00)
+
 ## Timing belt & engine front
 
 | Fastener | Size | Torque |
@@ -48,6 +50,8 @@ Head **bolts** are not a single value — they use a staged torque-plus-angle pr
 
 From: [Timing belt installation](/manual/engine/belt-installation) · [Timing belt tensioning](/manual/engine/belt-tensioning) · [Balance shaft oil seal](/manual/engine/oil-seal-replacement)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/103-10) · [85–88](/catalog/1985-1988/103-10) · [89–91](/catalog/1989-1991/103-12)
+
 ## Camshaft & valvetrain
 
 | Fastener | Size | Torque |
@@ -60,6 +64,8 @@ From: [Timing belt installation](/manual/engine/belt-installation) · [Timing be
 
 From: [Camshaft assembly installation](/manual/engine/camshaft-assembly-installation) · [Camshaft oil seal replacement](/manual/engine/camshaft-assembly-oil-seal-replacement)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/103-05) · [85–88](/catalog/1985-1988/103-05) · [89–91](/catalog/1989-1991/103-05)
+
 ## Bottom end
 
 | Fastener | Size | Torque |
@@ -69,6 +75,8 @@ From: [Camshaft assembly installation](/manual/engine/camshaft-assembly-installa
 | Flywheel to crankshaft bolts | — | 90 Nm (65 ft-lb) |
 
 From: [Crank scraper installation](/manual/engine/crank-scraper-installation) · [Clutch replacement](/manual/transmission-clutch/replacement-clutch-01)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/102-00) · [85–88](/catalog/1985-1988/102-00) · [89–91](/catalog/1989-1991/102-00)
 
 ## Lubrication & oil system
 
@@ -87,6 +95,8 @@ From: [Crank scraper installation](/manual/engine/crank-scraper-installation) ·
 
 From: [Oil & filter change](/manual/maintenance/oil-and-filter-replacement) · [Oil pan gasket](/manual/engine/oil-pan-gasket-replacement) · [Oil pump R&I](/manual/engine/oil-pump-removal-and-installation) · [Oil cooler](/manual/engine/general-information-and-seal-replacement)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/104-00) · [85–88](/catalog/1985-1988/104-00) · [89–91](/catalog/1989-1991/104-00)
+
 ## Cooling
 
 | Fastener | Size | Torque |
@@ -96,6 +106,8 @@ From: [Oil & filter change](/manual/maintenance/oil-and-filter-replacement) · [
 | Thermofan switch — brass radiator threads | — | 28 Nm (≈21 ft-lb) |
 
 From: [Water pump replacement](/manual/engine/water-pump-information-and-replacement) · [Thermofan switch](/manual/engine/thermofan-switch-replacement)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/105-00) · [85–88](/catalog/1985-1988/105-00) · [89–91](/catalog/1989-1991/105-00)
 
 ## Intake, fuel & ignition
 
@@ -109,6 +121,8 @@ From: [Water pump replacement](/manual/engine/water-pump-information-and-replace
 | Spark plugs | — | 25–30 Nm (18–22 ft-lb) |
 
 From: [Intake manifold R&I](/manual/fuel-ignition/intake-manifold-removal-and-installation) · [Fuel rail & injectors](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation) · [Spark plugs](/manual/maintenance/spark-plugs---checking-and-replacement)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/106-00) · [85–88](/catalog/1985-1988/106-00) · [89–91](/catalog/1989-1991/106-00)
 
 ## Exhaust & turbo
 
@@ -124,6 +138,8 @@ From: [Intake manifold R&I](/manual/fuel-ignition/intake-manifold-removal-and-in
 
 From: [Exhaust system R&I](/manual/engine/exhaust-system-removal-and-installation) · [Wastegate R&I](/manual/engine/removal-and-installation)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/202-00) · [85–88](/catalog/1985-1988/202-00) · [89–91](/catalog/1989-1991/202-00)
+
 ## Clutch
 
 | Fastener | Size | Torque |
@@ -138,6 +154,8 @@ From: [Exhaust system R&I](/manual/engine/exhaust-system-removal-and-installatio
 | Engine-to-clutch-housing support bolts (early cars) | — | 42 Nm (30 ft-lb) |
 
 From: [Clutch replacement](/manual/transmission-clutch/replacement-clutch-01)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/301-05) · [85–88](/catalog/1985-1988/301-05) · [89–91](/catalog/1989-1991/301-05)
 
 ## Transaxle & driveline
 
@@ -157,6 +175,8 @@ From: [Clutch replacement](/manual/transmission-clutch/replacement-clutch-01)
 
 From: [Transaxle R&I](/manual/transmission-clutch/transmission-removal-and-installation) · [Manual transmission fluid change](/manual/maintenance/changing-manual-transmission-fluid) · [CV joints](/manual/brakes-suspension/general-information-removal-installation-and-maintenance)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/301-00) · [85–88](/catalog/1985-1988/301-00) · [89–91](/catalog/1989-1991/301-00)
+
 ## Engine mounts & cross-member
 
 | Fastener | Size | Torque |
@@ -166,6 +186,8 @@ From: [Transaxle R&I](/manual/transmission-clutch/transmission-removal-and-insta
 | Lower motor mount bolts | 17 mm socket | 32 ft-lb (≈43 Nm) |
 
 From: [Engine installation](/manual/engine/engine-installation) · [Motor mounts — replacing](/manual/engine/replacement)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/109-00) · [85–88](/catalog/1985-1988/109-00) · [89–91](/catalog/1989-1991/109-00)
 
 ## Suspension
 
@@ -187,6 +209,8 @@ From: [Engine installation](/manual/engine/engine-installation) · [Motor mounts
 
 From: [Control arm replacement](/manual/brakes-suspension/removal-and-installation-susp-07) · [Front strut R&I](/manual/brakes-suspension/front-strut-removal-and-installation) · [Rear wheel bearing — steel](/manual/brakes-suspension/rear-bearing-replacement---steel-trailing-arms) · [Rear wheel bearing — aluminum](/manual/brakes-suspension/rear-bearing-replacement---aluminum-trailing-arms)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/401-00) · [85–88](/catalog/1985-1988/401-00) · [89–91](/catalog/1989-1991/401-00)
+
 ## Steering
 
 | Fastener | Size | Torque |
@@ -202,6 +226,8 @@ From: [Control arm replacement](/manual/brakes-suspension/removal-and-installati
 
 From: [Steering rack replacement](/manual/brakes-suspension/replacement-steer-01) · [Steering wheel R&I](/manual/body/steering-wheel-removal-and-installation)
 
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/403-00) · [85–88](/catalog/1985-1988/403-00) · [89–91](/catalog/1989-1991/403-00)
+
 ## Brakes & wheels
 
 | Fastener | Size | Torque |
@@ -209,3 +235,6 @@ From: [Steering rack replacement](/manual/brakes-suspension/replacement-steer-01
 | Wheel lug nuts | — | 130 Nm (96 ft-lb) |
 
 From: [Brake pad replacement](/manual/maintenance/checking-brake-pad-thickenss-and-brake-pad-replacement)
+
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/601-00) · [85–88](/catalog/1985-1988/601-00) · [89–91](/catalog/1989-1991/601-00)
+
