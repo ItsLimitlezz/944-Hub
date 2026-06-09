@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SHOPS, type ShopType } from '../data/shops';
+import { SITE } from '../lib/site';
+import { withBase } from '../lib/url';
+
+const typeTone: Record<ShopType, string> = {
+  Parts: 'bg-guards/10 text-guards-light border-guards/30',
+  Performance: 'bg-amber-400/10 text-amber-400 border-amber-400/30',
+  Service: 'bg-emerald-400/10 text-emerald-400 border-emerald-400/30',
+  Restoration: 'bg-purple-400/10 text-purple-300 border-purple-400/30',
+};
+const submitShop = `${SITE.github}/issues/new?title=${encodeURIComponent('Trusted shop suggestion: ')}&labels=shop`;
+---
+
+<BaseLayout title="Trusted Shops" description="Independent specialists, performance shops and parts vendors recommended by the Porsche 944 community.">
+  <p class="text-sm font-bold uppercase tracking-wider text-guards">Community</p>
+  <h1 class="mt-1 font-display text-4xl font-extrabold uppercase tracking-tight text-ink">Trusted Shops</h1>
+  <p class="mt-2 max-w-3xl text-ink-soft">
+    Independent specialists, performance shops and parts vendors the 944 community recommends — for
+    when a job is beyond your garage, or you need the right part.
+  </p>
+
+  <!-- Honesty disclaimer -->
+  <div class="mt-5 flex items-start gap-3 rounded-lg border border-amber-400/25 bg-amber-400/5 p-4 text-sm text-ink-soft">
+    <svg class="mt-0.5 h-4 w-4 shrink-0 text-amber-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z" /></svg>
+    <p>
+      These are <strong class="text-ink">community suggestions, not endorsements</strong> or paid placements.
+      Always do your own research before sending parts or money. Know a great shop?
+      <a href={submitShop} target="_blank" rel="noopener" class="font-semibold text-guards-light hover:underline">Suggest one →</a>
+    </p>
+  </div>
+
+  <div class="mt-8 grid gap-4 sm:grid-cols-2">
+    {SHOPS.map((shop) => (
+      <a href={shop.url} target="_blank" rel="noopener" class="group flex flex-col rounded-xl border border-line bg-surface p-5 transition hover:-translate-y-0.5 hover:border-guards/50">
+        <div class="flex items-start justify-between gap-3">
+          <h2 class="flex items-center gap-1.5 font-display text-lg font-bold text-ink group-hover:text-guards-light">
+            {shop.name}
+            <svg class="h-3.5 w-3.5 text-ink-soft/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+          </h2>
+        </div>
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          {shop.type.map((t) => (
+            <span class={`rounded-full border px-2 py-0.5 font-mono text-[0.6rem] font-bold uppercase tracking-wider ${typeTone[t]}`}>{t}</span>
+          ))}
+          <span class="inline-flex items-center gap-1 text-xs text-ink-soft/60">
+            <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.7-7-11a7 7 0 0 1 14 0c0 5.3-7 11-7 11z" /><circle cx="12" cy="10" r="2.5" /></svg>
+            {shop.location}
+          </span>
+        </div>
+        <p class="mt-3 text-sm text-ink-soft">{shop.blurb}</p>
+      </a>
+    ))}
+  </div>
+
+  <!-- Submit CTA -->
+  <div class="mt-10 flex flex-col gap-4 rounded-2xl border border-line bg-carbon-grid p-6 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <h2 class="font-display text-xl font-extrabold text-white">Know a shop that deserves a spot?</h2>
+      <p class="mt-1 max-w-xl text-sm text-white/60">Independent mechanics, machine shops and specialists — especially local ones. Help fellow owners find them.</p>
+    </div>
+    <a href={submitShop} target="_blank" rel="noopener" class="shrink-0 rounded-md bg-guards px-5 py-3 text-sm font-bold text-white hover:bg-guards-dark">Suggest a shop →</a>
+  </div>
+</BaseLayout>

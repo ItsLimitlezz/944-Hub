@@ -1,0 +1,124 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getArticles } from '../lib/content';
+import { AUTHORS, SITE, type AuthorKey } from '../lib/site';
+import { FORUMS, REFERENCES } from '../data/community';
+import { withBase } from '../lib/url';
+
+// Real contributor counts, computed from the content collection.
+const articles = await getArticles();
+const counts: Record<string, number> = {};
+for (const a of articles) counts[a.data.author] = (counts[a.data.author] ?? 0) + 1;
+
+const roles: Record<AuthorKey, string> = {
+  CG: "Technical author — Clark's Garage",
+  FFP: 'FormFactor Performance technicians',
+  community: 'Owners, enthusiasts & specialists',
+};
+const contributors: AuthorKey[] = ['CG', 'FFP', 'community'];
+
+const tone = (a: AuthorKey) => (a === 'CG' ? 'bg-brick' : a === 'FFP' ? 'bg-guards' : 'bg-ink-soft');
+const submitIssue = `${SITE.github}/issues/new`;
+
+const linkCard =
+  'group flex items-start gap-3 rounded-xl border border-line bg-surface p-4 transition hover:border-guards/50';
+---
+
+<BaseLayout title="Community" description="Forums, technical references, contributors and how to contribute to 944 Hub.">
+  <p class="text-sm font-bold uppercase tracking-wider text-guards">Open Source</p>
+  <h1 class="mt-1 font-display text-4xl font-extrabold uppercase tracking-tight text-ink">Community</h1>
+  <p class="mt-2 max-w-3xl text-ink-soft">
+    This wiki exists because of the 944 community. Links to forums, technical references, the people
+    behind the articles, and how to contribute your own guides and corrections.
+  </p>
+
+  <!-- ── Article contributors ─────────────────────────── -->
+  <h2 class="mt-10 font-display text-sm font-bold uppercase tracking-wider text-ink">Article Contributors</h2>
+  <div class="mt-4 grid gap-4 sm:grid-cols-3">
+    {contributors.map((key) => {
+      const info = AUTHORS[key];
+      const n = counts[key] ?? 0;
+      return (
+        <div class="rounded-xl border border-line bg-surface p-5">
+          <div class="flex items-center gap-2">
+            <span class={`rounded-sm ${tone(key)} px-1.5 py-0.5 font-mono text-[0.62rem] font-bold uppercase tracking-wider text-white`}>{info.label}</span>
+            <span class="font-display font-bold text-ink">{info.full}</span>
+          </div>
+          <p class="mt-2 text-sm text-ink-soft">{roles[key]}</p>
+          <p class="mt-3 font-mono text-xs font-bold uppercase tracking-wider text-guards-light">{n} {n === 1 ? 'article' : 'articles'}</p>
+        </div>
+      );
+    })}
+  </div>
+
+  <!-- ── Forums ───────────────────────────────────────── -->
+  <h2 class="mt-12 font-display text-sm font-bold uppercase tracking-[0.12em] text-guards">Forums & Discussion</h2>
+  <div class="mt-4 space-y-3">
+    {FORUMS.map((f) => (
+      <a href={f.url} target="_blank" rel="noopener" class={linkCard}>
+        <svg class="mt-0.5 h-5 w-5 shrink-0 text-ink-soft/60 group-hover:text-guards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
+        <span>
+          <span class="flex items-center gap-1.5 font-semibold text-ink group-hover:text-guards-light">{f.name}
+            <svg class="h-3.5 w-3.5 text-ink-soft/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+          </span>
+          <span class="mt-0.5 block text-sm text-ink-soft">{f.blurb}</span>
+        </span>
+      </a>
+    ))}
+  </div>
+
+  <!-- ── Technical references ──────────────────────────── -->
+  <h2 class="mt-12 font-display text-sm font-bold uppercase tracking-[0.12em] text-guards">Technical References</h2>
+  <div class="mt-4 space-y-3">
+    {REFERENCES.map((r) => (
+      <a href={r.url} target="_blank" rel="noopener" class={linkCard}>
+        <svg class="mt-0.5 h-5 w-5 shrink-0 text-ink-soft/60 group-hover:text-guards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9" /><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18" /></svg>
+        <span>
+          <span class="flex items-center gap-1.5 font-semibold text-ink group-hover:text-guards-light">{r.name}
+            <svg class="h-3.5 w-3.5 text-ink-soft/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+          </span>
+          <span class="mt-0.5 block text-sm text-ink-soft">{r.blurb}</span>
+        </span>
+      </a>
+    ))}
+  </div>
+
+  <!-- ── Contribute ───────────────────────────────────── -->
+  <h2 class="mt-12 font-display text-sm font-bold uppercase tracking-[0.12em] text-guards">Contribute to this Wiki</h2>
+  <div class="mt-4 space-y-3">
+    <a href={withBase('/contribute')} class={linkCard}>
+      <svg class="mt-0.5 h-5 w-5 shrink-0 text-ink-soft/60 group-hover:text-guards" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 8.8 21.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" /></svg>
+      <span>
+        <span class="font-semibold text-ink group-hover:text-guards-light">How to contribute</span>
+        <span class="mt-0.5 block text-sm text-ink-soft">Step-by-step guide to adding an article or fixing one via pull request. Every contribution is credited.</span>
+      </span>
+    </a>
+    <a href={SITE.github} target="_blank" rel="noopener" class={linkCard}>
+      <svg class="mt-0.5 h-5 w-5 shrink-0 text-ink-soft/60 group-hover:text-guards" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2A10 10 0 0 0 8.8 21.5c.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.3-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 5 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.3.6.9.6 1.8v2.7c0 .3.2.6.7.5A10 10 0 0 0 12 2Z" /></svg>
+      <span>
+        <span class="flex items-center gap-1.5 font-semibold text-ink group-hover:text-guards-light">GitHub Repository
+          <svg class="h-3.5 w-3.5 text-ink-soft/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+        </span>
+        <span class="mt-0.5 block text-sm text-ink-soft">Submit articles, corrections or translations via pull request. All contributions are reviewed by FormFactor Performance.</span>
+      </span>
+    </a>
+    <a href={submitIssue} target="_blank" rel="noopener" class={linkCard}>
+      <svg class="mt-0.5 h-5 w-5 shrink-0 text-ink-soft/60 group-hover:text-guards" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>
+      <span>
+        <span class="flex items-center gap-1.5 font-semibold text-ink group-hover:text-guards-light">Not a developer? Open an issue
+          <svg class="h-3.5 w-3.5 text-ink-soft/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+        </span>
+        <span class="mt-0.5 block text-sm text-ink-soft">Suggest an article, report an error, or share knowledge — no Git required. We'll handle the rest.</span>
+      </span>
+    </a>
+  </div>
+
+  <!-- ── Trusted shops cross-link ─────────────────────── -->
+  <div class="mt-12 flex flex-col gap-4 rounded-2xl border border-line bg-carbon-grid p-6 sm:flex-row sm:items-center sm:justify-between">
+    <div>
+      <h2 class="font-display text-xl font-extrabold text-white">Looking for a shop?</h2>
+      <p class="mt-1 max-w-xl text-sm text-white/60">Browse independent specialists, performance shops and parts vendors the 944 community recommends.</p>
+    </div>
+    <a href={withBase('/shops')} class="shrink-0 rounded-md bg-guards px-5 py-3 text-sm font-bold text-white hover:bg-guards-dark">Trusted Shops →</a>
+  </div>
+</BaseLayout>
