@@ -9,6 +9,15 @@ description: "Changing the wheel bearing on an aluminum trailing arm is somewhat
 code: SUSP-11
 ---
 
+## Torque specifications
+
+Note: the factory removal torque is 350 ft-lb — expect it to take far more to break loose.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Rear axle (hub) nut — aluminum arm | — | 500 Nm (368 ft-lb) |
+
+
 ## Introduction
 
 Changing the wheel bearing on an aluminum trailing arm is somewhat different than a steel trailing arm. First, the aluminum trailing arm uses a single sealed bearing as opposed to a double roller bearing arrangement. The single sealed bearing is also a bit more difficult to remove from the trailing arm than the bearings in the steel arm.

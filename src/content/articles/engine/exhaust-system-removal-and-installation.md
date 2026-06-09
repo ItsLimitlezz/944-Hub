@@ -9,6 +9,15 @@ description: "It may be necessary to remove the coolant return pipe completely t
 code: EXH-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Header to exhaust flange nuts | — | 20 Nm (15 ft-lb) |
+
+
 ## Tools
 
 - Metric Wrench Set

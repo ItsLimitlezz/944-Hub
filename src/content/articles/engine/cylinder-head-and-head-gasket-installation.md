@@ -9,6 +9,19 @@ description: "If not specified apply the following fastener torque specs."
 code: CYL-02
 ---
 
+## Torque specifications
+
+General fastener torques (used where a specific value isn't called out) plus the head-area fasteners. For the cylinder-head **bolt** tightening sequence by engine, see the dedicated torque-sequence guide.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| General — 6 mm fastener | 6 mm | 8 Nm (6 ft-lb) |
+| General — 8 mm fastener | 8 mm | 20 Nm (15 ft-lb) |
+| General — 10 mm fastener | 10 mm | 40 Nm (29 ft-lb) |
+| Front cylinder-head Allen bolts | M8 (6 mm head) | 20 Nm (15 ft-lb) |
+| Exhaust manifold nuts | — | 20 Nm (15 ft-lb) |
+
+
 ## Tools
 
 - Jack Stands or Ramps

@@ -9,6 +9,18 @@ description: "Refer to the Timing and Balance Shaft Belt Drawings for details:"
 code: CAM-03
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Camshaft sprocket retaining collar bolt — cheesehead | M10 × 65 mm | 65–70 Nm (48–52 ft-lb) |
+| Camshaft sprocket retaining collar bolt — hex head | M10 | 45 Nm (33 ft-lb) |
+| Distributor housing retaining bolts | M6 | 8 Nm (6 ft-lb) |
+| Cover / lifting ring bolts | M6 × 22 mm | 8 Nm (6 ft-lb) |
+
+
 ## Tools
 
 - Jack stands

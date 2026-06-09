@@ -9,6 +9,23 @@ description: "As the engine removal procedure is written assuming the engine is 
 code: ENG-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Torque tube flange to clutch housing bolts | M10 × 35 mm | 42 Nm (30 ft-lb) |
+| Cross-member mounting bolts | 12 mm · 19 mm socket | 85 Nm (63 ft-lb) |
+| Upper motor mount bolts | 8 mm · 13 mm socket | 23 Nm (17 ft-lb) |
+| Lower motor mount bolts | 17 mm socket | 32 ft-lb (≈43 Nm) |
+| Control arm to cross-member lock nut | 12 mm | 48 ft-lb (≈65 Nm) |
+| Rear control arm mounting bracket bolts | 10 mm | 34 ft-lb (≈46 Nm) |
+| Steering knuckle (ball joint) lock nut | 10 mm | 37 ft-lb (≈50 Nm) |
+| Stabilizer bar to control arm lock nut | 10 mm | 18 ft-lb (≈24 Nm) |
+| Stabilizer bracket to body bolts | 8 mm | 17 ft-lb (≈23 Nm) |
+
+
 ## Tools Needed
 
 - Jack stands

@@ -9,6 +9,16 @@ description: "On normally aspirated cars, there are hoses underneath the intake 
 code: FUEL-09
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Intake manifold brace bolt | M8 | 20 Nm (15 ft-lb) |
+| Intake manifold retaining bolts (×8, Allen) | M8 | 20 Nm (15 ft-lb) |
+
+
 ## Tools
 
 - 10 mm socket/ratchet

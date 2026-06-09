@@ -9,6 +9,16 @@ description: "Refer to the Timing Belt Arrangement drawings below for details."
 code: ENG-10
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Cam belt tensioning roller locknut | — | 45 Nm (33 ft-lb) |
+| Balance shaft belt tensioner locking bolt & locknut | — | 20 Nm (15 ft-lb) |
+
+
 ## Tools
 
 - Jack stands

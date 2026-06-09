@@ -9,6 +9,15 @@ description: "There are two different styles of water pumps used on the 924S and
 code: COOL-07
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Water pump nuts and bolts | — | 8 Nm (6 ft-lb) |
+
+
 ## Tools Needed
 
 - Floor Jack

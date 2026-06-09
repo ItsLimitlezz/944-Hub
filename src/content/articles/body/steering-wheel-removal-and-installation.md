@@ -8,6 +8,15 @@ sourceUrl: https://www.clarks-garage.com/shop-manual/body-25.htm
 code: BODY-25
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Steering wheel retaining nut | — | 45 Nm (33 ft-lb) |
+
+
 ## Tools
 
 - Metric Socket Set

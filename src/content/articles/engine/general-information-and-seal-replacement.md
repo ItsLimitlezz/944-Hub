@@ -9,6 +9,19 @@ description: "The first indication of failing oil cooler seals are normally a \"
 code: LUBE-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Oil cooler housing bolts | M8 | 20 Nm (15 ft-lb) |
+| Oil pressure relief valve | — | 45 Nm (33 ft-lb) |
+| Oil pressure sending unit | — | 35 Nm (26 ft-lb) |
+| Oil cooler heat shield bolts | M6 | 8 Nm (6 ft-lb) |
+| Oil filter (oiled seal) | — | 20 Nm (15 ft-lb) |
+
+
 ## Introduction
 
 The first indication of failing oil cooler seals are normally a "milkshake" looking mixture in the coolant tank. This can also be indicated by a failing head gasket. However, most of the time it's the oil cooler seals. The seals must be replaced immediately at the first indication of seal failure. Oil in the coolant isn't all that critical although the cleanup can be messy. However, eventually the coolant will make its way into the oil system and the results will most likely be catastrophic.

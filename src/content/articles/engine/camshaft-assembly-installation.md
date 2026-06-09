@@ -9,6 +9,15 @@ description: "A coat of grease on the outside of the outside of the lifters will
 code: CAM-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Cam housing bolts | — | 20 Nm (14 ft-lb) |
+
+
 ## Tools Needed
 
 - 8 mm Allen head socket or 8 mm hex key

@@ -9,6 +9,15 @@ description: "Stuff catch rags underneath the fuel pressure damper and fuel pres
 code: FUEL-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Fuel rail retaining bolts (×4) | M6 · 10 mm | 8 Nm (6 ft-lb) |
+
+
 ## Tools
 
 - 10 mm socket/ratchet and 6" extension

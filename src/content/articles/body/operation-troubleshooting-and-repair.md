@@ -9,6 +9,16 @@ description: "On pre-1985.5 cars, the sunroof is operated by turning the ignitio
 code: BODY-03
 ---
 
+## Torque specifications
+
+Adjustment torques for the sunroof drive motor.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Motor slip clutch (nut A) — slip setting | 21 mm | 6 Nm ±0.5 (≈4 ft-lb) |
+| Drive motor adjusting-screw lock nut (C) | — | 15 Nm ±2 (≈11 ft-lb) |
+
+
 ## Table of Contents
 
 - [System Description](#sd)

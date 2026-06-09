@@ -9,6 +9,16 @@ description: "Removing and installing the oil pump is best done with the oil pan
 code: LUBE-07
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Oil pump mounting bolts | M6 | 8 Nm (6 ft-lb) |
+| Oil pump mounting bolt | M10 | 45 Nm (33 ft-lb) |
+
+
 ## Introduction
 
 Removing and installing the oil pump is best done with the oil pan removed. However, it can be done by loosening the bolts on the oil pan and dropping the pan enough to remove the pump. With the oil pan still in place, it is difficult to apply sealant to the oil pump sealing surfaces and ensure a good seal is established when the pump is installed. However, it can be done.

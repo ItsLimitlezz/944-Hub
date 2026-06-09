@@ -8,6 +8,20 @@ sourceUrl: https://www.clarks-garage.com/shop-manual/trans-03.htm
 code: TRANS-03
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Transaxle to torque tube bell housing | M12 | 85 Nm (62 ft-lb) |
+| Transaxle to torque tube bell housing | M10 | 42 Nm (30 ft-lb) |
+| Transaxle support cross-member bolts | M10 | 46 Nm (34 ft-lb) |
+| Drive shaft clamping collar Allen bolt | — | 80 Nm (58 ft-lb) |
+| CV joint bolts | — | 41 Nm (30 ft-lb) |
+| Shift rod retaining bolt (Loctite) | — | 21 Nm (15 ft-lb) |
+
+
 ## Tools
 
 - Metric Wrench Set

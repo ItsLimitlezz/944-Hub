@@ -9,6 +9,15 @@ description: "I'd like to thank Ben Davis for providing the pictures for this pr
 code: SUSP-09
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Rear axle (hub) nut — steel arm | — | 350 ft-lb (≈475 Nm) |
+
+
 ## Introduction
 
 I'd like to thank Ben Davis for providing the pictures for this procedure. Ben took the time to take pictures as he was performing this procedure. The addition of his pictures has made this a much better procedure.

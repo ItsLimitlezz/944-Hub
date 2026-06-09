@@ -9,6 +9,15 @@ description: "Refer to FUEL-20(/manual/fuel-ignition/adapter-for-non-metric-thre
 code: FUEL-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Fuel rail end cap (sealing ball) | — | 22 Nm (16 ft-lb) |
+
+
 ## Tools
 
 - Fuel Pressure Gauge (P 378 or VW 1318)

@@ -8,6 +8,16 @@ sourceUrl: https://www.clarks-garage.com/shop-manual/eng-21.htm
 description: "A common performance upgrade to 944 and 951 model Porsches is the installation of a Crank Scraper. It is a cheap way, especially when included during other p…"
 ---
 
+## Torque specifications
+
+Main bearing nuts are tightened in two stages.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Main bearing nuts — Stage 1 | M12 · 19 mm | 30 Nm (22 ft-lb) |
+| Main bearing nuts — Stage 2 | M12 · 19 mm | +60° (turn angle) |
+
+
 ## Introduction
 
 A common performance upgrade to 944 and 951 model Porsches is the installation of a Crank Scraper. It is a cheap way, especially when included during other procedures, to increase power and improve oiling. It works by reducing the amount of air the crankshaft carries with it as it rotates. This air will saturate with oil at high rpm's reducing the level of oil in the pan and causing aeration and foaming of the oil, while at the same time increasing drag resistance to the crankshaft. There are two styles available from Ishihara-Johnson (Crank-Scapers.com). The most common and cheapest is the all metal style, which will require grinding and fitting to clear the crankshaft and oil pan. A Teflon self fitting style is also made and the principal behind the Teflon crank scraper is that the crankshaft will create its own clearances as it spins, rubbing off any material that touches the crankshaft, allowing closer clearances. The all metal style requires careful fitting to ensure proper clearances to the crankshaft. Both styles will most likely require modification by grinding the backside to allow oil pan clearance. Which one you decide on will be a matter of choice based on cost and personal preferences. Do your research first to help you make this decision. As the install is a very lengthy process, most people will do it as part of a larger overhaul on the engine. Regardless, the oil pan will have to be removed first and the obvious other procedure is the checking and possible replacement of the rod bearings. It is also important that the thrust bearing is in good condition. If it is worn, a new set of main bearings should be considered. The crankshaft must not contact the metal scraper. Care must be taken not to introduce dirt or filings to the engine. A poor install, at the very least, will require removal of the oil pan to correct, with the possibility of damage to the crankshaft.

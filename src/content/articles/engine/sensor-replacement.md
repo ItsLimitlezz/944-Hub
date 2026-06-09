@@ -9,6 +9,15 @@ description: "On normally aspirated cars the power steering pump may not have to
 code: LUBE-05
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Oil pressure sending unit | — | 35 Nm (25 ft-lb) |
+
+
 ## Tools Needed
 
 - 15/16" (or 24 mm) stubby open end wrench - thin head if possible

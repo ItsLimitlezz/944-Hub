@@ -9,6 +9,15 @@ description: "The following procedure will provide instructions for replacing th
 code: ENG-14
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Balance shaft front support bolts | M8 | 20 Nm (15 ft-lb) |
+
+
 ## Introduction
 
 The following procedure will provide instructions for replacing the balance shaft seals on a 944. It will also provide instructions for resealing the balance shaft cover.

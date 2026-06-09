@@ -9,6 +9,22 @@ description: "The following repair procedure is provided through the courtesy of
 code: STEER-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Inner tie rod (power steering) | 30 mm | 52 ft-lb (≈70 Nm) |
+| Tie rod end to steering knuckle lock nut | — | 30 ft-lb (≈41 Nm) |
+| Rack mounting bolts | — | 23 Nm (17 ft-lb) |
+| Rack clamp bolts | — | 17 ft-lb (≈23 Nm) |
+| High-pressure line to rack (bronze crush washers) | — | 15 ft-lb (≈20 Nm) |
+| High-pressure line to PS pump (bronze crush washers) | — | 33 ft-lb (≈45 Nm) |
+| Return line to rack (bronze crush washers) | — | 15 ft-lb (≈20 Nm) |
+| Sway bar to control arm bolts | — | 18 ft-lb (≈24 Nm) |
+
+
 ## Introduction
 
      The following repair procedure is provided through the courtesy of Raymond Hartle. Ray wrote the following procedure while replacing the power steering rack on his 1987 Porsche 944S. Some minor changes to Ray's original procedure have been made to format it for the web site and to incorporate comments, also provided by Ray, from others who have read and used his procedure. Thanks again to Ray for his valued input to the site.

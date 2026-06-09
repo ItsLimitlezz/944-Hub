@@ -9,6 +9,15 @@ description: "The 944 Engine Managment system uses two crankshaft sensors. One (
 code: IGN-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Speed / reference sensor retaining bolts | — | 8 Nm (6 ft-lb) |
+
+
 ## Introduction
 
 The 944 Engine Managment system uses two crankshaft sensors. One (Reference Sensor) determines the #1 piston (front of the engine) position relative to Top Dead Center (TDC). When we refer to TDC, we are referring to the pistons highest position on the compression stroke. The second sensor (Speed Senors) counts the teeth on the flywheel and provides this signal in the form of pulses to the Engine Management Computer (DME) for engine speed in RPM (Revolutions Per Minute). Using the combination of the two signals, the DME can determine where the engine position is at any point in its cycle to apply the correct fuel injector cycling and correct ignition firing. The speed sensor's signal is also used as a safety feature by the DME (after initial cranking is complete) to shut down the fuel pump if engine speed falls below 300 RPM.

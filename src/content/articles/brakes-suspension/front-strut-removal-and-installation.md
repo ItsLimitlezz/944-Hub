@@ -9,6 +9,16 @@ description: "Extreme caution must be used when using double spring compressors 
 code: SUSP-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Strut cartridge cap | — | 150 Nm ±30 (111 ±22 ft-lb) |
+| Spring strut top bearing retaining nut | — | 77 Nm (57 ft-lb) |
+
+
 ## Tools
 
 - Metric Socket Set

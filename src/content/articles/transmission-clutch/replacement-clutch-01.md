@@ -9,6 +9,24 @@ description: "Replacing the clutch on a 944 can be one of the most intimidating 
 code: CLUTCH-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Flywheel to crankshaft bolts | — | 90 Nm (65 ft-lb) |
+| Clutch housing bolts | — | 75 Nm (54 ft-lb) |
+| Pressure plate bolts | — | 25 Nm (18 ft-lb) |
+| Clutch guide sleeve bolts | — | 15 Nm (11 ft-lb) |
+| Pivot shaft retaining screw | — | 9.5 Nm (7 ft-lb) |
+| Pivot shaft locking nut | — | 7.5 Nm (6 ft-lb) |
+| Transaxle carrier to body bolts | — | 46 Nm (33 ft-lb) |
+| Clutch slave cylinder mounting bolts | — | 21 Nm (15 ft-lb) |
+| Starter mounting bolts | — | 45 Nm (32 ft-lb) |
+| Engine-to-clutch-housing support bolts (early cars) | — | 42 Nm (30 ft-lb) |
+
+
 ## Introduction
 
 Replacing the clutch on a 944 can be one of the most intimidating jobs a home mechanic can undertake. Although there is nothing about a clutch replacement that is beyond the capability of most home mechanics, the job is very time consuming and requires a great deal of patience. If you take the car to a professional shop for a clutch replacement, the average labor times for the replacement are as follows:

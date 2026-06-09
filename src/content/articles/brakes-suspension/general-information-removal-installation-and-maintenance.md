@@ -9,6 +9,15 @@ description: "Many thanks to Ben Davis for taking the time document this procedu
 code: SUSP-01
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| CV joint to flange bolt (cheesehead) | M8 · 8 mm 12-point | 42 Nm (30 ft-lb) |
+
+
 ## Credits
 
 Many thanks to Ben Davis for taking the time document this procedure with pictures.

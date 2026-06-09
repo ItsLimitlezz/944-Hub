@@ -9,6 +9,15 @@ description: "Porsche recommends replacing the oil and filter every 7500 miles f
 code: ENG-17
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Oil drain plug (with new seal ring) | — | 50 Nm (37 ft-lb) |
+
+
 ## Introduction
 
 Porsche recommends replacing the oil and filter every 7500 miles for turbocharged cars and every 15000 miles for normally aspirated cars. This is one of the few times I feel that Porsche erred in the non-conservative direction with regards to a maintenance interval.

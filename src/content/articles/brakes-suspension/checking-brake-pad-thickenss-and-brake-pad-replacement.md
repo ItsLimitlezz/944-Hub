@@ -9,6 +9,15 @@ description: "Since 1984, all 944 models and the 968 are equipped with wear indi
 code: BRAKE-02
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Wheel lug nuts | — | 130 Nm (96 ft-lb) |
+
+
 ## Checking Brake Pad Thickness
 
 Since 1984, all 944 models and the 968 are equipped with wear indicators. When the brake pads are worn to the point that the wear indicators make contact with the rotor, a light will be illuminated on the dash to indicate that the pads need to be replaced. However, the wear indicators can become damaged and should not be considered 100% reliable for indicating when the brake pads should be replaced. The wheels must be removed to check the brake pads. The brakes should be inspected each time the tires are rotated. For models with tires that can not be rotated (i.e. different sizes tires front and rear), the brakes should be inspected every 15,000 miles as a minimum. Any time the wheels are removed, it's a good idea to inspect the brakes.

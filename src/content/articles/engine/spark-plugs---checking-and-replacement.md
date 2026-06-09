@@ -9,6 +9,15 @@ description: "Determine the condition of the spark plugs using the following tab
 code: ENG-18
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Spark plugs | — | 25–30 Nm (18–22 ft-lb) |
+
+
 ## Changing Spark Plugs
 
 ## Tools

@@ -9,6 +9,23 @@ description: "Without question replacing the oil pan gasket on a 944 is one of t
 code: LUBE-06
 ---
 
+## Torque specifications
+
+Oil-pan bolts are tightened in two stages in the sequence shown later in this guide.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Oil pan bolts — Step 2 | — | 4 Nm (3 ft-lb) |
+| Oil pan bolts — Step 3 (final) | — | 8 Nm (6 ft-lb) |
+| Cross-member bolts | M12 · 19 mm | 85 Nm (63 ft-lb) |
+| Motor mount bolts | 13 mm | 23 Nm (17 ft-lb) |
+| Control arm to chassis bolts | M10 | 46 Nm (34 ft-lb) |
+| Control arm ball joint to steering knuckle lock nuts | M10 | 50 Nm (37 ft-lb) |
+| Stabilizer linkage to body bolts | M8 | 23 Nm (17 ft-lb) |
+| Stabilizer to control arm locknuts — steel arms | M8 | 23 Nm (17 ft-lb) |
+| Stabilizer to control arm locknuts — aluminum arms | — | 25 Nm (18 ft-lb) |
+
+
 ## Introduction
 
 Without question replacing the oil pan gasket on a 944 is one of those jobs that ranks high on my "I don't want to do that job again" scale. On the surface, replacing the oil pan gasket seems like such a simple job. However, it requires dropping the front suspension cross-member which requires the engine to be supported from above. In addition, on turbocharged cars, the cross-over pipe must be removed which requires removing the intake manifold.

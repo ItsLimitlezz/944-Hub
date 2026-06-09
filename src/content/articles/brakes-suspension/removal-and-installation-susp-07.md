@@ -9,6 +9,21 @@ description: "Since the 1985 ½ model year, 944s have used aluminum control arms
 code: SUSP-07
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Control arm to cross-member | — | 65 Nm (48 ft-lb) |
+| Control arm eccentric bolt assembly to body | — | 46 Nm (34 ft-lb) |
+| Control arm eccentric bolt lock nut | — | 100 Nm (74 ft-lb) |
+| Ball joint to spindle bolt / lock nut | — | 50 Nm (37 ft-lb) |
+| Sway bar to body bolts | M8 | 23 Nm (17 ft-lb) |
+| Sway bar to control arm — aluminum arms | — | 25 Nm (18 ft-lb) |
+| Sway bar to control arm — steel arms | — | 23 Nm (17 ft-lb) |
+
+
 ## Introduction
 
 Since the 1985 ½ model year, 944s have used aluminum control arms which use ball joints that can not be replaced, as least not by the home mechanic. Early 944s are equipped with steel control arms which use replaceable ball joints.

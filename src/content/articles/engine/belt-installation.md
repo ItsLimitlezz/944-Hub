@@ -9,6 +9,18 @@ description: "Refer to the Timing and Balance Shaft Belt Drawings for details:"
 code: ENG-06
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Crankshaft (pulley) bolt | — | 210 Nm (155 ft-lb) |
+| Water pump idler roller retaining bolt | — | 45 Nm (33 ft-lb) |
+| Balance shaft sprocket cover retaining bolts | — | 45 Nm (33 ft-lb) |
+| Power steering pulley mounting bolts | — | 13 Nm (9.5 ft-lb) |
+
+
 ## Tools
 
 - Jack stands

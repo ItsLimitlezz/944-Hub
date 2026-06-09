@@ -9,6 +9,18 @@ description: "For those of you who've removed the wastegate from a 944 Turbo, I'
 code: EXH-03
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Wastegate to mounting bracket Allen bolts | 6 mm hex | 20 Nm (14 ft-lb) |
+| Inlet pipe to cross-over flange bolts | — | 8 Nm (6 ft-lb) |
+| Discharge pipe flange & bracket bolt | 13 mm | 20 Nm (14 ft-lb) |
+| Discharge pipe to main exhaust flange bolts | — | 8 Nm (6 ft-lb) |
+
+
 ## Introduction
 
 For those of you who've removed the wastegate from a 944 Turbo, I'm sure you'll agree that there is no easy way to get the wastegate out of the car. There are a number of different ways to approach getting the wastegate out but, none are simple. So, what I'll try to do here is explain just how the wastegate is mounted and how I approached getting it out. I'm certainly not claiming that my way is the best so, study the mounting arrangement and decide for yourself which way you think is easiest.

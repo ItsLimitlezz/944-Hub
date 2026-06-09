@@ -9,6 +9,15 @@ description: "During the installation of the 2.8L engine into my car, I decided 
 code: EXH-04
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Wastegate diaphragm flange retaining bolt | — | 20 Nm (14 ft-lb) |
+
+
 ## Introduction
 
 During the installation of the 2.8L engine into my car, I decided that at some point I might wish to shim my factory wastegate. To prepare for that, I remove the wastegate from the car, removed the diaphragm from the valve body, and traced around the bottom flange of the diaphragm onto a piece of paper to make a template for further shim fabrication. Some months after I got the car back on the road, I realized that my wastegate would only hold about 17.5 psi boost. After talking to several 951 owners who were getting over 20 psi out the factory wastegate, I figured my spring must be a little weak and it was time I shimmed the wastegate.

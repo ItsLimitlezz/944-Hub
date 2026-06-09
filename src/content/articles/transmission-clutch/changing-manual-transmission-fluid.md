@@ -9,6 +9,16 @@ description: "The factory service manual calls for the transmission fluid to be 
 code: TRANS-06
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Transaxle drain plug | — | 24 Nm (18 ft-lb) |
+| Transaxle fill plug | — | 24 Nm (18 ft-lb) |
+
+
 ## Introduction
 
 The factory service manual calls for the transmission fluid to be changed every 60,000 miles. There's always been a lot of discussion about what type of transaxle fluid to use in the 944 transaxle. The factory shop manual calls for hypoid transmission oil SAE 75 W 90 to API Class GL5 or MIL-L 2105 B, or SAE 80 to API Class GL or MIL-L 2105. What does all that mean? I don' t have a clue.

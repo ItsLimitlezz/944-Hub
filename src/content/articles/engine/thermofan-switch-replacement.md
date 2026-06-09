@@ -9,6 +9,16 @@ description: "Due to differences in manufacturing tolerances, you may find a 1-1
 code: COOL-05
 ---
 
+## Torque specifications
+
+Quick reference for the fasteners in this procedure — see the steps below for full context, and verify against your model year.
+
+| Fastener | Size | Torque |
+| --- | --- | --- |
+| Thermofan switch — plastic radiator threads | — | 20 Nm (≈15 ft-lb) |
+| Thermofan switch — brass radiator threads | — | 28 Nm (≈21 ft-lb) |
+
+
 ## Tools Needed
 
 - Floor Jack.
