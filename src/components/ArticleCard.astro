@@ -24,6 +24,7 @@ const haystack = [title, subsystem, code, description, authorFull].filter(Boolea
   href={href}
   class="article-card group relative flex items-center gap-4 rounded-lg border border-line bg-surface px-5 py-4 transition hover:border-guards/50 hover:bg-surface-2"
   data-search={haystack}
+  data-difficulty={difficulty ?? ''}
 >
   <div class="min-w-0 flex-1">
     <div class="flex flex-wrap items-center gap-2.5">

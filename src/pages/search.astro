@@ -21,6 +21,14 @@ const searchEndpoint = withBase('/search-index.json');
     ))}
   </div>
 
+  <div id="diff-filters" class="mt-2 flex flex-wrap items-center gap-2">
+    <span class="mr-1 font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/50">Difficulty</span>
+    <button data-diff="all" class="diff-chip rounded-full border border-guards bg-guards px-3 py-1 text-xs font-semibold text-white">All</button>
+    <button data-diff="beginner" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>Beginner</button>
+    <button data-diff="intermediate" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-amber-400"></span>Intermediate</button>
+    <button data-diff="advanced" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-red-400"></span>Advanced</button>
+  </div>
+
   <p id="count" class="mt-6 text-sm text-ink-soft/70"></p>
   <ul id="results" class="mt-2 divide-y divide-line/70 rounded-xl border border-line bg-surface" data-endpoint={searchEndpoint}></ul>
   <p id="empty" class="mt-10 hidden text-center text-ink-soft">No matching articles. Try another term.</p>
@@ -39,6 +47,7 @@ const searchEndpoint = withBase('/search-index.json');
 
   let data: Item[] = [];
   let cat = 'all';
+  let difficulty = 'all';
   const q = document.getElementById('q') as HTMLInputElement;
   const results = document.getElementById('results')!;
   const count = document.getElementById('count')!;
@@ -48,6 +57,7 @@ const searchEndpoint = withBase('/search-index.json');
     const term = q.value.trim().toLowerCase();
     let items = data;
     if (cat !== 'all') items = items.filter((i) => i.category === cat);
+    if (difficulty !== 'all') items = items.filter((i) => i.difficulty === difficulty);
     if (term) {
       items = items.filter((i) =>
         (i.title + ' ' + i.subsystem + ' ' + i.code + ' ' + i.categoryName).toLowerCase().includes(term),
@@ -80,6 +90,20 @@ const searchEndpoint = withBase('/search-index.json');
       render();
     }),
   );
+
+  document.querySelectorAll<HTMLButtonElement>('.diff-chip').forEach((btn) =>
+    btn.addEventListener('click', () => {
+      difficulty = btn.dataset.diff!;
+      document.querySelectorAll('.diff-chip').forEach((b) => {
+        b.classList.remove('bg-guards', 'text-white', 'border-guards');
+        b.classList.add('bg-surface', 'text-ink-soft', 'border-line');
+      });
+      btn.classList.add('bg-guards', 'text-white', 'border-guards');
+      btn.classList.remove('bg-surface', 'text-ink-soft', 'border-line');
+      render();
+    }),
+  );
+
   q.addEventListener('input', render);
 
   fetch(results.dataset.endpoint ?? '/search-index.json')

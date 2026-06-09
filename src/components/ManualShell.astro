@@ -1,6 +1,7 @@
 ---
 import ArticleCard from './ArticleCard.astro';
 import { MANUAL_CATEGORIES, EXTRA_CATEGORIES } from '../lib/categories';
+import { DIFFICULTY, type Difficulty } from '../lib/difficulty';
 import type { Article } from '../lib/content';
 import { withBase } from '../lib/url';
 
@@ -13,6 +14,8 @@ interface Props {
 }
 const { title, intro, active, articles } = Astro.props;
 const slugOf = (id: string) => id.split('/').pop();
+
+const difficulties = Object.entries(DIFFICULTY) as [Difficulty, (typeof DIFFICULTY)[Difficulty]][];
 
 const navItem = (href: string, isActive: boolean) =>
   [
@@ -63,6 +66,42 @@ const navItem = (href: string, isActive: boolean) =>
       <input id="manual-search" type="search" placeholder="Search articles…" class="w-full bg-transparent text-sm text-ink outline-none placeholder:text-ink-soft/40" />
     </div>
 
+    <!-- ── Difficulty filter + sort ─────────────────────── -->
+    <div class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div id="manual-difficulty" class="flex flex-wrap gap-2">
+        <button
+          type="button"
+          data-diff="all"
+          aria-pressed="true"
+          class="diff-chip rounded-full border border-guards bg-guards/15 px-3 py-1 text-xs font-semibold text-guards transition"
+        >All levels</button>
+        {difficulties.map(([level, d]) => (
+          <button
+            type="button"
+            data-diff={level}
+            aria-pressed="false"
+            class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft transition hover:border-guards/40"
+          >
+            <span class={`h-1.5 w-1.5 rounded-full ${d.dot}`}></span>
+            {d.label}
+          </button>
+        ))}
+      </div>
+
+      <label class="flex items-center gap-2 text-xs font-medium text-ink-soft/70">
+        <span class="whitespace-nowrap">Sort</span>
+        <select
+          id="manual-sort"
+          class="rounded-md border border-line bg-surface px-2.5 py-1.5 text-xs font-semibold text-ink outline-none focus:border-guards/50"
+        >
+          <option value="default">Recommended</option>
+          <option value="diff-asc">Difficulty: easiest first</option>
+          <option value="diff-desc">Difficulty: hardest first</option>
+          <option value="title">Title: A–Z</option>
+        </select>
+      </label>
+    </div>
+
     <p id="manual-count" class="mt-5 font-mono text-xs uppercase tracking-wider text-ink-soft/50">{articles.length} articles</p>
 
     <div id="manual-list" class="mt-3 space-y-3">
@@ -85,19 +124,80 @@ const navItem = (href: string, isActive: boolean) =>
 
 <script>
   const input = document.getElementById('manual-search') as HTMLInputElement | null;
+  const list = document.getElementById('manual-list');
   const cards = [...document.querySelectorAll<HTMLElement>('#manual-list .article-card')];
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('#manual-difficulty .diff-chip')];
+  const sortSel = document.getElementById('manual-sort') as HTMLSelectElement | null;
   const count = document.getElementById('manual-count');
   const empty = document.getElementById('manual-empty');
 
-  input?.addEventListener('input', () => {
-    const term = input.value.trim().toLowerCase();
+  // Preserve the original (recommended) order for resetting the sort.
+  const baseOrder = new Map(cards.map((c, i) => [c, i]));
+  const rank: Record<string, number> = { beginner: 1, intermediate: 2, advanced: 3 };
+  // Articles with no difficulty sort last regardless of direction.
+  const rankOf = (c: HTMLElement) => rank[c.dataset.difficulty ?? ''] ?? 99;
+  const titleOf = (c: HTMLElement) =>
+    c.querySelector('h3')?.textContent?.trim().toLowerCase() ?? '';
+
+  let term = '';
+  let activeDiff = 'all';
+
+  function apply() {
     let shown = 0;
     for (const card of cards) {
-      const match = !term || (card.dataset.search ?? '').includes(term);
-      card.classList.toggle('hidden', !match);
-      if (match) shown++;
+      const matchTerm = !term || (card.dataset.search ?? '').includes(term);
+      const matchDiff = activeDiff === 'all' || card.dataset.difficulty === activeDiff;
+      const visible = matchTerm && matchDiff;
+      card.classList.toggle('hidden', !visible);
+      if (visible) shown++;
     }
     if (count) count.textContent = `${shown} ${shown === 1 ? 'article' : 'articles'}`;
     empty?.classList.toggle('hidden', shown > 0);
+  }
+
+  function sort() {
+    if (!list) return;
+    const mode = sortSel?.value ?? 'default';
+    const ordered = [...cards].sort((a, b) => {
+      switch (mode) {
+        case 'diff-asc':
+          return rankOf(a) - rankOf(b) || baseOrder.get(a)! - baseOrder.get(b)!;
+        case 'diff-desc': {
+          const ra = rankOf(a), rb = rankOf(b);
+          // Keep "no difficulty" items at the bottom for both directions.
+          if (ra === 99 || rb === 99) return ra - rb || baseOrder.get(a)! - baseOrder.get(b)!;
+          return rb - ra || baseOrder.get(a)! - baseOrder.get(b)!;
+        }
+        case 'title':
+          return titleOf(a).localeCompare(titleOf(b));
+        default:
+          return baseOrder.get(a)! - baseOrder.get(b)!;
+      }
+    });
+    for (const card of ordered) list.appendChild(card);
+  }
+
+  input?.addEventListener('input', () => {
+    term = input.value.trim().toLowerCase();
+    apply();
   });
+
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      activeDiff = chip.dataset.diff ?? 'all';
+      for (const c of chips) {
+        const on = c === chip;
+        c.setAttribute('aria-pressed', String(on));
+        c.classList.toggle('border-guards', on);
+        c.classList.toggle('bg-guards/15', on);
+        c.classList.toggle('text-guards', on);
+        c.classList.toggle('border-line', !on);
+        c.classList.toggle('bg-surface', !on);
+        c.classList.toggle('text-ink-soft', !on);
+      }
+      apply();
+    });
+  }
+
+  sortSel?.addEventListener('change', sort);
 </script>
