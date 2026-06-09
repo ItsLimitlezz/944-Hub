@@ -10,6 +10,7 @@ export const SITE = {
     url: 'https://formfactorperformance.com',
   },
   github: 'https://github.com/ItsLimitlezz/944-Hub',
+  discord: 'https://discord.gg/qyCxuHBV',
 } as const;
 
 // Attribution sources → the small red badge shown on every article.
