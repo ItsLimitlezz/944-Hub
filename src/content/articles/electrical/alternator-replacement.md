@@ -5,6 +5,7 @@ subsystem: "Electrical"
 author: CG
 difficulty: intermediate
 tools: [multimeter, torque-wrench-small]
+parts: [serpentine-belt-ac, serpentine-belt-no-ac]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-01.htm
 description: "Replacing the alternator in a 944 is not extremely difficult. However, it is somewhat time consuming since a large number of parts have to be removed to actu…"
 code: ELECT-01

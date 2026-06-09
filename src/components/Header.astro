@@ -56,6 +56,12 @@ const isActive = (href: string) => path === href || path.startsWith(href + '/');
         Tools
       </a>
       <a
+        href={withBase('/parts')}
+        class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/parts') ? 'text-white' : 'text-white/80']}
+      >
+        Parts
+      </a>
+      <a
         href={withBase('/community')}
         class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/community') || isActive('/shops') ? 'text-white' : 'text-white/80']}
       >
@@ -101,6 +107,7 @@ const isActive = (href: string) => path === href || path.startsWith(href + '/');
       <a href={withBase(`/manual/${c.id}`)} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">{c.name}</a>
     ))}
     <a href={withBase('/tools')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">Tools</a>
+    <a href={withBase('/parts')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">Parts</a>
     <a href={withBase('/community')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">Community</a>
     <a href={withBase('/shops')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">Trusted Shops</a>
     <a href={withBase('/about')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">About</a>
