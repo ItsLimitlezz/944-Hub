@@ -122,7 +122,7 @@ From: [Water pump replacement](/manual/engine/water-pump-information-and-replace
 
 From: [Intake manifold R&I](/manual/fuel-ignition/intake-manifold-removal-and-installation) · [Fuel rail & injectors](/manual/fuel-ignition/fuel-injector-and-fuel-rail-removal-and-installation) · [Spark plugs](/manual/maintenance/spark-plugs---checking-and-replacement)
 
-**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/106-00) · [85–88](/catalog/1985-1988/106-00) · [89–91](/catalog/1989-1991/106-00)
+**🔧 See these bolts in the catalog:** [82–85](/catalog/1982-1985/107-10) · [85–88](/catalog/1985-1988/107-10) · [89–91](/catalog/1989-1991/107-10)
 
 ## Exhaust & turbo
 
