@@ -63,9 +63,15 @@ const isActive = (href: string) => path === href || path.startsWith(href + '/');
       </a>
       <a
         href={withBase('/community')}
-        class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/community') || isActive('/shops') ? 'text-white' : 'text-white/80']}
+        class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/community') ? 'text-white' : 'text-white/80']}
       >
         Community
+      </a>
+      <a
+        href={withBase('/shops')}
+        class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/shops') ? 'text-white' : 'text-white/80']}
+      >
+        Trusted Shops
       </a>
       <a
         href={withBase('/about')}
