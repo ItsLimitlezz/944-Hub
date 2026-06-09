@@ -4,6 +4,7 @@ category: engine
 subsystem: "Exhaust"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/exh-03.htm
 description: "For those of you who've removed the wastegate from a 944 Turbo, I'm sure you'll agree that there is no easy way to get the wastegate out of the car. There ar…"
 code: EXH-03

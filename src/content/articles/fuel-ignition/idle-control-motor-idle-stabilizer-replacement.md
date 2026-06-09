@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-21.htm
 description: "If the rubber mounts are broken, the controller and the bracket will come out as one. Remove the bottom section of the broken rubber mounting bolts from the …"
 ---

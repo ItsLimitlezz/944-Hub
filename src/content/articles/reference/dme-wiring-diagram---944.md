@@ -4,6 +4,7 @@ category: reference
 subsystem: "Wiring Diagrams"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/dme-04.htm
 description: "The following are DME wiring diagrams. They are actually for 911 DME. However, they are supposed to be similar to the diagrams for a 944. If the normally asp…"
 code: DME-03

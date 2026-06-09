@@ -4,6 +4,7 @@ category: reference
 subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, spring-compressor, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-01.htm
 description: "Factory option (M-code) numbers for the Porsche 944 and what each one means."
 code: BODY-01

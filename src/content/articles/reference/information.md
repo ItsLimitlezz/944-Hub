@@ -4,6 +4,7 @@ category: reference
 subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-04.htm
 description: "If you want to know more about your transaxle, the first thing you need to do is determine which transaxle you have. If you can not determine from the option…"
 code: TRANS-04

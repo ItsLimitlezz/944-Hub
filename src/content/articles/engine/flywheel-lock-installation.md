@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: intermediate
+tools: [timing-belt-locking-tool, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-03.htm
 code: ENG-03
 ---

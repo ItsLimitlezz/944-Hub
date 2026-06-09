@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-05.htm
 description: "Refer to the Timing and Balance Shaft Belt Drawings for details:"
 code: ENG-05

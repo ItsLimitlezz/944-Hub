@@ -4,6 +4,7 @@ category: reference
 subsystem: "Shop Tools"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/misc-01.htm
 description: "This is a procedure which describes how to construct a camera bar for a 944. This bar mounts to the rear seat shoulder belt mounting points. I did this hasti…"
 code: MISC-01

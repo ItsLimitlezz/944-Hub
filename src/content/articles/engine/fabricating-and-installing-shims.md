@@ -4,6 +4,7 @@ category: engine
 subsystem: "Exhaust"
 author: CG
 difficulty: intermediate
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/exh-04.htm
 description: "During the installation of the 2.8L engine into my car, I decided that at some point I might wish to shim my factory wastegate. To prepare for that, I remove…"
 code: EXH-04

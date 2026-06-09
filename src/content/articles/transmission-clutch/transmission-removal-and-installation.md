@@ -4,6 +4,7 @@ category: transmission-clutch
 subsystem: "Transmission"
 author: CG
 difficulty: advanced
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-03.htm
 code: TRANS-03
 ---

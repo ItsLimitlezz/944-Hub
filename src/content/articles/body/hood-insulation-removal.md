@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-18.htm
 description: "As the hood insulation on 944 ages it will flake off and make a mess all over the engine compartment which is extremely difficult to clean up. The solution t…"
 code: BODY-18

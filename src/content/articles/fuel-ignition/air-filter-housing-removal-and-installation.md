@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Air Intake"
 author: CG
 difficulty: beginner
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, dme-diagnostic-adapter, durametric, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/af-01.htm
 description: "This procedure is used to remove the air filter housing and air flow sensor on 944s and 944 Turbos. Thanks to Tom Harrison for taking the time to provide fee…"
 code: AF-01

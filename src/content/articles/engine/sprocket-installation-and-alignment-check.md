@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, coolant-pressure-tester]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-08.htm
 description: "If your 944 is experiencing vibration problems, the cause could be a balance shaft misalignment. This can occur if the balance shaft belt slips a tooth, the …"
 code: ENG-08

@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: intermediate
+tools: [spring-compressor, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-02.htm
 description: "Extreme caution must be used when using double spring compressors where the springs are not held rigidly in place. This is the type of compressors you'll nor…"
 code: SUSP-02

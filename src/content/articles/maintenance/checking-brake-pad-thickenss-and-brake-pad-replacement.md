@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Wear Items"
 author: CG
 difficulty: intermediate
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-02.htm
 description: "Since 1984, all 944 models and the 968 are equipped with wear indicators. When the brake pads are worn to the point that the wear indicators make contact wit…"
 code: BRAKE-02

@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-23.htm
 description: "Sometimes engine starting and running problems can be caused by a faulty alarm module (if the car is equipped with an alarm system). Since testing the alarm …"
 code: ELECT-23

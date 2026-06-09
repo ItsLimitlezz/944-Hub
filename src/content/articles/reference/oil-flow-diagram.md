@@ -4,6 +4,7 @@ category: reference
 subsystem: "Diagrams"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-11.htm
 code: LUBE-11
 ---

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-08.htm
 description: "If your car is experiencing overheating or overcooling problems, they may be due to a faulty thermostat. Overcooling problems are causes by a thermostat that…"
 code: COOL-08

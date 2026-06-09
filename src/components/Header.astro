@@ -55,6 +55,12 @@ const isActive = (href: string) => path === href || path.startsWith(href + '/');
         </a>
       ))}
       <a
+        href={withBase('/tools')}
+        class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/tools') ? 'text-white' : 'text-white/80']}
+      >
+        Tools
+      </a>
+      <a
         href={withBase('/about')}
         class:list={['rounded-md px-3 py-2 text-sm font-semibold hover:bg-white/10 hover:text-white', isActive('/about') ? 'text-white' : 'text-white/80']}
       >
@@ -93,6 +99,7 @@ const isActive = (href: string) => path === href || path.startsWith(href + '/');
     {EXTRA_CATEGORIES.map((c) => (
       <a href={withBase(`/manual/${c.id}`)} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">{c.name}</a>
     ))}
+    <a href={withBase('/tools')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">Tools</a>
     <a href={withBase('/about')} class="block rounded-md px-2 py-2 text-sm font-medium text-white/85 hover:bg-white/10">About</a>
     <a href={withBase('/contribute')} class="mt-2 block rounded-md bg-guards px-2 py-2 text-center text-sm font-bold text-white">Contribute</a>
   </div>

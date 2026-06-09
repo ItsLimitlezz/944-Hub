@@ -4,6 +4,7 @@ category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-09.htm
 description: "This troubleshooting guide is intented to help identify and repair specific electrical system problems. The following is a list of problem symptoms discussed…"
 code: TS-09

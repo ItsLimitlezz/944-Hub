@@ -4,6 +4,7 @@ category: reference
 subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-02.htm
 description: "Factory exterior paint colors and codes for the Porsche 944 by model year, 1982–1991."
 code: BODY-02

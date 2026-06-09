@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-01.htm
 description: "Refer to FUEL-20(/manual/fuel-ignition/adapter-for-non-metric-thread-fuel-pressure-gauges) for instructions on how to make an adapter for fuel pressure gauge…"
 code: FUEL-01

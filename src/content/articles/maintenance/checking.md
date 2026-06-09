@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Inspections"
 author: CG
 difficulty: beginner
+tools: [balance-shaft-locking-tool]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-11.htm
 code: ENG-11
 ---

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: intermediate
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-07.htm
 description: "Removing and installing the oil pump is best done with the oil pan removed. However, it can be done by loosening the bolts on the oil pan and dropping the pa…"
 code: LUBE-07

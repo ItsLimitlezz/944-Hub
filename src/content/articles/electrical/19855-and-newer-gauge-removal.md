@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-07.htm
 code: ELECT-07
 ---

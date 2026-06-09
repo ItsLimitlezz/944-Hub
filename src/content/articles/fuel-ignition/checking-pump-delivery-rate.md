@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-04.htm
 description: "Be sure to have rags ready to catch excess fuel when disconnecting fuel lines / caps. The fuel in the fuel rail may be under high pressure and may spray if t…"
 code: FUEL-04

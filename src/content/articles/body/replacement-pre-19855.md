@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-26.htm
 description: "Replacing the dash in a 944 is not overly difficult. However, it is very tedious and a lot of patience is required. It's going to take a lot of time but, don…"
 code: BODY-26

@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: beginner
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-04.htm
 description: "Cruise control problems are fairly common in 944s. The most frequent problems include failing to engage, failing to maintain speed, and picking up a set amou…"
 code: ELECT-04

@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Steering"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/steer-01.htm
 description: "The following repair procedure is provided through the courtesy of Raymond Hartle. Ray wrote the following procedure while replacing the power steering rack …"
 code: STEER-01

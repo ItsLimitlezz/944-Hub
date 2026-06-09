@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-18.htm
 description: "For 944s which are equipped with oxygen sensors (not all are), the O2 sensor measures the oxygen content in the exhaust and provides an output feedback signa…"
 code: FUEL-18

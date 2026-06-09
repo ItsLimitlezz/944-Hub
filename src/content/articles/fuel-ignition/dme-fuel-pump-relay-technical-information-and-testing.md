@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-05.htm
 description: "The DME relay which is used on 1985.5 and newer 944s is essentially the same as the fuel pump relay used on early 944s. The fuel pump relay on the early cars…"
 code: FUEL-05

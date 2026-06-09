@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-02.htm
 description: "As the engine removal procedure is written assuming the engine is removed from below, the installation procedure detailed here is based on the same assumptio…"
 code: ENG-02

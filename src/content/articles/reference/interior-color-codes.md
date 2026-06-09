@@ -4,6 +4,7 @@ category: reference
 subsystem: "Codes & Specs"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-27.htm
 code: BODY-27
 ---

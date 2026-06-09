@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: intermediate
+tools: [timing-belt-locking-tool, dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-15.htm
 description: "Troubleshooting starting and running problems can sometimes be quite difficult. This is especially true if you aren't aware if all the possible causes of a p…"
 code: ENG-15

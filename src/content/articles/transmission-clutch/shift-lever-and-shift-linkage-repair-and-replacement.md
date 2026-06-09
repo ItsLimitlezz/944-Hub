@@ -4,6 +4,7 @@ category: transmission-clutch
 subsystem: "Transmission"
 author: CG
 difficulty: advanced
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-07.htm
 description: "Sloppy or difficult shifting on a manual transaxle is normally the result of shift linkage adjustment or worn shift linkage components. The follow procedure …"
 code: TRANS-07

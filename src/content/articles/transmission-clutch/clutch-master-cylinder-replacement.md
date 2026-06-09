@@ -4,6 +4,7 @@ category: transmission-clutch
 subsystem: "Clutch"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/clutch-04.htm
 description: "This procedure details replacement of the clutch master cylinder on 944s and 968s. Terry Jenner did a great job with this procedure. He wrote the procedure, …"
 code: CLUTCH-04

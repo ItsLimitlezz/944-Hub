@@ -4,6 +4,7 @@ category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-03.htm
 description: "This troubleshooting guide is intented to help identify and repair Fuel System problems. The following is a list of problem symptoms discussed in this guide:"
 code: TS-03

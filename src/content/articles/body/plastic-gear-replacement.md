@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: advanced
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-04.htm
 description: "The first step in replacing the plastic gears in the late model 944 sunroof is to determine whether one or both of the gears are stripped. If only one of the…"
 code: BODY-04

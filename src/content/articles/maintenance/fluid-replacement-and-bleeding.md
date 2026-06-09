@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-01.htm
 description: "Brake fluid is hygroscopic. This means that it will readily absorb moisture. In fact, it will absorb moisture out of the air. Moisture in your brake fluid do…"
 code: BRAKE-01

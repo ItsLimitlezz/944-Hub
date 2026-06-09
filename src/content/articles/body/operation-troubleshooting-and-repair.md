@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: advanced
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-03.htm
 description: "On pre-1985.5 cars, the sunroof is operated by turning the ignition switch to the \"ON\" position. The sunroof console switch is then pushed back (\"A\" directio…"
 code: BODY-03

@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Inspections"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-07.htm
 description: "Checking the Brake System is an important part of preventive maintenance for any vehicle. Since 1984, all 944 models and the 968 are equipped with wear indic…"
 code: BRAKE-07

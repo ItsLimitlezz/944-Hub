@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Lubrication"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-22.htm
 description: "The headlight operating mechanism should be lubricated every 15,000 miles."
 code: BODY-22

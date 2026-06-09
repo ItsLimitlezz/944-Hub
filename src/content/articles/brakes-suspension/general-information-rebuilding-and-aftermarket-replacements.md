@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: advanced
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-10.htm
 description: "944 Control Arms - General Information, Rebuilding, and Aftermarket Replacements"
 code: SUSP-10

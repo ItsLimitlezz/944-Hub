@@ -4,6 +4,7 @@ category: reference
 subsystem: "Background"
 author: CG
 difficulty: beginner
+tools: [balance-shaft-locking-tool]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-07.htm
 description: "One of the complaints that many 924 owners had about their cars were related to vibrations. Large in-line four cylinder engines inherently produce large seco…"
 code: ENG-07

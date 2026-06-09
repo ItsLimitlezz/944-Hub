@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Inspections"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-14.htm
 description: "The CV Joint boots should be inspected every 15,000 miles."
 code: SUSP-14

@@ -4,6 +4,7 @@ category: reference
 subsystem: "Fasteners"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/bolt-01.htm
 description: "Allen head and Cheesehead bolts can be extremely difficult to remove, particularly on 944 engines. Since most of the 944 engine is aluminum the steel bolt th…"
 code: BOLT-01

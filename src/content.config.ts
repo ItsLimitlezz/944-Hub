@@ -24,6 +24,8 @@ const articles = defineCollection({
     subsystem: z.string().optional(),
     // How involved the job is, so readers know what to expect.
     difficulty: z.enum(['beginner', 'intermediate', 'advanced']).default('intermediate'),
+    // Tool ids (see src/data/tools.ts) needed for this procedure.
+    tools: z.array(z.string()).default([]),
     // Who wrote / sourced this article. Drives the red attribution badge.
     author: z.enum(['CG', 'FFP', 'community']).default('FFP'),
     // Optional human-readable contributor name (esp. for community authors).

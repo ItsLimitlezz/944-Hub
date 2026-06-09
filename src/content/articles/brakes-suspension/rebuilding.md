@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Steering"
 author: CG
 difficulty: advanced
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/steer-03.htm
 description: "The following steering rack rebuild procedure was written by Karl \"Doc\" Wilen. I'd like to thank Doc for taking the time to write this procedure and take pic…"
 code: STEER-03

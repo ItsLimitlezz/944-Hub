@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-17.htm
 description: "Bad ignition switches are becoming a more common cause of starting problems on 944s. So, take a look at your ignition switch and if it's cracked, it's likely…"
 code: ELECT-17

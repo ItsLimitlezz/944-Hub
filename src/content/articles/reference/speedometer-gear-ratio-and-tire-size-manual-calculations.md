@@ -4,6 +4,7 @@ category: reference
 subsystem: "Calculators"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-02.htm
 description: "Use the following formula to determine tire circumference:"
 code: TRANS-02

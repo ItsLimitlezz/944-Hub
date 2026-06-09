@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Tune-Up"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-18.htm
 description: "Determine the condition of the spark plugs using the following table:"
 code: ENG-18

@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: advanced
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-18.htm
 description: "Testing and/or Replacing the Micro-Switch Between the Sun visors(#microswitch)"
 code: ELECT-18

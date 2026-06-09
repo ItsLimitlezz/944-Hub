@@ -4,6 +4,7 @@ category: reference
 subsystem: "Torque Specs"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cyl-03.htm
 description: "When following the torque sequences below, wait approximately 15 minutes between torque steps. This allows time for the studs to stretch and settle completel…"
 code: CYL-03

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-06.htm
 description: "Without question replacing the oil pan gasket on a 944 is one of those jobs that ranks high on my \"I don't want to do that job again\" scale. On the surface, …"
 code: LUBE-06

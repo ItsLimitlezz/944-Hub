@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-05.htm
 description: "The rear hatch defroster grid is basically a big resistor. So, when the defroster is operating properly, with a voltmeter you will be able to measure +12 VDC…"
 code: ELECT-05

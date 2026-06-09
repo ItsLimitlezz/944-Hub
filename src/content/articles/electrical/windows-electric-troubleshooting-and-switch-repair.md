@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-20.htm
 description: "When things go wrong with your electric windows, it can sometimes be frustrating to figure out the cause of the problem. This troubleshooting procedure is in…"
 code: ELECT-20

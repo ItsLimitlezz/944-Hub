@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, spring-compressor, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-01.htm
 description: "NOTE: Many of the cars that have been around for a while have had the back belly pan removed and left off for easier access to the oil drain plug."
 code: ENG-01

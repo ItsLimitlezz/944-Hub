@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-10.htm
 description: "If you remove both mirrors or are installing new mirrors on the car and you have the mirrors disassembled, make sure you get the correct glass in the correct…"
 code: BODY-10

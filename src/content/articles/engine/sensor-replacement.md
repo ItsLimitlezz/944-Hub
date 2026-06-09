@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: intermediate
+tools: [camshaft-holding-tool, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-05.htm
 description: "On normally aspirated cars the power steering pump may not have to be removed to access the oil pressure sending unit. On turbocharged cars and normally aspi…"
 code: LUBE-05

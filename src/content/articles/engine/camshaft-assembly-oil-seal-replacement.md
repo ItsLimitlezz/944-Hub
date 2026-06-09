@@ -4,6 +4,7 @@ category: engine
 subsystem: "Camshaft"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cam-03.htm
 description: "Refer to the Timing and Balance Shaft Belt Drawings for details:"
 code: CAM-03

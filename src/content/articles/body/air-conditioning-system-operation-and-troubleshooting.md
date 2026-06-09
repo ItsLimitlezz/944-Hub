@@ -4,6 +4,7 @@ category: body
 subsystem: "Heating & A/C"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/hvac-02.htm
 description: "Since I'm constantly receiving questions on 944 air conditioning systems, I figured it's time to come up with come helpful troubleshooting tips. Working on t…"
 code: HVAC-02

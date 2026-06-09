@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-07.htm
 description: "There are two different styles of water pumps used on the 924S and 944 (including Turbos). The new style coolant pump has a guard rail for the timing belt an…"
 code: COOL-07

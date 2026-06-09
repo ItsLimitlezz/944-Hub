@@ -4,6 +4,7 @@ category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-10.htm
 description: "This troubleshooting guide is intented to help identify and repair heating and air conditioning problems. The following is a list of problem symptoms discuss…"
 code: TS-10

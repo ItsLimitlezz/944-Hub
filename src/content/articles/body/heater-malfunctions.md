@@ -4,6 +4,7 @@ category: body
 subsystem: "Heating & A/C"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/hvac-01.htm
 description: "This procedure will concentrate primarily on the operation and malfunctions of the late model 944 HVAC system (1985.5 and newer). That's primarily because th…"
 code: HVAC-01

@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Brakes"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-05.htm
 code: BRAKE-05
 ---

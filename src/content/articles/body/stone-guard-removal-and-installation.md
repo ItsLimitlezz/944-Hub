@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-20.htm
 description: "New stone guards are available from Porsche or many of the aftermarket parts houses offer stone guard kits. You can also purchase 3M Urethane Stone guard mat…"
 code: BODY-20

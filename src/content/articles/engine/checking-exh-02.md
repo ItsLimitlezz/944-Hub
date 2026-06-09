@@ -4,6 +4,7 @@ category: engine
 subsystem: "Exhaust"
 author: CG
 difficulty: intermediate
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/exh-02.htm
 description: "If you're reading this, you're probably considering testing the wastegate because you're experiencing a low charging system pressure. In other words, you wil…"
 code: EXH-02

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: intermediate
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-13.htm
 description: "If you do not have a deep 15/16\" or 24 mm socket, a shallow socket with a short extension (1-2\") will work."
 code: ENG-13

@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, harmonic-balancer-holding-tool, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-01.htm
 description: "Many thanks to Ben Davis for taking the time document this procedure with pictures."
 code: SUSP-01

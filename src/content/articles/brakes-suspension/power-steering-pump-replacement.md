@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Steering"
 author: CG
 difficulty: intermediate
+tools: [camshaft-holding-tool, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/steer-02.htm
 description: "I'd like to express my appreciation to Erik Ohrnberger who authored this"
 code: STEER-02

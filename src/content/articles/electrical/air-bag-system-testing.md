@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-14.htm
 description: "The information in this procedure comes from the Porsche factory airbag system diagnostics procedure. Personally, I have not had the opportunity to use this …"
 code: ELECT-14

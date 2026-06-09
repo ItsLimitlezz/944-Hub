@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-19.htm
 description: "If you have a problem which involves a low fuel system pressure or inadequate fuel pump capacity it may be due to a clogged fuel filter or fuel tank strainer…"
 code: FUEL-19

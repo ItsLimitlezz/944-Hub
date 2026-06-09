@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Brakes"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-large]
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-04.htm
 description: "Cars equipped with option M758."
 code: BRAKE-04

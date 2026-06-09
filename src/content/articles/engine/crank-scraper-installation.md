@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-21.htm
 description: "A common performance upgrade to 944 and 951 model Porsches is the installation of a Crank Scraper. It is a cheap way, especially when included during other p…"
 ---

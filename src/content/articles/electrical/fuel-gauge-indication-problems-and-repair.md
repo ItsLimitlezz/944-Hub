@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-13.htm
 description: "Fuel level indication problems are generally caused by a problem with the gauge or the sending unit. Our discussion here will focus on isolating the cause of…"
 code: ELECT-13

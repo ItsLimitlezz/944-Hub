@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: intermediate
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-02.htm
 description: "Early 944s produced from 1983 to 1986 used a three piece piston and spring oil pressure relief valve. Early 1987 924S used the spring and piston relief valve…"
 code: LUBE-02

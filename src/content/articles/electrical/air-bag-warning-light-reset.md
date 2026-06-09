@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-12.htm
 description: "I'm not sure who actually came up with this procedure originally. However, to my knowledge it first appeared in the 944 FAQ which is now maintained by Kevin …"
 code: ELECT-12

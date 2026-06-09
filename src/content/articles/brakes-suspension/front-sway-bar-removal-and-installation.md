@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-12.htm
 code: SUSP-12
 ---

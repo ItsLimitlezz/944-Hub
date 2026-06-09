@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-05.htm
 code: SUSP-05
 ---

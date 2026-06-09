@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: beginner
+tools: [harmonic-balancer-holding-tool, torque-wrench-large]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-03.htm
 description: "The 944's oil pressure should run 4-5 bar at idle when the engine is cold. It will gradually decrease to 2-3 bar at idle as the engine oil warms to normal op…"
 code: LUBE-03

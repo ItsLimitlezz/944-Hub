@@ -4,6 +4,7 @@ category: reference
 subsystem: "Diagrams"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-14.htm
 description: "The following fuel system line diagram includes most of the vacuum line routing for 16V Normally-Aspirated 944s. If the vehicle is equipped with an active ca…"
 code: FUEL-14

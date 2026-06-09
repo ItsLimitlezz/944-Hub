@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-09.htm
 description: "The normally aspirated 944 cooling system operates bypassing the radiator until the coolant temperature reaches 83 °C when the thermostat opens. After the th…"
 code: COOL-09

@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-08.htm
 description: "Idle speed adjustment is not normally required on 944s. However, the idle speed adjusting screw will sometimes back out causing idle speed to become out of a…"
 code: FUEL-08

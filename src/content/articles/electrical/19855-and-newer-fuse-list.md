@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: beginner
+tools: [fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-11.htm
 code: ELECT-11
 ---

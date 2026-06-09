@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-25.htm
 description: "The following ignition switch replacement procedure was authored by Dean Smith. I'd like to thank Dean for taking the time to write such a complete, detailed…"
 code: ELECT-25

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, multimeter, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-10.htm
 description: "Refer to the Timing Belt Arrangement drawings below for details."
 code: ENG-10

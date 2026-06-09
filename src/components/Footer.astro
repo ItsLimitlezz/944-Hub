@@ -31,6 +31,7 @@ const year = 2025;
         {EXTRA_CATEGORIES.map((c) => (
           <li><a href={withBase(`/manual/${c.id}`)} class="hover:text-guards">{c.name}</a></li>
         ))}
+        <li><a href={withBase('/tools')} class="hover:text-guards">Special Tools</a></li>
         <li><a href={withBase('/search')} class="hover:text-guards">Search</a></li>
       </ul>
     </div>

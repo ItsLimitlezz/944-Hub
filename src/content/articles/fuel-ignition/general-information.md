@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-12.htm
 description: "In this document, I've tried to provide as much information as possible about the Bosch injectors used in 944 and 968 applications. Unfortunately, the inform…"
 code: FUEL-12

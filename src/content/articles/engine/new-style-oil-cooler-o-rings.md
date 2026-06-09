@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-09.htm
 description: "This document contains information from Porsche Technical Bulletin 8813 dated June 10, 1988."
 code: LUBE-09

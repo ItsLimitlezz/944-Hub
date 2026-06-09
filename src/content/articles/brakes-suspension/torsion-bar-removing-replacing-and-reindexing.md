@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: advanced
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-06.htm
 description: "Replacing the torsion bar on a 944 is not all that difficult. However, reindexing the torsion after completion is a pain and can be very time consuming. Ther…"
 code: SUSP-06

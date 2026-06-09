@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: intermediate
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-07.htm
 description: "Since the 1985 ½ model year, 944s have used aluminum control arms which use ball joints that can not be replaced, as least not by the home mechanic. Early 94…"
 code: SUSP-07

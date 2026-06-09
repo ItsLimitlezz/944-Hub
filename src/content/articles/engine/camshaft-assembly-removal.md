@@ -4,6 +4,7 @@ category: engine
 subsystem: "Camshaft"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cam-01.htm
 description: "If you happen to have the original tool kit that comes with the car, there is a long Allen head tool with a rubber socket for holding the bolt for removal (v…"
 code: CAM-01

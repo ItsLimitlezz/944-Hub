@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ToolCard from '../components/ToolCard.astro';
+import { TOOLS, TOOL_SECTIONS } from '../data/tools';
+import { getArticles } from '../lib/content';
+import { withBase } from '../lib/url';
+
+// Reverse index: tool id -> [{ title, url }] of articles that reference it.
+const articles = await getArticles();
+const usedIn = new Map<string, { title: string; url: string }[]>();
+for (const a of articles) {
+  for (const id of a.data.tools ?? []) {
+    if (!usedIn.has(id)) usedIn.set(id, []);
+    usedIn.get(id)!.push({
+      title: a.data.title,
+      url: withBase(`/manual/${a.data.category}/${a.id.split('/').pop()}`),
+    });
+  }
+}
+for (const list of usedIn.values()) list.sort((x, y) => x.title.localeCompare(y.title));
+---
+
+<BaseLayout title="Special Tools" description="Porsche factory special tools and recommended alternatives for 944 service, with where to buy and which guides use them.">
+  <p class="text-sm font-bold uppercase tracking-wider text-guards">Reference</p>
+  <h1 class="mt-1 font-display text-4xl font-extrabold uppercase tracking-tight text-ink">Special Tools</h1>
+  <p class="mt-2 max-w-3xl text-ink-soft">
+    Porsche factory special tools and recommended alternatives for 944 service procedures. OEM tool
+    numbers are listed where applicable, along with where to buy them and which guides use each one.
+  </p>
+
+  {TOOL_SECTIONS.map((section) => {
+    const tools = TOOLS.filter((t) => t.section === section.id);
+    if (tools.length === 0) return null;
+    return (
+      <section class="mt-10">
+        <h2 class="font-display text-sm font-bold uppercase tracking-[0.12em] text-guards">{section.name}</h2>
+        <p class="mt-0.5 text-sm text-ink-soft/70">{section.blurb}</p>
+        <div class="mt-4 space-y-3">
+          {tools.map((tool) => <ToolCard tool={tool} usedIn={usedIn.get(tool.id) ?? []} />)}
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>

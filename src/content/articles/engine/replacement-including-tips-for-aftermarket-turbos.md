@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [balance-shaft-locking-tool, dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, spring-compressor, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-16.htm
 description: "Replacing the turbocharger on a 951 is not extremely difficult. However, it is very tedious because there are a lot of components that must be removed to get…"
 code: ENG-16

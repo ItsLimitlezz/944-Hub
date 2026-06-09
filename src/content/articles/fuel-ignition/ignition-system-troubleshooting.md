@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Ignition"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ign-04.htm
 description: "If you've come to this procedure, you probably suspect that you have a no spark condition. If so, you should have already verified that you actually have a n…"
 code: IGN-04

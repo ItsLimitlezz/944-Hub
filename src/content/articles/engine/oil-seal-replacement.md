@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-14.htm
 description: "The following procedure will provide instructions for replacing the balance shaft seals on a 944. It will also provide instructions for resealing the balance…"
 code: ENG-14

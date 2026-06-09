@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-09.htm
 description: "I'd like to thank Ben Davis for providing the pictures for this procedure. Ben took the time to take pictures as he was performing this procedure. The additi…"
 code: SUSP-09

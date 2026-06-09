@@ -4,6 +4,7 @@ category: reference
 subsystem: "Calculators"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-01.htm
 code: TRANS-01
 ---

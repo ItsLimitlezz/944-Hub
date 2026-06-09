@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cylinder Head"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, balance-shaft-locking-tool, dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cyl-02.htm
 description: "If not specified apply the following fastener torque specs."
 code: CYL-02

@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-19.htm
 description: "Coolant Temperature Gauge Testing(#coolant)"
 code: ELECT-19

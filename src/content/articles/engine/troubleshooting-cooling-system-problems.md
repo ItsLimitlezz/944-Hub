@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-03.htm
 code: COOL-03
 ---

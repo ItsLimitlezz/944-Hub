@@ -4,6 +4,7 @@ category: engine
 subsystem: "Camshaft"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, balance-shaft-locking-tool, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cam-02.htm
 description: "A coat of grease on the outside of the outside of the lifters will help hold the lifters in the cam housing during installation."
 code: CAM-02

@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-21.htm
 description: "This is not necessarily intended for someone to paint their own car. It's more intended to inform 944 owners as to what exactly it takes to PROPERLY paint a …"
 code: BODY-21

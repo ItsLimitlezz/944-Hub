@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-03.htm
 description: "Have rags ready to catch escaping fuel when the fuel filter is removed."
 code: FUEL-03

@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-11.htm
 description: "Changing the wheel bearing on an aluminum trailing arm is somewhat different than a steel trailing arm. First, the aluminum trailing arm uses a single sealed…"
 code: SUSP-11

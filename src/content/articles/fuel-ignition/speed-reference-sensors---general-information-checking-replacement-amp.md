@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Ignition"
 author: CG
 difficulty: intermediate
+tools: [timing-belt-locking-tool, dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter, oscilloscope, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ign-02.htm
 description: "The 944 Engine Managment system uses two crankshaft sensors. One (Reference Sensor) determines the #1 piston (front of the engine) position relative to Top D…"
 code: IGN-02

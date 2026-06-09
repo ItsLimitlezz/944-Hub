@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-17.htm
 description: "A noisy rear hatch (squeaking or rattling) can be caused by several different things."
 code: BODY-17

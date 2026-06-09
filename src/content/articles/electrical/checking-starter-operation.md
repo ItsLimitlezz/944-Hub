@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: beginner
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-16.htm
 description: "I personally don't recommend testing the starter while it is in the vehicle. Realize that the engine will turn during starter testing and you should not appl…"
 code: ELECT-16

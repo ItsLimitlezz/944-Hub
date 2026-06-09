@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-06.htm
 description: "One of the hardest part of removing the gauges on an early 944 is disconnecting the speedometer cable from the back of the speedometer. To do this, the gauge…"
 code: ELECT-06

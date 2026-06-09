@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-02.htm
 description: "Stuff catch rags underneath the fuel pressure damper and fuel pressure regulator to catch fuel when disconnecting the fuel supply and return lines."
 code: FUEL-02

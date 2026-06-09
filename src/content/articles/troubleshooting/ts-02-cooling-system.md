@@ -4,6 +4,7 @@ category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-02.htm
 description: "This troubleshooting guide is intented to help identify and repair problems with the cooling system. The following is a list of problem symptoms discussed in…"
 code: TS-02

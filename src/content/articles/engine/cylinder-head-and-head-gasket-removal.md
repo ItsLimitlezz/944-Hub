@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cylinder Head"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, fuel-pressure-gauge, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cyl-01.htm
 description: "I've never tried it personally but, Tim Richards suggests removing the cylinder head with the exhaust manifolds still attached. According to Tim, it saves a …"
 code: CYL-01

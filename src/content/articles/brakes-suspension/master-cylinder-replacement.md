@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Brakes"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/brake-06.htm
 description: "Porsche uses master cylinders and brake boosters on 944s which were manufactured by two companies (Teves and Girling). You may actually have a master cylinde…"
 code: BRAKE-06

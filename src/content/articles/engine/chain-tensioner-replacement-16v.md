@@ -4,6 +4,7 @@ category: engine
 subsystem: "Camshaft"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, dme-diagnostic-adapter, durametric, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cam-04.htm
 description: "In addition to the concern that 8V 944s have with regard to timing belt maintenance, 16V 944 owners must also be concerned with the maintenance of the timing…"
 code: CAM-04

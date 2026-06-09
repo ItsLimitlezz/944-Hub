@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-03.htm
 description: "It really is surprising just how much difference replacing a bad set of shocks can make in the ride and comfort of any car. So, just how can you tell if your…"
 code: SUSP-03

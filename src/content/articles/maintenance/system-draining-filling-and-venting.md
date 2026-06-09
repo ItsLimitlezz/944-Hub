@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Fluids & Filters"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-02.htm
 description: "Draining the cooling system on a 944 can be a very messy job. Due to the location of the drain in close proximity to the bottom radiator cross-member, coolan…"
 code: COOL-02

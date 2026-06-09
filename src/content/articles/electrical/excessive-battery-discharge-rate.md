@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: beginner
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-26.htm
 description: "All 924s, 944s, and 968s use a BCI Group 41 size battery. That means that the dimensions of the battery are 11- 3/16\" L x 6 - 7/8\" W x 6 - 7/8\" H. For a full…"
 code: ELECT-26

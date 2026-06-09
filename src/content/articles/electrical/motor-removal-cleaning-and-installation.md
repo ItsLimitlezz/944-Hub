@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-21.htm
 description: "If you are having problems with your headlights cycling up and down when you operate them, the problem is most likely a dirty electrical contact wheel inside…"
 code: ELECT-21

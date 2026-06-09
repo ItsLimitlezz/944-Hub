@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-09.htm
 description: "On normally aspirated cars, there are hoses underneath the intake manifold which can not be disconnected from the intake until it is lifted."
 code: FUEL-09

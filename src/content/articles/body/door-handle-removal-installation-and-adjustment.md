@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-12.htm
 description: "There are many different procedures floating around describing how to replace the door handles on a 944 and every one of them will work. Some procedures will…"
 code: BODY-12

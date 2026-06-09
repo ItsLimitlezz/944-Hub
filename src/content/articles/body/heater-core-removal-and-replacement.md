@@ -4,6 +4,7 @@ category: body
 subsystem: "Heating & A/C"
 author: CG
 difficulty: advanced
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/hvac-03.htm
 description: "First, I'd like to apologize for sitting on this procedure for so long. I was searching through some of my files the other day and realized only then that I …"
 ---

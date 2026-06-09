@@ -4,6 +4,7 @@ category: troubleshooting
 subsystem: "Troubleshooting"
 author: CG
 difficulty: intermediate
+tools: [harmonic-balancer-holding-tool, dme-diagnostic-adapter, durametric, fuel-pressure-gauge, coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ts-01.htm
 description: "This troubleshooting guide is intented to help identify and repair engine starting and running problems and engine lubrication system problems. The following…"
 code: TS-01

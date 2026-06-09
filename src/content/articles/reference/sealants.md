@@ -4,6 +4,7 @@ category: reference
 subsystem: "Specs"
 author: CG
 difficulty: beginner
+tools: [camshaft-holding-tool, balance-shaft-locking-tool, coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/info-02.htm
 description: "The following is a list of sealants used on Porsche 924s, 944, and 968 and their applications. You can probably find a number of acceptable aftermarket repla…"
 code: INFO-02

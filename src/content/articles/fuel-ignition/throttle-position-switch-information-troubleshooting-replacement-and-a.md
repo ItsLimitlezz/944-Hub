@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-06.htm
 description: "A faulty throttle position switch (TPS) can result in a number of poor running problems. Because they can result in such a large number of problems, faulty s…"
 code: FUEL-06

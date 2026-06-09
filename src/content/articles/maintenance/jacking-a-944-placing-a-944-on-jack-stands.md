@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Service Basics"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-07.htm
 description: "There has been a great deal of controversy over the years as to what jacking points should be used to jack a 944. The primary jacking point is located at the…"
 code: BODY-07

@@ -4,6 +4,7 @@ category: reference
 subsystem: "Torque Specs"
 author: CG
 difficulty: beginner
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, fuel-pressure-gauge, coolant-pressure-tester, spring-compressor, multimeter, torque-wrench-large, torque-wrench-small]
 description: "Every torque spec across the 944 Hub shop manual, gathered into one searchable list and grouped by system — from drain plugs to the crankshaft bolt."
 code: TORQUE-REF
 order: 0

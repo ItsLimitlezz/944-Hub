@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-07.htm
 description: "For years, 944 owners and even experienced Porsche mechanics, have on a regular basis replaced perfectly good DMEs, fuel pumps, and various other components …"
 code: FUEL-07

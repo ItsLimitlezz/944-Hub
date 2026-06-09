@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Inspections"
 author: CG
 difficulty: beginner
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-15.htm
 description: "Performing a visual inspection of the battery is an important first step in determining the condition of the battery. If the visual checks don't reveal anyth…"
 code: ELECT-15

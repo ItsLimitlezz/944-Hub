@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "DME / Engine Management"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/dme-02.htm
 description: "Before removing the old chip (Turbocharged cars) make sure you have identified the correct chip for installation. On 1988 model and newer cars this is simpli…"
 code: DME-02

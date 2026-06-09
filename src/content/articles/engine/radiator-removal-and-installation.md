@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, coolant-pressure-tester, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-04.htm
 description: "Before you remove the radiator hoses, note the position of the hose clamps on the hoses. When you reinstall the hoses try to install the clamps in the same o…"
 code: COOL-04

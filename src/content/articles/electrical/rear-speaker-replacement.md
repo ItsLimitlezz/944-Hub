@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-24.htm
 description: "Rear stereo replacement in a 944 or 968 is a bit of a pain. However, it's just takes a little time and patience. Many folks will tell you that the rear quart…"
 code: ELECT-24

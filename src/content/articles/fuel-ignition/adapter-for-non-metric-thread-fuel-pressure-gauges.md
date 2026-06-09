@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [fuel-pressure-gauge]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-20.htm
 description: "If you live in the United States and you want to check the fuel pressure on your 944 you have two choices. The first choice is to buy a fuel pressure gauge w…"
 code: FUEL-20

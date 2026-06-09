@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-01.htm
 description: "The first indication of failing oil cooler seals are normally a \"milkshake\" looking mixture in the coolant tank. This can also be indicated by a failing head…"
 code: LUBE-01

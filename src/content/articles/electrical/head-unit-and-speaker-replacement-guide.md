@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-03.htm
 description: "Replacing the stereo head unit in a 944 is fairly straight forward. Any standard DIN head unit will fit. However, there are some minor issues which must be c…"
 code: ELECT-03

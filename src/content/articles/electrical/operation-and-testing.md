@@ -4,6 +4,7 @@ category: electrical
 subsystem: "Electrical"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/elect-22.htm
 description: "The following article provides a summary of the operation of the 944 Air Flow Meter (AFM), also commonly referred to as the Air Flow Sensor. Also, covered is…"
 code: ELECT-22

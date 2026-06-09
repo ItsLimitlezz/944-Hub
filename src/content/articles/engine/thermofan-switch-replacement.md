@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-05.htm
 description: "Due to differences in manufacturing tolerances, you may find a 1-1/8\" deep socket that will fit. However, due to the tight space, it's almost impossible to r…"
 code: COOL-05

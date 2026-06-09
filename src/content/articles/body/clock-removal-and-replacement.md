@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-08.htm
 description: "This is a procedure which I've had requests for many times in the past. I've simply put off writing this procedure for some time. If you need to replace your…"
 code: BODY-08

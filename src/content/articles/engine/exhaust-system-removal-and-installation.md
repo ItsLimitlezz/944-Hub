@@ -4,6 +4,7 @@ category: engine
 subsystem: "Exhaust"
 author: CG
 difficulty: intermediate
+tools: [coolant-pressure-tester, multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/exh-01.htm
 description: "It may be necessary to remove the coolant return pipe completely to get the exhaust headers out. This will require partially draining the coolant system."
 code: EXH-01

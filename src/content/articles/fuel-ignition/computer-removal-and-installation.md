@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "DME / Engine Management"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/dme-01.htm
 code: DME-01
 ---

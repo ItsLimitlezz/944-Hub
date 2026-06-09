@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Fuel System"
 author: CG
 difficulty: intermediate
+tools: [dme-diagnostic-adapter, durametric, fuel-pressure-gauge, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-17.htm
 description: "Fuel System leakdown failures can be caused by a leaking fuel injector(s), a bad fuel pressure regulator (FPR), or a leaking fuel pump check valve. When this…"
 code: FUEL-17

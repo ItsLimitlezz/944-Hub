@@ -4,6 +4,7 @@ category: engine
 subsystem: "Cooling System"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/cool-10.htm
 description: "The 944 Turbo cooling system operates bypassing the radiator until the coolant temperature reaches 83 °C when the thermostat opens. After the thermostat open…"
 ---

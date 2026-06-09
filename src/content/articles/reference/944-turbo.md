@@ -4,6 +4,7 @@ category: reference
 subsystem: "Diagrams"
 author: CG
 difficulty: beginner
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/fuel-15.htm
 description: "The following fuel system line diagram includes most of the vacuum line routing for 944 Turbos. If the vehicle is equipped with an active carbon tank for fue…"
 code: FUEL-15

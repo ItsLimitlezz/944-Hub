@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: advanced
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-08.htm
 code: LUBE-08
 ---

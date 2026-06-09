@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Fluids & Filters"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-06.htm
 description: "The factory service manual calls for the transmission fluid to be changed every 60,000 miles. There's always been a lot of discussion about what type of tran…"
 code: TRANS-06

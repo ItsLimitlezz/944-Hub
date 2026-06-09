@@ -4,6 +4,7 @@ category: fuel-ignition
 subsystem: "Ignition"
 author: CG
 difficulty: beginner
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/ign-01.htm
 description: "Removing and installing the distributor cap on a 944 can be extremely frustrating. Why? Probably because it seems like such a simple job and often isn't. Onc…"
 code: IGN-01

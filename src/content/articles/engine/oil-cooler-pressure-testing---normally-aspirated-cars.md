@@ -4,6 +4,7 @@ category: engine
 subsystem: "Lubrication & Oil"
 author: CG
 difficulty: beginner
+tools: [coolant-pressure-tester]
 sourceUrl: https://www.clarks-garage.com/shop-manual/lube-10.htm
 description: "The following contains factory instructions for pressure testing the oil cooler element used on normally aspirated 944s. If you have experienced a mixing of …"
 code: LUBE-10

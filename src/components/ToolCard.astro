@@ -1,0 +1,65 @@
+---
+import type { Tool } from '../data/tools';
+
+interface Props {
+  tool: Tool;
+  usedIn: { title: string; url: string }[];
+}
+const { tool, usedIn } = Astro.props;
+---
+
+<div id={tool.id} class="scroll-mt-24 rounded-xl border border-line bg-surface p-5">
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
+    <!-- OEM / part-number badge -->
+    {tool.oem && (
+      <span class="inline-flex shrink-0 items-center self-start rounded-md border border-guards/40 bg-guards/10 px-2.5 py-1 font-mono text-xs font-semibold tracking-wide text-guards-light">
+        {tool.oem}
+      </span>
+    )}
+
+    <div class="min-w-0 flex-1">
+      <h3 class="font-display text-lg font-bold text-ink">{tool.name}</h3>
+      <p class="mt-1 text-sm text-ink-soft">{tool.description}</p>
+      {tool.alternative && (
+        <p class="mt-2 text-sm text-ink-soft/80">
+          <span class="font-semibold text-ink-soft">Alternative:</span> {tool.alternative}
+        </p>
+      )}
+
+      <!-- Where to buy -->
+      {tool.buy.length > 0 && (
+        <div class="mt-3 flex flex-wrap items-center gap-2">
+          <span class="font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/50">Where to buy</span>
+          {tool.buy.map((b) => (
+            <a
+              href={b.url}
+              target="_blank"
+              rel="noopener nofollow"
+              class="inline-flex items-center gap-1 rounded-md border border-line bg-paper px-2.5 py-1 text-xs font-semibold text-ink-soft transition hover:border-guards/50 hover:text-guards-light"
+            >
+              {b.label}
+              <svg class="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8" /></svg>
+            </a>
+          ))}
+        </div>
+      )}
+
+      <!-- Reverse links: which guides use this tool -->
+      {usedIn.length > 0 && (
+        <details class="group mt-3 border-t border-line/70 pt-3">
+          <summary class="flex cursor-pointer list-none items-center gap-1.5 text-xs font-semibold text-ink-soft hover:text-ink">
+            <svg class="h-3.5 w-3.5 transition group-open:rotate-90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6" /></svg>
+            Used in {usedIn.length} {usedIn.length === 1 ? 'guide' : 'guides'}
+          </summary>
+          <ul class="mt-2 flex flex-wrap gap-1.5">
+            {usedIn.map((a) => (
+              <li>
+                <a href={a.url} class="inline-block rounded-md bg-paper px-2 py-1 text-xs text-ink-soft transition hover:text-guards-light">{a.title}</a>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )}
+    </div>
+  </div>
+</div>

@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: []
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-14.htm
 code: BODY-14
 ---

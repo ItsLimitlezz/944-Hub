@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-08.htm
 code: SUSP-08
 ---

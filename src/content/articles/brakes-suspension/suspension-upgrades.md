@@ -4,6 +4,7 @@ category: brakes-suspension
 subsystem: "Suspension"
 author: CG
 difficulty: beginner
+tools: [spring-compressor, multimeter]
 sourceUrl: https://www.clarks-garage.com/shop-manual/susp-15.htm
 description: "The intent of this article is to provide a discussion regarding suspension dynamics in general and information regarding potential upgrades to the 944 suspen…"
 code: SUSP-15

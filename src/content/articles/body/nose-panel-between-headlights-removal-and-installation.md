@@ -4,6 +4,7 @@ category: body
 subsystem: "Body & Interior"
 author: CG
 difficulty: intermediate
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/body-09.htm
 description: "On 924s and 944s between the headlights that holds the Porsche crest is sometimes referred to as the nose panel and sometimes as the header panel. Regardless…"
 code: BODY-09

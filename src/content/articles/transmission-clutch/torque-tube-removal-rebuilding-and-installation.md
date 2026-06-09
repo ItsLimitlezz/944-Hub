@@ -4,6 +4,7 @@ category: transmission-clutch
 subsystem: "Transmission"
 author: CG
 difficulty: advanced
+tools: [multimeter, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/trans-05.htm
 description: "It may be necessary to remove the starter and slave cylinder in order to access all the bolts / fasteners for the torque tube and torque tube carrier."
 code: TRANS-05

@@ -4,6 +4,7 @@ category: engine
 subsystem: "Engine"
 author: CG
 difficulty: intermediate
+tools: [torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/eng-12.htm
 description: "First, I'd like to thank Ben Davis for providing the pictures for this procedure."
 code: ENG-12

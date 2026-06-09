@@ -4,6 +4,7 @@ category: maintenance
 subsystem: "Schedule"
 author: CG
 difficulty: beginner
+tools: [camshaft-holding-tool, timing-belt-locking-tool, harmonic-balancer-holding-tool, balance-shaft-locking-tool, dme-diagnostic-adapter, coolant-pressure-tester, multimeter, torque-wrench-large, torque-wrench-small]
 sourceUrl: https://www.clarks-garage.com/shop-manual/maint-01.htm
 description: "A modernized, scannable Porsche 944 / 968 maintenance schedule — a quick-reference table of the service intervals that matter, plus the full inspection checklist grouped by system."
 code: MAINT-01
