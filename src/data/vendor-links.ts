@@ -60,6 +60,12 @@ export const VENDOR_LINKS: Record<string, VendorLink[]> = {
   // A/C o-ring — two numbers, one product
   '99970725040': [ONLINE944('ac-oring')],
   '99970743441': [ONLINE944('ac-oring')],
+  // Upper strut mount protection cap — two numbers, one product
+  '99970335540': [ONLINE944('upper-strut-mount-protection-cap-87-to-95-944-951-968')],
+  '99970334640': [ONLINE944('upper-strut-mount-protection-cap-87-to-95-944-951-968')],
+  // Windshield washer tank stopper — two numbers, one product
+  '99906301540': [ONLINE944('windshield-washer-tank-stopper')],
+  '99970717140': [ONLINE944('windshield-washer-tank-stopper')],
 };
 
 export function getVendorLinks(pn: string): VendorLink[] {
