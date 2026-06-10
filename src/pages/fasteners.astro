@@ -159,7 +159,11 @@ function dims(spec?: string): { dia: number; len: number } {
   const sortSel = document.getElementById('fastener-sort') as HTMLSelectElement | null;
   const count = document.getElementById('fastener-count');
   const empty = document.getElementById('fastener-empty');
-  let type = 'all', size = 'all', term = '';
+  let type = 'all', size = 'all', term = '', termNoSpace = '';
+
+  // Space-insensitive haystack so part numbers match with or without spaces.
+  const noSpace = (s: string) => s.replace(/\s+/g, '');
+  rows.forEach((r) => (r.dataset.searchnospace = noSpace(r.dataset.search ?? '')));
 
   // Preserve the original (grouped-by-type) order for resetting.
   const baseOrder = new Map(rows.map((r, i) => [r, i]));
@@ -182,7 +186,7 @@ function dims(spec?: string): { dia: number; len: number } {
     for (const r of rows) {
       const ok = (type === 'all' || r.dataset.type === type) &&
                  (size === 'all' || r.dataset.size === size) &&
-                 (!term || (r.dataset.search ?? '').includes(term));
+                 (!term || (r.dataset.search ?? '').includes(term) || (r.dataset.searchnospace ?? '').includes(termNoSpace));
       r.classList.toggle('hidden', !ok);
       if (ok) shown++;
     }
@@ -203,7 +207,7 @@ function dims(spec?: string): { dia: number; len: number } {
   }
   wire('.type-chip', 'type', (v) => (type = v));
   wire('.size-chip', 'size', (v) => (size = v));
-  search?.addEventListener('input', () => { term = search.value.trim().toLowerCase(); apply(); });
+  search?.addEventListener('input', () => { term = search.value.trim().toLowerCase(); termNoSpace = noSpace(term); apply(); });
   sortSel?.addEventListener('change', sortRows);
 
   document.querySelectorAll<HTMLButtonElement>('.copy-pn').forEach((btn) =>

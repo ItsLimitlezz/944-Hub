@@ -100,13 +100,18 @@ const slugId = (catalogSlug: string, id: string) => withBase(`/catalog/${catalog
   let catalog = firstCat;
   let group = 'all';
   let term = '';
+  let termNoSpace = '';
+
+  // Space-insensitive haystack so part numbers match with or without spaces.
+  const noSpace = (s: string) => s.replace(/\s+/g, '');
+  cards.forEach((c) => (c.dataset.searchnospace = noSpace(c.dataset.search ?? '')));
 
   function apply() {
     let shown = 0;
     for (const card of cards) {
       const matchCat = !catalog || card.dataset.catalog === catalog;
       const matchGroup = group === 'all' || card.dataset.group === group;
-      const matchTerm = !term || (card.dataset.search ?? '').includes(term);
+      const matchTerm = !term || (card.dataset.search ?? '').includes(term) || (card.dataset.searchnospace ?? '').includes(termNoSpace);
       const visible = matchCat && matchGroup && matchTerm;
       card.classList.toggle('hidden', !visible);
       if (visible) shown++;
@@ -137,6 +142,7 @@ const slugId = (catalogSlug: string, id: string) => withBase(`/catalog/${catalog
   wire('.group-chip', 'group', (v) => (group = v));
   search?.addEventListener('input', () => {
     term = search.value.trim().toLowerCase();
+    termNoSpace = noSpace(term);
     apply();
   });
   apply();

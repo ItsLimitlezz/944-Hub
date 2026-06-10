@@ -204,6 +204,11 @@ const CATALOGS = [
   let model = 'all';
   let system = 'all';
   let term = '';
+  let termNoSpace = '';
+
+  // Space-insensitive haystack so part numbers match with or without spaces.
+  const noSpace = (s: string) => s.replace(/\s+/g, '');
+  cards.forEach((c) => (c.dataset.searchnospace = noSpace(c.dataset.search ?? '')));
 
   function apply() {
     let shown = 0;
@@ -211,7 +216,7 @@ const CATALOGS = [
       const fitment = (card.dataset.fitment ?? '').split(' ');
       const matchModel = model === 'all' || fitment.includes('all') || fitment.includes(model);
       const matchSystem = system === 'all' || card.dataset.system === system;
-      const matchTerm = !term || (card.dataset.search ?? '').includes(term);
+      const matchTerm = !term || (card.dataset.search ?? '').includes(term) || (card.dataset.searchnospace ?? '').includes(termNoSpace);
       const visible = matchModel && matchSystem && matchTerm;
       card.classList.toggle('hidden', !visible);
       if (visible) shown++;
@@ -247,6 +252,7 @@ const CATALOGS = [
   wireChips('.system-chip', 'system', (v) => (system = v));
   search?.addEventListener('input', () => {
     term = search.value.trim().toLowerCase();
+    termNoSpace = noSpace(term);
     apply();
   });
 
