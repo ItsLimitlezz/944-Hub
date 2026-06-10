@@ -43,6 +43,12 @@ export default defineConfig({
     prefetchAll: true,
     defaultStrategy: 'hover',
   },
+  experimental: {
+    // Use the Speculation Rules API where available (Chrome/Edge): hovered
+    // links are fully *prerendered* in the background, not just fetched —
+    // clicking swaps in an already-rendered page. Others fall back to prefetch.
+    clientPrerender: true,
+  },
   // All article images are static files under /public, so no optimization
   // service (sharp) is required.
   image: { service: passthroughImageService() },
