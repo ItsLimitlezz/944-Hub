@@ -37,6 +37,12 @@ export default defineConfig({
   site: SITE,
   base: BASE,
   trailingSlash: 'ignore',
+  // Preload pages on hover (McMaster-Carr style) so clicks feel instant — the
+  // HTML is already fetched by the time you click.
+  prefetch: {
+    prefetchAll: true,
+    defaultStrategy: 'hover',
+  },
   // All article images are static files under /public, so no optimization
   // service (sharp) is required.
   image: { service: passthroughImageService() },

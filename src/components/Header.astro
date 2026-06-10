@@ -56,7 +56,7 @@ const PRIMARY_LINKS = [
         <div class="invisible absolute left-0 top-full w-72 translate-y-1 pt-2 opacity-0 transition group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
           <div class="overflow-hidden rounded-xl border border-line bg-surface p-2 shadow-xl">
             {MANUAL_CATEGORIES.map((c) => (
-              <a href={withBase(`/manual/${c.id}`)} class="flex items-start gap-3 rounded-lg p-2.5 hover:bg-paper">
+              <a href={withBase(`/manual/${c.id}`)} aria-label={c.name} class="flex items-start gap-3 rounded-lg p-2.5 hover:bg-paper">
                 <span class="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-md bg-guards/10 text-guards">
                   <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d={c.icon} /></svg>
                 </span>
@@ -69,7 +69,7 @@ const PRIMARY_LINKS = [
             <div class="my-1.5 border-t border-line"></div>
             <div class="flex flex-wrap gap-1 px-1.5 pb-1">
               {EXTRA_CATEGORIES.map((c) => (
-                <a href={withBase(`/manual/${c.id}`)} class="rounded-md px-2 py-1 text-xs font-semibold text-ink-soft hover:bg-paper hover:text-guards-dark">{c.name}</a>
+                <a href={withBase(`/manual/${c.id}`)} aria-label={c.name} class="rounded-md px-2 py-1 text-xs font-semibold text-ink-soft hover:bg-paper hover:text-guards-dark">{c.name}</a>
               ))}
             </div>
           </div>
