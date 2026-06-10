@@ -121,7 +121,7 @@ function dims(spec?: string): { dia: number; len: number } {
       </thead>
       <tbody id="fastener-rows" class="divide-y divide-line/70">
         {fasteners.map((f) => (
-          <tr class="fastener-row align-top hover:bg-surface/60" data-type={f.type} data-size={f.sizeKey} data-dia={dims(f.spec).dia} data-len={dims(f.spec).len} data-search={[f.desc, f.pn, f.standard, f.spec].filter(Boolean).join(' ').toLowerCase()}>
+          <tr id={`pn-${f.pn.replace(/\s+/g, '')}`} class="fastener-row scroll-mt-24 align-top hover:bg-surface/60" data-type={f.type} data-size={f.sizeKey} data-dia={dims(f.spec).dia} data-len={dims(f.spec).len} data-search={[f.desc, f.pn, f.standard, f.spec].filter(Boolean).join(' ').toLowerCase()}>
             <td class="px-3 py-2 text-ink-soft">{f.type}</td>
             <td class="whitespace-nowrap px-3 py-2 font-mono text-xs font-semibold text-ink">{f.spec ?? '—'}</td>
             <td class="px-3 py-2 text-ink">
@@ -216,4 +216,16 @@ function dims(spec?: string): { dia: number; len: number } {
     }),
   );
   apply();
+
+  // Deep link from the catalog: /fasteners#pn-<partnumber> scrolls to and
+  // highlights that exact fastener row.
+  if (location.hash.startsWith('#pn-')) {
+    const row = document.getElementById(location.hash.slice(1));
+    if (row) {
+      row.scrollIntoView({ block: 'center' });
+      row.style.transition = 'background-color 0.5s';
+      row.style.backgroundColor = 'rgba(14, 155, 145, 0.22)';
+      setTimeout(() => { row.style.backgroundColor = ''; }, 2600);
+    }
+  }
 </script>

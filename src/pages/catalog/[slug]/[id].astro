@@ -5,6 +5,7 @@ import { CATALOGS, getCatalog, normPN } from '../../../lib/catalog';
 import { PARTS } from '../../../data/parts';
 import { getTorqueSectionsForIllus } from '../../../lib/torque';
 import { getVendorLinks, VENDOR_STYLE } from '../../../data/vendor-links';
+import { classifyFastener } from '../../../lib/fasteners';
 import { withBase } from '../../../lib/url';
 
 export const getStaticPaths = (() =>
@@ -98,7 +99,15 @@ const torqueSections = getTorqueSectionsForIllus(ill.id);
                   </td>
                   <td class="px-3 py-2 text-ink">
                     {p.desc}
-                    {p.spec && <span class="ml-1.5 rounded bg-paper px-1.5 py-0.5 font-mono text-[0.62rem] font-semibold text-ink-soft/80">{p.spec}</span>}
+                    {p.spec && (classifyFastener(p.desc) ? (
+                      <a
+                        href={withBase(`/fasteners#pn-${normPN(p.pn)}`)}
+                        class="ml-1.5 inline-block rounded border border-line bg-paper px-1.5 py-0.5 font-mono text-[0.62rem] font-semibold text-ink-soft/80 underline decoration-dotted underline-offset-2 transition hover:border-guards/50 hover:text-guards-light"
+                        title="Look up this fastener's ISO/DIN standard"
+                      >{p.spec}</a>
+                    ) : (
+                      <span class="ml-1.5 rounded bg-paper px-1.5 py-0.5 font-mono text-[0.62rem] font-semibold text-ink-soft/80">{p.spec}</span>
+                    ))}
                     {curated && (
                       <span class="mt-1 flex flex-wrap gap-1.5">
                         {curated.buy.map((b) => (
