@@ -29,7 +29,9 @@ HEADER = re.compile(r'\bPos\b.*Part Number.*Description')
 # "171 837 211 A"), or "N ddd ddd d(d)" Norm numbers. The trailing letter is
 # only consumed when it stands alone (not the first letter of the description).
 PN = r'(N\s*\d{3}\s+\d{3}\s+\d{1,2}|\d{3}\s\d{3}\s\d{3}(?:\s\d{2})?(?:\s[A-Z]{1,2}(?![A-Za-z]))?)'
-PN_ROW = re.compile(rf'^\s*(\d{{1,3}})?\s+{PN}\s{{2,}}(.+)$')
+# The Pos (illustration callout) column may be a number, number+letter ("35A"),
+# a dash ("-" = not illustrated), or blank.
+PN_ROW = re.compile(rf'^\s*(\d{{1,3}}[A-Z]?|-)?\s+{PN}\s{{2,}}(.+)$')
 # A metric thread spec on the continuation line, e.g. "M 8 X 30", "M 12 X 1,5".
 # Thread diameters are 1–2 digits (M3–M30); avoids option codes like "M573".
 SPEC = re.compile(r'^M\s*\d{1,2}(?:\s*[xX]\s*[\d.,]+)?$')
