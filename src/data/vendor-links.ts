@@ -50,6 +50,16 @@ export const VENDOR_LINKS: Record<string, VendorLink[]> = {
   '99918200336': [ONLINE944('lug-nut-all-924s-944-951-968-928-911')],
   '99953101402': [ONLINE944('cruise-control-servo-bushing-sleeve')],
   '99959197540': [ONLINE944('fuel-line-clamp-insert-944-951-968-85-2-to-95')],
+  '99916603402': [ONLINE944('sl-lock-for-clutch-pedal-clevis')],
+  '99970703640': [ONLINE944('throttle-body-o-ring-large-944s2-968')],
+  // Plastic nut — two numbers, one product
+  '99904900740': [ONLINE944('plastic-nut')],
+  '99904900840': [ONLINE944('plastic-nut')],
+  '99920121300': [ONLINE944('bearing-for-clutch-fork-shaft')],
+  '99963103190': [ONLINE944('light-bulb-for-climate-control-switch')],
+  // A/C o-ring — two numbers, one product
+  '99970725040': [ONLINE944('ac-oring')],
+  '99970743441': [ONLINE944('ac-oring')],
 };
 
 export function getVendorLinks(pn: string): VendorLink[] {
