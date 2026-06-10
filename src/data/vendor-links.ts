@@ -66,6 +66,7 @@ export const VENDOR_LINKS: Record<string, VendorLink[]> = {
   // Windshield washer tank stopper — two numbers, one product
   '99906301540': [ONLINE944('windshield-washer-tank-stopper')],
   '99970717140': [ONLINE944('windshield-washer-tank-stopper')],
+  '99916800440': [ONLINE944('door-handle-linkage-ball-socket')],
 };
 
 export function getVendorLinks(pn: string): VendorLink[] {
