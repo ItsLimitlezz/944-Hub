@@ -25,7 +25,10 @@ ILLUS = re.compile(r'Illustration:\s*([0-9]{3}-[0-9]{2})')
 HEADER = re.compile(r'\bPos\b.*Part Number.*Description')
 # Part numbers: the 9(+2)-digit assembly numbers, OR "N ddd ddd d(d)" Norm
 # (DIN/ISO standard) numbers used for fasteners.
-PN = r'(N\s*\d{3}\s+\d{3}\s+\d{1,2}|\d{3}\s\d{3}\s\d{3}(?:\s\d{2})?)'
+# 9(+2)-digit numbers (with an optional VW-style trailing letter, e.g.
+# "171 837 211 A"), or "N ddd ddd d(d)" Norm numbers. The trailing letter is
+# only consumed when it stands alone (not the first letter of the description).
+PN = r'(N\s*\d{3}\s+\d{3}\s+\d{1,2}|\d{3}\s\d{3}\s\d{3}(?:\s\d{2})?(?:\s[A-Z]{1,2}(?![A-Za-z]))?)'
 PN_ROW = re.compile(rf'^\s*(\d{{1,3}})?\s+{PN}\s{{2,}}(.+)$')
 # A metric thread spec on the continuation line, e.g. "M 8 X 30", "M 12 X 1,5".
 # Thread diameters are 1–2 digits (M3–M30); avoids option codes like "M573".

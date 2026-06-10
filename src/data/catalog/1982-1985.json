@@ -148,6 +148,11 @@
      "desc": "Protection cap"
     },
     {
+     "pos": "10",
+     "pn": "477 091 151 A",
+     "desc": "Protective rubber"
+    },
+    {
      "pos": "11",
      "pn": "928 801 267 02",
      "desc": "Rubber plate"
@@ -333,6 +338,11 @@
      "desc": "Fader"
     },
     {
+     "pos": "9",
+     "pn": "477 035 463 A",
+     "desc": "Rosette"
+    },
+    {
      "pos": "10",
      "pn": "944 645 101 00",
      "desc": "Antenna"
@@ -438,6 +448,21 @@
      "desc": "Gasket"
     },
     {
+     "pos": "10",
+     "pn": "477 035 465 A",
+     "desc": "Fader"
+    },
+    {
+     "pos": "11",
+     "pn": "477 035 463 A",
+     "desc": "Rosette"
+    },
+    {
+     "pos": "12",
+     "pn": "477 035 440 C",
+     "desc": "Wiring harness"
+    },
+    {
      "pos": "13",
      "pn": "321 919 505",
      "desc": "Relay"
@@ -516,7 +541,17 @@
     },
     {
      "pos": "1",
+     "pn": "944 100 902 X",
+     "desc": "Short engine"
+    },
+    {
+     "pos": "1",
      "pn": "944 100 902 01",
+     "desc": "Short engine"
+    },
+    {
+     "pos": "1",
+     "pn": "944 100 902 AX",
      "desc": "Short engine"
     },
     {
@@ -700,6 +735,11 @@
      "pos": "20",
      "pn": "999 701 006 40",
      "desc": "O-ring"
+    },
+    {
+     "pos": "21",
+     "pn": "047 919 501 A",
+     "desc": "Temperature sensor"
     },
     {
      "pos": "21",
@@ -1240,6 +1280,11 @@
      "pn": "900 067 018 03",
      "desc": "Pan-head screw",
      "spec": "M8×25"
+    },
+    {
+     "pos": "28",
+     "pn": "058 131 851 A",
+     "desc": "Thermo valve"
     },
     {
      "pos": "29",
@@ -2426,6 +2471,11 @@
      "spec": "M6×38"
     },
     {
+     "pos": "9",
+     "pn": "056 129 669 B",
+     "desc": "Grommet"
+    },
+    {
      "pos": "10",
      "pn": "052 109 135",
      "desc": "Spacer sleeve"
@@ -2694,6 +2744,11 @@
     {
      "pos": "9",
      "pn": "944 606 103 01",
+     "desc": "Auxiliary air regulator"
+    },
+    {
+     "pos": "9",
+     "pn": "944 606 103 AX",
      "desc": "Auxiliary air regulator"
     },
     {
@@ -3037,6 +3092,11 @@
    "image": "/catalog/1982-1985/201-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 201 021 F",
+     "desc": "Fuel tank"
+    },
+    {
      "pos": "2",
      "pn": "944 201 159 01",
      "desc": "Breather hose"
@@ -3045,6 +3105,11 @@
      "pos": "3",
      "pn": "477 971 939",
      "desc": "Cable terminal"
+    },
+    {
+     "pos": "4",
+     "pn": "321 201 890 A",
+     "desc": "End piece"
     },
     {
      "pos": "5",
@@ -3082,6 +3147,11 @@
      "desc": "Hose"
     },
     {
+     "pos": "10",
+     "pn": "111 501 159 B",
+     "desc": "Hose clamp"
+    },
+    {
      "pos": "11",
      "pn": "999 513 003 40",
      "desc": "Tie-wrap"
@@ -3107,6 +3177,21 @@
      "desc": "Circlip"
     },
     {
+     "pos": "15",
+     "pn": "477 201 283 A",
+     "desc": "Connection piece"
+    },
+    {
+     "pos": "16",
+     "pn": "477 201 393 A",
+     "desc": "Hose"
+    },
+    {
+     "pos": "16",
+     "pn": "477 201 393 C",
+     "desc": "Hose"
+    },
+    {
      "pos": "17",
      "pn": "021 119 569",
      "desc": "Rubber sleeve"
@@ -3120,6 +3205,16 @@
      "pos": "19",
      "pn": "928 201 083 02",
      "desc": "Shut-off valve"
+    },
+    {
+     "pos": "20",
+     "pn": "810 201 186 A",
+     "desc": "Bleeder valve"
+    },
+    {
+     "pos": "21",
+     "pn": "111 971 911 A",
+     "desc": "Grommet"
     },
     {
      "pos": "25",
@@ -3154,6 +3249,11 @@
     {
      "pos": "31",
      "pn": "477 201 594",
+     "desc": "Lock cylinder"
+    },
+    {
+     "pos": "31",
+     "pn": "477 201 594 A",
      "desc": "Lock cylinder"
     },
     {
@@ -3204,13 +3304,33 @@
      "desc": "Desk pad"
     },
     {
+     "pos": "41",
+     "pn": "477 201 295 B",
+     "desc": "Intermediate layer"
+    },
+    {
      "pos": "43",
      "pn": "477 863 160",
      "desc": "Gasket"
     },
     {
+     "pos": "43",
+     "pn": "477 863 160 A",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "44",
+     "pn": "477 863 162 A",
+     "desc": "Sound absorber"
+    },
+    {
      "pos": "45",
      "pn": "477 201 302",
+     "desc": "Restraining strap"
+    },
+    {
+     "pos": "46",
+     "pn": "477 201 311 B",
      "desc": "Restraining strap"
     },
     {
@@ -3304,14 +3424,29 @@
      "desc": "Hexagon-head tapping screw"
     },
     {
+     "pos": "10",
+     "pn": "021 119 569 A",
+     "desc": "Rubber sleeve"
+    },
+    {
      "pos": "11",
      "pn": "999 512 265 02",
      "desc": "Hose clamp"
     },
     {
+     "pos": "12",
+     "pn": "477 201 767 B",
+     "desc": "T-piece"
+    },
+    {
      "pos": "13",
      "pn": "928 110 429 08",
      "desc": "Vacuum valve"
+    },
+    {
+     "pos": "14",
+     "pn": "477 201 743 D",
+     "desc": "Pipeline"
     },
     {
      "pos": "15",
@@ -3362,6 +3497,11 @@
      "pos": "24",
      "pn": "928 574 717 02",
      "desc": "Moulded hose"
+    },
+    {
+     "pos": "25",
+     "pn": "058 131 851 A",
+     "desc": "Thermo valve"
     },
     {
      "pos": "26",
@@ -3482,6 +3622,16 @@
      "desc": "Support"
     },
     {
+     "pos": "17",
+     "pn": "477 209 178 A",
+     "desc": "Fuel line"
+    },
+    {
+     "pos": "17",
+     "pn": "477 209 178 B",
+     "desc": "Fuel line"
+    },
+    {
      "pos": "18",
      "pn": "477 209 169",
      "desc": "Connecting piece"
@@ -3502,9 +3652,19 @@
      "desc": "Connecting piece"
     },
     {
+     "pos": "22",
+     "pn": "477 209 176 A",
+     "desc": "Fuel line"
+    },
+    {
      "pos": "23",
      "pn": "944 356 591 00",
      "desc": "Support"
+    },
+    {
+     "pos": "24",
+     "pn": "477 209 071 C",
+     "desc": "Fuel hose"
     },
     {
      "pos": "25",
@@ -3635,6 +3795,11 @@
      "desc": "Lock nut"
     },
     {
+     "pos": "14",
+     "pn": "477 253 140 A",
+     "desc": "Bearing"
+    },
+    {
      "pos": "15",
      "pn": "931 111 061 02",
      "desc": "Hook"
@@ -3756,6 +3921,11 @@
      "desc": "Lock nut"
     },
     {
+     "pos": "14",
+     "pn": "477 253 140 A",
+     "desc": "Bearing"
+    },
+    {
      "pos": "15",
      "pn": "931 111 061 02",
      "desc": "Hook"
@@ -3817,6 +3987,11 @@
      "pos": "25",
      "pn": "944 111 177 02",
      "desc": "Support"
+    },
+    {
+     "pos": "26",
+     "pn": "035 133 335 B",
+     "desc": "Cap"
     },
     {
      "pos": "27",
@@ -3914,6 +4089,11 @@
      "desc": "Lock nut"
     },
     {
+     "pos": "8",
+     "pn": "477 253 140 A",
+     "desc": "Bearing"
+    },
+    {
      "pos": "9",
      "pn": "931 111 061 02",
      "desc": "Hook"
@@ -3960,6 +4140,26 @@
      "pos": "15",
      "pn": "928 111 259 02",
      "desc": "Rubber mounting"
+    },
+    {
+     "pos": "16",
+     "pn": "477 253 191 C",
+     "desc": "Ornamental exhaust pipe"
+    },
+    {
+     "pos": "16",
+     "pn": "477 253 191 F",
+     "desc": "Ornamental exhaust pipe"
+    },
+    {
+     "pos": "16",
+     "pn": "477 253 192 G",
+     "desc": "Ornamental exhaust pipe"
+    },
+    {
+     "pos": "16",
+     "pn": "477 253 192 D",
+     "desc": "Ornamental exhaust pipe"
     }
    ]
   },
@@ -3999,6 +4199,11 @@
      "pos": "3",
      "pn": "931 421 240 00",
      "desc": "Clamping screw"
+    },
+    {
+     "pos": "4",
+     "pn": "477 521 277 C",
+     "desc": "Cap"
     },
     {
      "pos": "5",
@@ -4204,6 +4409,22 @@
    "image": "/catalog/1982-1985/302-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "016 301 103 AF",
+     "desc": "Transmission case"
+    },
+    {
+     "pos": "2",
+     "pn": "111 301 127 E",
+     "desc": "Screw plug",
+     "spec": "M24×1.5"
+    },
+    {
+     "pos": "3",
+     "pn": "016 301 211 F",
+     "desc": "Transmission cover"
+    },
+    {
      "pos": "4",
      "pn": "014 301 473",
      "desc": "Sleeve"
@@ -4215,9 +4436,29 @@
      "spec": "M8×32"
     },
     {
+     "pos": "6",
+     "pn": "016 301 231 F",
+     "desc": "Lid"
+    },
+    {
      "pos": "7",
      "pn": "016 301 299",
      "desc": "Dowel sleeve"
+    },
+    {
+     "pos": "7",
+     "pn": "016 301 299 A",
+     "desc": "Dowel sleeve"
+    },
+    {
+     "pos": "8",
+     "pn": "016 301 235 C",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "9",
+     "pn": "084 301 143 A",
+     "desc": "Magnet"
     },
     {
      "pos": "10",
@@ -4234,6 +4475,16 @@
      "pos": "11",
      "pn": "900 031 105 01",
      "desc": "Washer"
+    },
+    {
+     "pos": "12",
+     "pn": "088 301 467 B",
+     "desc": "Lid"
+    },
+    {
+     "pos": "12",
+     "pn": "088 301 467 D",
+     "desc": "Lid"
     },
     {
      "pos": "13",
@@ -4269,6 +4520,16 @@
      "pos": "19",
      "pn": "088 311 123",
      "desc": "Needle sleeve"
+    },
+    {
+     "pos": "20",
+     "pn": "016 301 455 A",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "21",
+     "pn": "016 301 453 B",
+     "desc": "Lid"
     },
     {
      "pos": "22",
@@ -4365,6 +4626,16 @@
      "spec": "M8×35"
     },
     {
+     "pos": "43",
+     "pn": "088 409 131 C",
+     "desc": "Lid"
+    },
+    {
+     "pos": "44",
+     "pn": "113 301 185 A",
+     "desc": "O-ring"
+    },
+    {
      "pos": "45",
      "pn": "N 013 291 1",
      "desc": "Tensioning sleeve"
@@ -4395,8 +4666,18 @@
    "image": "/catalog/1982-1985/303-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "016 311 105 S",
+     "desc": "Drive shaft"
+    },
+    {
      "pos": "3",
      "pn": "016 311 115",
+     "desc": "Needle-roller bearing"
+    },
+    {
+     "pos": "4",
+     "pn": "016 311 116 A",
      "desc": "Needle-roller bearing"
     },
     {
@@ -4410,14 +4691,44 @@
      "desc": "Circlip"
     },
     {
+     "pos": "6",
+     "pn": "088 311 155 A",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "7",
+     "pn": "016 311 351 B",
+     "desc": "Shifting gear"
+    },
+    {
+     "pos": "8",
+     "pn": "088 311 295 B",
+     "desc": "Synchroniser ring"
+    },
+    {
+     "pos": "9",
+     "pn": "088 311 301 B",
+     "desc": "Synchronising hub"
+    },
+    {
      "pos": "10",
      "pn": "088 311 245",
      "desc": "Detent"
     },
     {
+     "pos": "11",
+     "pn": "088 311 311 D",
+     "desc": "Spring"
+    },
+    {
      "pos": "12",
      "pn": "005 311 285",
      "desc": "Shifting gear"
+    },
+    {
+     "pos": "13",
+     "pn": "016 311 213 H",
+     "desc": "Needle-roller bearing"
     },
     {
      "pos": "14",
@@ -4430,6 +4741,36 @@
      "desc": "Shim"
     },
     {
+     "pos": "16",
+     "pn": "016 311 220 E",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "17",
+     "pn": "016 311 149 F",
+     "desc": "Reversing gear"
+    },
+    {
+     "pos": "17",
+     "pn": "016 311 149 H",
+     "desc": "Gear wheel"
+    },
+    {
+     "pos": "18",
+     "pn": "016 311 131 D",
+     "desc": "Gear wheel"
+    },
+    {
+     "pos": "18",
+     "pn": "016 311 131 E",
+     "desc": "Gear wheel"
+    },
+    {
+     "pos": "19",
+     "pn": "016 311 229 A",
+     "desc": "Needle-roller bearing"
+    },
+    {
      "pos": "20",
      "pn": "016 311 271",
      "desc": "Shifting gear"
@@ -4437,6 +4778,11 @@
     {
      "pos": "21",
      "pn": "016 311 363",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "21",
+     "pn": "016 311 363 AA",
      "desc": "Circlip"
     },
     {
@@ -4455,6 +4801,11 @@
      "desc": "Circlip"
     },
     {
+     "pos": "24",
+     "pn": "016 311 239 E",
+     "desc": "Synchronising hub"
+    },
+    {
      "pos": "25",
      "pn": "088 311 313",
      "desc": "Detent"
@@ -4465,14 +4816,29 @@
      "desc": "Circlip"
     },
     {
+     "pos": "27",
+     "pn": "016 311 207 A",
+     "desc": "Needle-roller bearing"
+    },
+    {
      "pos": "28",
      "pn": "016 311 257",
      "desc": "Shifting gear"
     },
     {
+     "pos": "29",
+     "pn": "016 311 375 B",
+     "desc": "Taper roller bearing"
+    },
+    {
      "pos": "30",
      "pn": "016 311 391",
      "desc": "Adjusting shim"
+    },
+    {
+     "pos": "31",
+     "pn": "016 311 159 C",
+     "desc": "Gear wheel"
     },
     {
      "pos": "32",
@@ -4496,14 +4862,34 @@
      "desc": "Circlip"
     },
     {
+     "pos": "37",
+     "pn": "016 311 353 B",
+     "desc": "Shifting gear"
+    },
+    {
      "pos": "38",
      "pn": "016 311 246",
      "desc": "Detent"
     },
     {
+     "pos": "39",
+     "pn": "014 311 311 C",
+     "desc": "Spring"
+    },
+    {
      "pos": "40",
      "pn": "N 900 607 01",
      "desc": "Circlip"
+    },
+    {
+     "pos": "41",
+     "pn": "014 311 295 E",
+     "desc": "Synchroniser ring"
+    },
+    {
+     "pos": "42",
+     "pn": "016 311 192 A",
+     "desc": "Clutch hub"
     },
     {
      "pos": "43",
@@ -4521,6 +4907,27 @@
      "desc": "Circlip"
     },
     {
+     "pos": "46",
+     "pn": "016 311 519 B",
+     "desc": "Reverse idler gear shaft"
+    },
+    {
+     "pos": "47",
+     "pn": "016 311 529 D",
+     "desc": "Reverse idler gear"
+    },
+    {
+     "pos": "48",
+     "pn": "016 311 853 B",
+     "desc": "Retainer plate"
+    },
+    {
+     "pos": "49",
+     "pn": "088 301 291 A",
+     "desc": "Shouldered bolt",
+     "spec": "M8×16"
+    },
+    {
      "pos": "51",
      "pn": "088 311 533",
      "desc": "Bush"
@@ -4529,6 +4936,31 @@
      "pos": "52",
      "pn": "016 311 247",
      "desc": "Synchroniser ring"
+    },
+    {
+     "pos": "53",
+     "pn": "016 311 363 H",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "53",
+     "pn": "016 311 363 AJ",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "54",
+     "pn": "016 311 839 C",
+     "desc": "Synchroniser ring"
+    },
+    {
+     "pos": "55",
+     "pn": "016 311 859 C",
+     "desc": "Compression spring"
+    },
+    {
+     "pos": "56",
+     "pn": "016 311 861 C",
+     "desc": "Spring clip"
     }
    ]
   },
@@ -4541,6 +4973,21 @@
    "image": "/catalog/1982-1985/304-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "016 311 475 G",
+     "desc": "Shift rod"
+    },
+    {
+     "pos": "2",
+     "pn": "016 311 549 A",
+     "desc": "Shift fork"
+    },
+    {
+     "pos": "3",
+     "pn": "016 311 561 A",
+     "desc": "Shift fork"
+    },
+    {
      "pos": "4",
      "pn": "N 900 073 01",
      "desc": "Tensioning sleeve"
@@ -4549,6 +4996,32 @@
      "pos": "5",
      "pn": "016 311 567",
      "desc": "Gear shift rod"
+    },
+    {
+     "pos": "6",
+     "pn": "016 311 573 B",
+     "desc": "Reverse lever"
+    },
+    {
+     "pos": "7",
+     "pn": "016 311 575 C",
+     "desc": "Gear shift rod"
+    },
+    {
+     "pos": "8",
+     "pn": "084 311 589 B",
+     "desc": "Pan-head screw",
+     "spec": "M10×32"
+    },
+    {
+     "pos": "10",
+     "pn": "084 311 621 D",
+     "desc": "Bush"
+    },
+    {
+     "pos": "11",
+     "pn": "014 311 641 A",
+     "desc": "Compression spring"
     },
     {
      "pos": "12",
@@ -4586,6 +5059,16 @@
      "desc": "Tensioning sleeve"
     },
     {
+     "pos": "20",
+     "pn": "016 311 735 A",
+     "desc": "Compression spring"
+    },
+    {
+     "pos": "21",
+     "pn": "016 311 717 C",
+     "desc": "Bush"
+    },
+    {
      "pos": "22",
      "pn": "005 311 599",
      "desc": "Sealing ring"
@@ -4601,9 +5084,40 @@
    "image": "/catalog/1982-1985/305-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "088 409 121 B",
+     "desc": "Differential housing"
+    },
+    {
      "pos": "2",
      "pn": "016 409 123",
      "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "3",
+     "pn": "113 517 185 C",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "3",
+     "pn": "113 517 185 B",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "4",
+     "pn": "088 409 135 A",
+     "desc": "Hexagon-head bolt",
+     "spec": "M10×18"
+    },
+    {
+     "pos": "5",
+     "pn": "016 409 143 BG",
+     "desc": "Ring gear and pinion shaft"
+    },
+    {
+     "pos": "5",
+     "pn": "016 409 143 BF",
+     "desc": "Ring gear and pinion shaft"
     },
     {
      "pos": "6",
@@ -4621,6 +5135,41 @@
      "desc": "Thrust washer"
     },
     {
+     "pos": "9",
+     "pn": "113 517 201 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 202 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 203 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 204 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 205 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 206 A",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "113 517 211 A",
+     "desc": "Adjusting shim"
+    },
+    {
      "pos": "10",
      "pn": "011 519 215",
      "desc": "Thrust washer"
@@ -4629,6 +5178,21 @@
      "pos": "10",
      "pn": "088 409 249",
      "desc": "Thrust washer"
+    },
+    {
+     "pos": "10",
+     "pn": "088 409 249 A",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "10",
+     "pn": "088 409 249 B",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "11",
+     "pn": "088 409 355 C",
+     "desc": "Flanged shaft"
     },
     {
      "pos": "12",
@@ -4674,6 +5238,16 @@
      "pos": "14",
      "pn": "018 409 393",
      "desc": "Shim"
+    },
+    {
+     "pos": "15",
+     "pn": "016 409 399 B",
+     "desc": "Radial shaft seal"
+    },
+    {
+     "pos": "16",
+     "pn": "016 598 081 A",
+     "desc": "Repair kit"
     },
     {
      "pos": "16",
@@ -4754,6 +5328,11 @@
      "pos": "11",
      "pn": "999 119 011 00",
      "desc": "Pan-head screw"
+    },
+    {
+     "pos": "12",
+     "pn": "088 409 355 C",
+     "desc": "Flanged shaft"
     }
    ]
   },
@@ -4774,6 +5353,16 @@
      "pos": "1",
      "pn": "944 375 045 05",
      "desc": "Transmission mounting"
+    },
+    {
+     "pos": "2",
+     "pn": "477 399 167 E",
+     "desc": "Suspender bracket"
+    },
+    {
+     "pos": "3",
+     "pn": "477 399 168 E",
+     "desc": "Suspender bracket"
     },
     {
      "pos": "4",
@@ -4870,6 +5459,16 @@
     {
      "pos": "7",
      "pn": "477 521 177",
+     "desc": "Cap"
+    },
+    {
+     "pos": "8",
+     "pn": "477 521 277 C",
+     "desc": "Cap"
+    },
+    {
+     "pos": "9",
+     "pn": "477 521 277 A",
      "desc": "Cap"
     },
     {
@@ -5024,6 +5623,16 @@
      "desc": "Protective plate"
     },
     {
+     "pos": "28",
+     "pn": "003 323 699 A",
+     "desc": "Hexagon-head bolt"
+    },
+    {
+     "pos": "28",
+     "pn": "003 323 699 B",
+     "desc": "Hexagon-head bolt"
+    },
+    {
      "pos": "29",
      "pn": "999 095 019 00",
      "desc": "Clamping pin"
@@ -5061,6 +5670,16 @@
    "image": "/catalog/1982-1985/308-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "087 409 051 N",
+     "desc": "Final-drive housing"
+    },
+    {
+     "pos": "1",
+     "pn": "087 409 051 H",
+     "desc": "Final-drive housing"
+    },
+    {
      "pos": "2",
      "pn": "010 409 847",
      "desc": "Breather pipe"
@@ -5068,13 +5687,38 @@
     {
      "pos": "3",
      "pn": "087 409 841",
-     "desc": "Lid",
+     "desc": "Lid"
+    },
+    {
+     "pos": "4",
+     "pn": "111 301 127 E",
+     "desc": "Screw plug",
      "spec": "M24×1.5"
+    },
+    {
+     "pos": "5",
+     "pn": "010 409 549 B",
+     "desc": "Sealing ring"
     },
     {
      "pos": "6",
      "pn": "087 409 549",
      "desc": "Round seal"
+    },
+    {
+     "pos": "7",
+     "pn": "087 409 623 A",
+     "desc": "Lid"
+    },
+    {
+     "pos": "8",
+     "pn": "089 409 637 A",
+     "desc": "O-ring"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 529 B",
+     "desc": "Radial shaft seal"
     },
     {
      "pos": "10",
@@ -5086,6 +5730,11 @@
      "pn": "900 075 111 08",
      "desc": "Hexagon-head bolt",
      "spec": "M10×30"
+    },
+    {
+     "pos": "12",
+     "pn": "087 409 133 C",
+     "desc": "Radial shaft seal"
     },
     {
      "pos": "13",
@@ -5101,6 +5750,11 @@
      "pos": "15",
      "pn": "087 409 173",
      "desc": "Adjusting ring"
+    },
+    {
+     "pos": "16",
+     "pn": "016 409 399 B",
+     "desc": "Radial shaft seal"
     },
     {
      "pos": "17",
@@ -5144,9 +5798,30 @@
    "image": "/catalog/1982-1985/309-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "010 321 101 G",
+     "desc": "Transmission case"
+    },
+    {
      "pos": "2",
      "pn": "N 900 044 02",
      "desc": "Stud"
+    },
+    {
+     "pos": "3",
+     "pn": "003 507 133 A",
+     "desc": "Screw plug",
+     "spec": "M10×1"
+    },
+    {
+     "pos": "4",
+     "pn": "010 321 117 B",
+     "desc": "Lever"
+    },
+    {
+     "pos": "5",
+     "pn": "010 321 121 A",
+     "desc": "Torsion spring"
     },
     {
      "pos": "6",
@@ -5164,9 +5839,24 @@
      "desc": "Lock washer"
     },
     {
+     "pos": "9",
+     "pn": "010 321 153 A",
+     "desc": "Operating rod"
+    },
+    {
+     "pos": "10",
+     "pn": "010 321 209 C",
+     "desc": "Shaft"
+    },
+    {
      "pos": "11",
      "pn": "N 023 641 1",
      "desc": "Circlip"
+    },
+    {
+     "pos": "12",
+     "pn": "087 321 171 C",
+     "desc": "Lever"
     },
     {
      "pos": "13",
@@ -5185,6 +5875,11 @@
      "desc": "O-ring"
     },
     {
+     "pos": "16",
+     "pn": "010 321 193 B",
+     "desc": "Locking segment"
+    },
+    {
      "pos": "17",
      "pn": "211 611 179",
      "desc": "Stop washer"
@@ -5201,9 +5896,19 @@
      "spec": "M16×1.5"
     },
     {
+     "pos": "20",
+     "pn": "087 321 201 D",
+     "desc": "Lever"
+    },
+    {
      "pos": "21",
      "pn": "010 321 182",
      "desc": "O-ring"
+    },
+    {
+     "pos": "22",
+     "pn": "010 321 215 E",
+     "desc": "Lever"
     },
     {
      "pos": "23",
@@ -5239,6 +5944,11 @@
      "spec": "M8×18"
     },
     {
+     "pos": "28",
+     "pn": "010 321 241 F",
+     "desc": "Oil pump"
+    },
+    {
      "pos": "29",
      "pn": "003 321 261",
      "desc": "Piston ring"
@@ -5247,6 +5957,11 @@
      "pos": "30",
      "pn": "010 321 261",
      "desc": "Piston ring"
+    },
+    {
+     "pos": "31",
+     "pn": "010 323 161 A",
+     "desc": "Thrust washer"
     },
     {
      "pos": "32",
@@ -5258,6 +5973,11 @@
      "pn": "N 010 347 3",
      "desc": "Hexagon-head bolt",
      "spec": "M6×35"
+    },
+    {
+     "pos": "34",
+     "pn": "477 321 303 A",
+     "desc": "Lid"
     },
     {
      "pos": "35",
@@ -5282,6 +6002,16 @@
      "spec": "M6×12"
     },
     {
+     "pos": "38",
+     "pn": "010 321 359 F",
+     "desc": "Oil pan"
+    },
+    {
+     "pos": "39",
+     "pn": "010 321 371 B",
+     "desc": "Gasket"
+    },
+    {
      "pos": "40",
      "pn": "N 012 038 1",
      "desc": "Lock ring"
@@ -5291,6 +6021,16 @@
      "pn": "N 010 240 16",
      "desc": "Hexagon-head bolt",
      "spec": "M8×20"
+    },
+    {
+     "pos": "42",
+     "pn": "010 321 383 B",
+     "desc": "Intermediate plate"
+    },
+    {
+     "pos": "43",
+     "pn": "010 321 385 B",
+     "desc": "Gasket"
     },
     {
      "pos": "44",
@@ -5340,9 +6080,19 @@
      "desc": "Filling container"
     },
     {
+     "pos": "4",
+     "pn": "477 321 479 A",
+     "desc": "Strainer"
+    },
+    {
      "pos": "5",
      "pn": "477 321 481",
      "desc": "Screw-on cap"
+    },
+    {
+     "pos": "6",
+     "pn": "477 321 483 A",
+     "desc": "Gasket"
     },
     {
      "pos": "7",
@@ -5482,6 +6232,16 @@
      "desc": "Union"
     },
     {
+     "pos": "17",
+     "pn": "087 409 057 B",
+     "desc": "Union"
+    },
+    {
+     "pos": "18",
+     "pn": "010 409 563 A",
+     "desc": "O-ring"
+    },
+    {
      "pos": "19",
      "pn": "944 307 004 03",
      "desc": "Pressure line"
@@ -5554,6 +6314,11 @@
    "parts": [
     {
      "pos": "1",
+     "pn": "010 323 109 F",
+     "desc": "Clutch drum"
+    },
+    {
+     "pos": "1",
      "pn": "087 323 109",
      "desc": "Clutch drum"
     },
@@ -5563,8 +6328,43 @@
      "desc": "Bearing sleeve"
     },
     {
+     "pos": "3",
+     "pn": "010 323 121 B",
+     "desc": "Piston"
+    },
+    {
+     "pos": "5",
+     "pn": "010 323 129 A",
+     "desc": "Compression spring"
+    },
+    {
+     "pos": "6",
+     "pn": "010 323 131 A",
+     "desc": "Concave washer"
+    },
+    {
+     "pos": "7",
+     "pn": "003 323 135 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "8",
+     "pn": "010 323 139 A",
+     "desc": "Disc with external splines"
+    },
+    {
      "pos": "8",
      "pn": "087 323 139",
+     "desc": "Disc with external splines"
+    },
+    {
+     "pos": "9",
+     "pn": "010 323 141 C",
+     "desc": "Disc with external splines"
+    },
+    {
+     "pos": "9",
+     "pn": "087 323 141 A",
      "desc": "Disc with external splines"
     },
     {
@@ -5584,8 +6384,53 @@
     },
     {
      "pos": "11",
+     "pn": "087 323 157 B",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "010 323 157 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
      "pn": "087 323 157",
      "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "010 323 157 B",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "087 323 157 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "010 323 157 H",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "087 323 157 C",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "010 323 157 J",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "11",
+     "pn": "087 323 157 D",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "12",
+     "pn": "010 323 161 A",
+     "desc": "Thrust washer"
     },
     {
      "pos": "13",
@@ -5593,9 +6438,84 @@
      "desc": "Clutch bell-housing"
     },
     {
+     "pos": "14",
+     "pn": "010 323 217 A",
+     "desc": "Piston"
+    },
+    {
+     "pos": "15",
+     "pn": "010 323 229 D",
+     "desc": "Cup spring"
+    },
+    {
      "pos": "16",
      "pn": "010 323 157",
      "desc": "Circlip"
+    },
+    {
+     "pos": "17",
+     "pn": "010 323 237 A",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "18",
+     "pn": "010 323 241 B",
+     "desc": "Inner disc"
+    },
+    {
+     "pos": "19",
+     "pn": "010 323 253 G",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "19",
+     "pn": "010 323 253 H",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "19",
+     "pn": "010 323 253 J",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "19",
+     "pn": "010 323 253 K",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "19",
+     "pn": "010 323 253 L",
+     "desc": "Pressure plate"
+    },
+    {
+     "pos": "20",
+     "pn": "010 323 159 B",
+     "desc": "Lock ring"
+    },
+    {
+     "pos": "21",
+     "pn": "010 323 273 B",
+     "desc": "Ring gear"
+    },
+    {
+     "pos": "21",
+     "pn": "010 323 273 C",
+     "desc": "Ring gear"
+    },
+    {
+     "pos": "22",
+     "pn": "010 323 291 A",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "23",
+     "pn": "010 323 285 E",
+     "desc": "Sun gear"
+    },
+    {
+     "pos": "23",
+     "pn": "010 323 285 F",
+     "desc": "Sun gear"
     },
     {
      "pos": "24",
@@ -5608,8 +6528,33 @@
      "desc": "Circlip"
     },
     {
+     "pos": "25",
+     "pn": "010 323 303 B",
+     "desc": "Planet-gear carrier"
+    },
+    {
+     "pos": "25",
+     "pn": "010 323 303 F",
+     "desc": "Planet-gear carrier"
+    },
+    {
+     "pos": "26",
+     "pn": "010 323 340 D",
+     "desc": "Needle-roller bearing"
+    },
+    {
+     "pos": "27",
+     "pn": "010 323 339 D",
+     "desc": "Needle-roller bearing"
+    },
+    {
      "pos": "28",
      "pn": "010 323 281",
+     "desc": "Driving shell"
+    },
+    {
+     "pos": "28",
+     "pn": "010 323 281 F",
      "desc": "Driving shell"
     },
     {
@@ -5618,9 +6563,59 @@
      "desc": "Driving shell"
     },
     {
+     "pos": "29",
+     "pn": "010 321 157 A",
+     "desc": "Needle-roller bearing"
+    },
+    {
+     "pos": "30",
+     "pn": "010 323 293 B",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "30",
+     "pn": "010 323 293 C",
+     "desc": "Thrust washer"
+    },
+    {
+     "pos": "31",
+     "pn": "010 323 295 C",
+     "desc": "Spring washer"
+    },
+    {
+     "pos": "32",
+     "pn": "010 323 227 A",
+     "desc": "Disc with external splines"
+    },
+    {
+     "pos": "33",
+     "pn": "010 323 231 C",
+     "desc": "Inner disc"
+    },
+    {
+     "pos": "34",
+     "pn": "010 323 805 D",
+     "desc": "Planet-gear carrier"
+    },
+    {
+     "pos": "34",
+     "pn": "010 323 805 F",
+     "desc": "Planet-gear carrier"
+    },
+    {
      "pos": "35",
      "pn": "010 323 651",
      "desc": "Circlip"
+    },
+    {
+     "pos": "36",
+     "pn": "010 323 383 C",
+     "desc": "Free wheel lock"
+    },
+    {
+     "pos": "37",
+     "pn": "087 323 373 A",
+     "desc": "Hub"
     },
     {
      "pos": "37",
@@ -5638,9 +6633,59 @@
      "desc": "Roller"
     },
     {
+     "pos": "40",
+     "pn": "010 323 653 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "41",
+     "pn": "090 323 363 A",
+     "desc": "Ring gear"
+    },
+    {
+     "pos": "41",
+     "pn": "090 323 363 B",
+     "desc": "Ring gear"
+    },
+    {
      "pos": "42",
      "pn": "090 323 369",
      "desc": "Circlip"
+    },
+    {
+     "pos": "42",
+     "pn": "010 323 369 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "43",
+     "pn": "010 323 511 K",
+     "desc": "Piston"
+    },
+    {
+     "pos": "44",
+     "pn": "003 323 525 A",
+     "desc": "Sealing ring"
+    },
+    {
+     "pos": "45",
+     "pn": "010 323 517 D",
+     "desc": "Piston rod"
+    },
+    {
+     "pos": "46",
+     "pn": "010 323 487 C",
+     "desc": "Sealing ring"
+    },
+    {
+     "pos": "48",
+     "pn": "010 323 541 B",
+     "desc": "Lock washer"
+    },
+    {
+     "pos": "49",
+     "pn": "010 323 505 A",
+     "desc": "Compression spring"
     },
     {
      "pos": "50",
@@ -5653,9 +6698,29 @@
      "desc": "Round seal"
     },
     {
+     "pos": "53",
+     "pn": "010 323 537 A",
+     "desc": "Circlip"
+    },
+    {
+     "pos": "54",
+     "pn": "010 323 461 A",
+     "desc": "Brake band"
+    },
+    {
+     "pos": "55",
+     "pn": "010 323 543 A",
+     "desc": "Bolt"
+    },
+    {
      "pos": "55",
      "pn": "087 323 543",
      "desc": "Bolt"
+    },
+    {
+     "pos": "56",
+     "pn": "010 323 455 A",
+     "desc": "Adjusting screw"
     },
     {
      "pos": "57",
@@ -5664,14 +6729,79 @@
      "spec": "M12×1.5"
     },
     {
+     "pos": "58",
+     "pn": "010 323 497 C",
+     "desc": "Supporting plate"
+    },
+    {
+     "pos": "59",
+     "pn": "010 323 489 B",
+     "desc": "Compression spring"
+    },
+    {
+     "pos": "60",
+     "pn": "010 323 493 D",
+     "desc": "Pipe"
+    },
+    {
+     "pos": "60",
+     "pn": "010 323 493 G",
+     "desc": "Pipe"
+    },
+    {
+     "pos": "61",
+     "pn": "010 323 479 A",
+     "desc": "Piston"
+    },
+    {
      "pos": "61",
      "pn": "010 323 477",
      "desc": "Piston"
     },
     {
+     "pos": "62",
+     "pn": "087 323 553 A",
+     "desc": "Turbine shaft"
+    },
+    {
+     "pos": "63",
+     "pn": "010 323 561 A",
+     "desc": "Oil pump shaft"
+    },
+    {
+     "pos": "64",
+     "pn": "010 323 557 A",
+     "desc": "Piston ring"
+    },
+    {
+     "pos": "65",
+     "pn": "010 323 345 C",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "65",
+     "pn": "010 323 346 C",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "66",
+     "pn": "003 323 571 J",
+     "desc": "Converter"
+    },
+    {
      "pos": "66",
      "pn": "082 323 571",
      "desc": "Converter"
+    },
+    {
+     "pos": "67",
+     "pn": "003 323 699 A",
+     "desc": "Hexagon-head bolt"
+    },
+    {
+     "pos": "67",
+     "pn": "003 323 699 B",
+     "desc": "Hexagon-head bolt"
     },
     {
      "pos": "68",
@@ -5689,9 +6819,29 @@
    "image": "/catalog/1982-1985/310-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "087 325 032 P",
+     "desc": "Slide-valve gearbox"
+    },
+    {
+     "pos": "1",
+     "pn": "087 325 037 C",
+     "desc": "Slide-valve gearbox"
+    },
+    {
+     "pos": "1",
+     "pn": "087 325 037 H",
+     "desc": "Slide-valve gearbox"
+    },
+    {
      "pos": "2",
      "pn": "003 325 417",
      "desc": "Compression spring"
+    },
+    {
+     "pos": "3",
+     "pn": "003 325 405 F",
+     "desc": "Piston"
     },
     {
      "pos": "4",
@@ -5703,6 +6853,11 @@
      "pn": "N 010 346 5",
      "desc": "Hexagon-head bolt",
      "spec": "M6×30"
+    },
+    {
+     "pos": "6",
+     "pn": "010 325 421 A",
+     "desc": "Oil strainer"
     },
     {
      "pos": "7",
@@ -5756,6 +6911,11 @@
      "desc": "Gasket"
     },
     {
+     "pos": "18",
+     "pn": "010 325 429 A",
+     "desc": "Lid"
+    },
+    {
      "pos": "19",
      "pn": "010 325 277",
      "desc": "Manual valve"
@@ -5770,6 +6930,11 @@
    "page": 141,
    "image": "/catalog/1982-1985/311-00.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "016 598 081 A",
+     "desc": "Repair kit"
+    },
     {
      "pos": "1",
      "pn": "951 333 951 00",
@@ -5796,9 +6961,384 @@
      "desc": "Differential housing"
     },
     {
+     "pos": "6",
+     "pn": "087 409 143 K",
+     "desc": "Ring gear and pinion shaft"
+    },
+    {
+     "pos": "6",
+     "pn": "087 409 143 J",
+     "desc": "Ring gear and pinion shaft"
+    },
+    {
+     "pos": "7",
+     "pn": "087 409 135 A",
+     "desc": "Hexagon-head bolt"
+    },
+    {
+     "pos": "8",
+     "pn": "113 517 185 C",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "8",
+     "pn": "113 517 185 B",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 D",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 E",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 F",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 G",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 H",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 J",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 K",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 L",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 M",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 N",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 P",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 Q",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 R",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 S",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 T",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AA",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AB",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AC",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AD",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AE",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AF",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AG",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AH",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AJ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AK",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AL",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AM",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AN",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AP",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AQ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AR",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AS",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "9",
+     "pn": "087 409 641 AT",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "10",
+     "pn": "087 409 551 C",
+     "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "11",
+     "pn": "087 409 085 B",
+     "desc": "Radial shaft seal"
+    },
+    {
+     "pos": "12",
+     "pn": "087 409 639 A",
+     "desc": "Bush"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AE",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AF",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AG",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AH",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AJ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AK",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AL",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AM",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AN",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AP",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AQ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AR",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AS",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 AT",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BA",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BB",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BC",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BD",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BE",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BF",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BG",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BH",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BJ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BK",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BL",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BM",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BN",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BP",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BQ",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BR",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BS",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 BT",
+     "desc": "Adjusting shim"
+    },
+    {
+     "pos": "13",
+     "pn": "082 519 141 CA",
+     "desc": "Adjusting shim"
+    },
+    {
      "pos": "14",
      "pn": "003 519 251",
      "desc": "Taper roller bearing"
+    },
+    {
+     "pos": "15",
+     "pn": "087 409 524 C",
+     "desc": "Lid"
     },
     {
      "pos": "16",
@@ -5814,6 +7354,11 @@
      "pos": "18",
      "pn": "010 409 568",
      "desc": "Radial shaft seal"
+    },
+    {
+     "pos": "19",
+     "pn": "089 409 637 A",
+     "desc": "O-ring"
     },
     {
      "pos": "20",
@@ -5867,6 +7412,16 @@
      "pos": "1",
      "pn": "944 375 045 00",
      "desc": "Transmission mounting"
+    },
+    {
+     "pos": "2",
+     "pn": "477 399 169 C",
+     "desc": "Suspension plate"
+    },
+    {
+     "pos": "3",
+     "pn": "477 399 171 E",
+     "desc": "Suspender bracket"
     },
     {
      "pos": "4",
@@ -5956,6 +7511,21 @@
      "desc": "Cross member"
     },
     {
+     "pos": "2",
+     "pn": "171 407 153 D",
+     "desc": "Wishbone"
+    },
+    {
+     "pos": "2",
+     "pn": "171 407 153 E",
+     "desc": "Wishbone"
+    },
+    {
+     "pos": "3",
+     "pn": "171 407 365 G",
+     "desc": "Ball joint"
+    },
+    {
      "pos": "4",
      "pn": "N 042 001 1",
      "desc": "Lock ring"
@@ -5973,6 +7543,11 @@
      "spec": "M7×20"
     },
     {
+     "pos": "7",
+     "pn": "171 407 182 D",
+     "desc": "Rubber mounting"
+    },
+    {
      "pos": "8",
      "pn": "900 025 009 02",
      "desc": "Washer"
@@ -5987,6 +7562,16 @@
      "pn": "N 021 131 1",
      "desc": "Lock nut",
      "spec": "M12×1.5"
+    },
+    {
+     "pos": "11",
+     "pn": "477 407 181 A",
+     "desc": "Rubber mounting"
+    },
+    {
+     "pos": "11",
+     "pn": "477 407 181 B",
+     "desc": "Rubber mounting"
     },
     {
      "pos": "12",
@@ -6080,6 +7665,16 @@
    "image": "/catalog/1982-1985/401-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 407 311 L",
+     "desc": "Steering knuckle"
+    },
+    {
+     "pos": "2",
+     "pn": "477 405 065 B",
+     "desc": "Front wheel hub"
+    },
+    {
      "pos": "3",
      "pn": "904 341 671 00",
      "desc": "Wheel bolt"
@@ -6120,6 +7715,16 @@
      "desc": "Pan-head screw"
     },
     {
+     "pos": "10",
+     "pn": "477 405 691 C",
+     "desc": "Cap"
+    },
+    {
+     "pos": "10",
+     "pn": "477 405 691 D",
+     "desc": "Cap"
+    },
+    {
      "pos": "11",
      "pn": "900 116 003 02",
      "desc": "Lock washer"
@@ -6139,6 +7744,11 @@
    "page": 154,
    "image": "/catalog/1982-1985/402-00.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 411 105 Q",
+     "desc": "Coil spring"
+    },
     {
      "pos": "2",
      "pn": "944 343 031 12",
@@ -6163,6 +7773,11 @@
      "pos": "6",
      "pn": "171 412 135",
      "desc": "Boot"
+    },
+    {
+     "pos": "7",
+     "pn": "171 412 303 C",
+     "desc": "Rubber stop"
     },
     {
      "pos": "8",
@@ -6208,6 +7823,11 @@
     {
      "pos": "16",
      "pn": "477 412 147",
+     "desc": "Stop"
+    },
+    {
+     "pos": "16",
+     "pn": "477 412 147 A",
      "desc": "Stop"
     },
     {
@@ -6266,6 +7886,11 @@
      "desc": "Clip"
     },
     {
+     "pos": "4",
+     "pn": "477 411 053 G",
+     "desc": "Rubber bush"
+    },
+    {
      "pos": "5",
      "pn": "944 343 735 00",
      "desc": "Bearing bracket"
@@ -6274,6 +7899,11 @@
      "pos": "5",
      "pn": "944 343 735 01",
      "desc": "Bearing bracket"
+    },
+    {
+     "pos": "6",
+     "pn": "171 411 314 A",
+     "desc": "Rubber mounting"
     },
     {
      "pos": "7",
@@ -6315,6 +7945,16 @@
      "pos": "3",
      "pn": "477 419 115",
      "desc": "Stopper"
+    },
+    {
+     "pos": "4",
+     "pn": "171 419 831 C",
+     "desc": "Boot"
+    },
+    {
+     "pos": "5",
+     "pn": "171 419 832 C",
+     "desc": "Bellows"
     },
     {
      "pos": "6",
@@ -6450,7 +8090,17 @@
     },
     {
      "pos": "1",
+     "pn": "944 347 011 AX",
+     "desc": "Steering gear"
+    },
+    {
+     "pos": "1",
      "pn": "944 347 011 24",
+     "desc": "Steering gear"
+    },
+    {
+     "pos": "1",
+     "pn": "944 347 011 BX",
      "desc": "Steering gear"
     },
     {
@@ -6516,6 +8166,11 @@
      "pos": "10",
      "pn": "N 012 532 1",
      "desc": "Cotter pin"
+    },
+    {
+     "pos": "11",
+     "pn": "171 419 831 C",
+     "desc": "Boot"
     },
     {
      "pos": "12",
@@ -6799,6 +8454,11 @@
      "desc": "Lining"
     },
     {
+     "pos": "6",
+     "pn": "113 415 660 A",
+     "desc": "Slip ring"
+    },
+    {
      "pos": "7",
      "pn": "N 012 131 2",
      "desc": "Shake-proof washer"
@@ -6822,6 +8482,11 @@
     {
      "pos": "11",
      "pn": "321 419 779",
+     "desc": "Insulating bush"
+    },
+    {
+     "pos": "11",
+     "pn": "321 419 779 A",
      "desc": "Insulating bush"
     },
     {
@@ -6861,6 +8526,11 @@
      "desc": "Clamping sleeve"
     },
     {
+     "pos": "18",
+     "pn": "477 419 563 B",
+     "desc": "Protective tube"
+    },
+    {
      "pos": "19",
      "pn": "411 417 613",
      "desc": "Rubber mounting"
@@ -6869,6 +8539,11 @@
      "pos": "20",
      "pn": "411 417 605",
      "desc": "Support ring"
+    },
+    {
+     "pos": "21",
+     "pn": "477 419 505 J",
+     "desc": "Steering column"
     },
     {
      "pos": "22",
@@ -6918,9 +8593,24 @@
    "image": "/catalog/1982-1985/404-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 411 105 G",
+     "desc": "Coil spring"
+    },
+    {
+     "pos": "1",
+     "pn": "477 411 105 R",
+     "desc": "Coil spring"
+    },
+    {
      "pos": "2",
      "pn": "944 343 706 00",
      "desc": "Stabiliser"
+    },
+    {
+     "pos": "3",
+     "pn": "477 411 053 J",
+     "desc": "Rubber bush"
     },
     {
      "pos": "4",
@@ -6948,6 +8638,11 @@
      "desc": "Clip"
     },
     {
+     "pos": "9",
+     "pn": "477 411 313 C",
+     "desc": "Stabiliser mounting"
+    },
+    {
      "pos": "10",
      "pn": "900 027 015 02",
      "desc": "Lock ring"
@@ -6962,6 +8657,11 @@
      "pn": "900 075 085 02",
      "desc": "Hexagon-head bolt",
      "spec": "M8×20"
+    },
+    {
+     "pos": "12",
+     "pn": "477 511 051 A",
+     "desc": "Stabiliser mounting"
     },
     {
      "pos": "13",
@@ -7018,6 +8718,11 @@
    "page": 169,
    "image": "/catalog/1982-1985/501-00.webp",
    "parts": [
+    {
+     "pos": "2",
+     "pn": "477 501 069 A",
+     "desc": "Rubber bush"
+    },
     {
      "pos": "3",
      "pn": "311 501 191",
@@ -7283,6 +8988,11 @@
      "desc": "Spacer ring"
     },
     {
+     "pos": "3",
+     "pn": "113 501 315 H",
+     "desc": "Radial shaft seal"
+    },
+    {
      "pos": "4",
      "pn": "937 331 133 00",
      "desc": "Circlip"
@@ -7296,6 +9006,21 @@
      "pos": "6",
      "pn": "113 501 243",
      "desc": "Spacer tube"
+    },
+    {
+     "pos": "7",
+     "pn": "113 501 277 A",
+     "desc": "Cylindrical-roller bearing"
+    },
+    {
+     "pos": "7",
+     "pn": "113 501 277 B",
+     "desc": "Cylindrical-roller bearing"
+    },
+    {
+     "pos": "8",
+     "pn": "113 501 291 B",
+     "desc": "Sealing ring"
     },
     {
      "pos": "9",
@@ -7365,6 +9090,16 @@
      "desc": "Drive shaft"
     },
     {
+     "pos": "1",
+     "pn": "477 501 101 A",
+     "desc": "Drive shaft"
+    },
+    {
+     "pos": "1",
+     "pn": "477 501 102 A",
+     "desc": "Drive shaft"
+    },
+    {
      "pos": "2",
      "pn": "944 331 903 00",
      "desc": "Repair kit"
@@ -7404,6 +9139,11 @@
    "page": 176,
    "image": "/catalog/1982-1985/502-00.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 513 031 H",
+     "desc": "Vibration damper"
+    },
     {
      "pos": "2",
      "pn": "N 010 156 3",
@@ -7447,6 +9187,16 @@
      "desc": "Washer"
     },
     {
+     "pos": "7",
+     "pn": "477 511 411 A",
+     "desc": "Stabiliser"
+    },
+    {
+     "pos": "8",
+     "pn": "477 411 313 F",
+     "desc": "Rubber mounting"
+    },
+    {
      "pos": "9",
      "pn": "113 411 333",
      "desc": "Retaining bar"
@@ -7466,6 +9216,11 @@
      "pos": "11",
      "pn": "900 027 015 03",
      "desc": "Lock ring"
+    },
+    {
+     "pos": "12",
+     "pn": "477 511 051 A",
+     "desc": "Stabiliser mounting"
     },
     {
      "pos": "13",
@@ -7686,6 +9441,16 @@
      "pn": "N 010 226 2",
      "desc": "Hexagon-head bolt",
      "spec": "M7×10"
+    },
+    {
+     "pos": "4",
+     "pn": "477 405 083 A",
+     "desc": "Brake disc"
+    },
+    {
+     "pos": "4",
+     "pn": "477 405 083 D",
+     "desc": "Brake disc"
     },
     {
      "pos": "5",
@@ -8024,6 +9789,16 @@
      "desc": "Gasket"
     },
     {
+     "pos": "6",
+     "pn": "477 611 945 D",
+     "desc": "Intermediate piece"
+    },
+    {
+     "pos": "7",
+     "pn": "477 611 969 D",
+     "desc": "Gasket"
+    },
+    {
      "pos": "8",
      "pn": "900 025 007 02",
      "desc": "Washer"
@@ -8051,6 +9826,21 @@
      "desc": "Sealing plug"
     },
     {
+     "pos": "11",
+     "pn": "477 611 303 B",
+     "desc": "Expansion tank"
+    },
+    {
+     "pos": "12",
+     "pn": "477 611 351 B",
+     "desc": "Lid"
+    },
+    {
+     "pos": "13",
+     "pn": "477 611 385 A",
+     "desc": "Restrictor bush"
+    },
+    {
      "pos": "14",
      "pn": "911 355 921 00",
      "desc": "Rubber seal"
@@ -8061,6 +9851,11 @@
      "desc": "Rubber seal"
     },
     {
+     "pos": "15",
+     "pn": "191 611 933 F",
+     "desc": "Check valve"
+    },
+    {
      "pos": "16",
      "pn": "944 355 401 00",
      "desc": "Elbow"
@@ -8069,6 +9864,16 @@
      "pos": "17",
      "pn": "999 512 346 00",
      "desc": "Hose clamp"
+    },
+    {
+     "pos": "18",
+     "pn": "035 133 753 A",
+     "desc": "Venturi tube"
+    },
+    {
+     "pos": "18",
+     "pn": "035 133 753 B",
+     "desc": "Venturi tube"
     },
     {
      "pos": "20",
@@ -8096,9 +9901,24 @@
    "image": "/catalog/1982-1985/604-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 611 071 B",
+     "desc": "Brake hose"
+    },
+    {
+     "pos": "1",
+     "pn": "477 611 071 F",
+     "desc": "Brake hose"
+    },
+    {
      "pos": "2",
      "pn": "944 355 081 01",
      "desc": "Brake hose"
+    },
+    {
+     "pos": "3",
+     "pn": "477 611 724 A",
+     "desc": "Brake line"
     },
     {
      "pos": "4",
@@ -8128,6 +9948,16 @@
     {
      "pos": "8",
      "pn": "944 355 033 00",
+     "desc": "Brake line"
+    },
+    {
+     "pos": "9",
+     "pn": "477 611 782 A",
+     "desc": "Brake line"
+    },
+    {
+     "pos": "10",
+     "pn": "477 611 781 A",
      "desc": "Brake line"
     },
     {
@@ -8161,6 +9991,11 @@
      "desc": "Hexagon nut"
     },
     {
+     "pos": "16",
+     "pn": "113 611 715 A",
+     "desc": "Brake hose bracket"
+    },
+    {
      "pos": "17",
      "pn": "811 611 797",
      "desc": "Clip"
@@ -8185,9 +10020,24 @@
    "image": "/catalog/1982-1985/701-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 711 205 D",
+     "desc": "Gearshift lever"
+    },
+    {
      "pos": "2",
      "pn": "477 711 269",
      "desc": "Retainer spring"
+    },
+    {
+     "pos": "3",
+     "pn": "477 711 289 A",
+     "desc": "Gearshift knob"
+    },
+    {
+     "pos": "3",
+     "pn": "477 711 289 B",
+     "desc": "Gearshift knob"
     },
     {
      "pos": "4",
@@ -8198,6 +10048,11 @@
      "pos": "5",
      "pn": "477 711 217",
      "desc": "Vibration damper"
+    },
+    {
+     "pos": "6",
+     "pn": "477 711 270 B",
+     "desc": "Inner sleeve"
     },
     {
      "pos": "7",
@@ -8282,6 +10137,11 @@
      "desc": "Hexagon-head bolt"
     },
     {
+     "pos": "20",
+     "pn": "477 711 159 B",
+     "desc": "Bellows"
+    },
+    {
      "pos": "21",
      "pn": "477 711 149",
      "desc": "Sealing ring"
@@ -8306,6 +10166,16 @@
      "pos": "25",
      "pn": "N 012 241 11",
      "desc": "Spring washer"
+    },
+    {
+     "pos": "27",
+     "pn": "477 711 155 A",
+     "desc": "Sealing ring"
+    },
+    {
+     "pos": "28",
+     "pn": "477 711 147 A",
+     "desc": "Ball pin"
     },
     {
      "pos": "29",
@@ -8334,6 +10204,16 @@
      "desc": "Sound absorber"
     },
     {
+     "pos": "2",
+     "pn": "477 713 025 A",
+     "desc": "Shift mechanism"
+    },
+    {
+     "pos": "3",
+     "pn": "477 713 111 A",
+     "desc": "Cover"
+    },
+    {
      "pos": "4",
      "pn": "477 713 277",
      "desc": "Cover strip"
@@ -8344,6 +10224,21 @@
      "desc": "Cover"
     },
     {
+     "pos": "6",
+     "pn": "447 713 139 A",
+     "desc": "Selector knob"
+    },
+    {
+     "pos": "7",
+     "pn": "171 927 145 A",
+     "desc": "Contacts"
+    },
+    {
+     "pos": "8",
+     "pn": "311 927 147 B",
+     "desc": "Support for contact"
+    },
+    {
      "pos": "9",
      "pn": "N 013 968 1",
      "desc": "Oval-head sheetmetal screw"
@@ -8352,6 +10247,11 @@
      "pos": "10",
      "pn": "944 426 109 01",
      "desc": "Detent"
+    },
+    {
+     "pos": "11",
+     "pn": "477 713 265 C",
+     "desc": "Cable"
     },
     {
      "pos": "12",
@@ -8401,6 +10301,11 @@
      "desc": "Securing clip"
     },
     {
+     "pos": "18",
+     "pn": "477 713 281 A",
+     "desc": "Retaining bracket"
+    },
+    {
      "pos": "19",
      "pn": "900 027 015 02",
      "desc": "Lock ring"
@@ -8415,6 +10320,11 @@
      "pn": "900 075 085 02",
      "desc": "Hexagon-head bolt",
      "spec": "M8×20"
+    },
+    {
+     "pos": "21",
+     "pn": "321 713 855 A",
+     "desc": "Bulb holder"
     },
     {
      "pos": "22",
@@ -8526,6 +10436,16 @@
      "desc": "Compression spring"
     },
     {
+     "pos": "12",
+     "pn": "113 711 333 B",
+     "desc": "Push button"
+    },
+    {
+     "pos": "14",
+     "pn": "251 711 341 A",
+     "desc": "Bearing pin"
+    },
+    {
      "pos": "15",
      "pn": "900 116 005 02",
      "desc": "Lock washer"
@@ -8542,7 +10462,17 @@
     },
     {
      "pos": "18",
+     "pn": "477 609 719 C",
+     "desc": "Parking-brake cable"
+    },
+    {
+     "pos": "18",
      "pn": "924 424 143 00",
+     "desc": "Parking-brake cable"
+    },
+    {
+     "pos": "19",
+     "pn": "477 609 720 C",
      "desc": "Parking-brake cable"
     },
     {
@@ -8611,6 +10541,11 @@
      "desc": "Brake pedal"
     },
     {
+     "pos": "2",
+     "pn": "443 721 153 A",
+     "desc": "Bearing sleeve"
+    },
+    {
      "pos": "3",
      "pn": "823 721 173",
      "desc": "Cap"
@@ -8656,6 +10591,11 @@
      "pos": "10",
      "pn": "N 023 476 1",
      "desc": "Bolt"
+    },
+    {
+     "pos": "11",
+     "pn": "477 721 315 D",
+     "desc": "Clutch pedal"
     },
     {
      "pos": "12",
@@ -8718,6 +10658,16 @@
      "pn": "900 076 064 02",
      "desc": "Hexagon nut",
      "spec": "M8"
+    },
+    {
+     "pos": "22",
+     "pn": "477 721 189 A",
+     "desc": "Clutch hose"
+    },
+    {
+     "pos": "22",
+     "pn": "477 721 189 B",
+     "desc": "Clutch hose"
     },
     {
      "pos": "23",
@@ -8837,6 +10787,11 @@
      "desc": "Brake pedal"
     },
     {
+     "pos": "2",
+     "pn": "443 721 153 A",
+     "desc": "Bearing sleeve"
+    },
+    {
      "pos": "3",
      "pn": "478 721 153",
      "desc": "Bearing sleeve"
@@ -8850,6 +10805,11 @@
      "pos": "5",
      "pn": "321 721 191",
      "desc": "Return spring"
+    },
+    {
+     "pos": "6",
+     "pn": "477 721 353 A",
+     "desc": "Clutch power spring"
     },
     {
      "pos": "7",
@@ -8877,6 +10837,16 @@
      "pos": "10",
      "pn": "N 023 476 1",
      "desc": "Bolt"
+    },
+    {
+     "pos": "11",
+     "pn": "478 721 315 A",
+     "desc": "Clutch pedal"
+    },
+    {
+     "pos": "12",
+     "pn": "478 721 113 A",
+     "desc": "Bracket"
     },
     {
      "pos": "13",
@@ -8973,6 +10943,11 @@
      "desc": "Expansion tank"
     },
     {
+     "pos": "27",
+     "pn": "211 611 381 B",
+     "desc": "Strainer"
+    },
+    {
      "pos": "28",
      "pn": "477 611 361",
      "desc": "Lid"
@@ -9058,6 +11033,16 @@
      "pos": "2",
      "pn": "944 423 023 02",
      "desc": "Accelerator cable"
+    },
+    {
+     "pos": "3",
+     "pn": "827 723 511 A",
+     "desc": "Accelerator pedal"
+    },
+    {
+     "pos": "3",
+     "pn": "827 723 511 B",
+     "desc": "Accelerator pedal"
     },
     {
      "pos": "4",
@@ -9152,6 +11137,16 @@
      "desc": "Lock washer"
     },
     {
+     "pos": "6",
+     "pn": "827 723 511 A",
+     "desc": "Accelerator pedal"
+    },
+    {
+     "pos": "6",
+     "pn": "827 723 511 B",
+     "desc": "Accelerator pedal"
+    },
+    {
      "pos": "7",
      "pn": "900 076 010 02",
      "desc": "Nut",
@@ -9199,6 +11194,16 @@
      "desc": "Nipple"
     },
     {
+     "pos": "15",
+     "pn": "311 713 269 A",
+     "desc": "Bellows"
+    },
+    {
+     "pos": "16",
+     "pn": "477 723 563 C",
+     "desc": "Tension spring"
+    },
+    {
      "pos": "17",
      "pn": "944 423 141 00",
      "desc": "Support"
@@ -9217,6 +11222,11 @@
      "pos": "20",
      "pn": "477 723 567",
      "desc": "Support"
+    },
+    {
+     "pos": "21",
+     "pn": "477 971 881 A",
+     "desc": "Retaining bracket"
     },
     {
      "pos": "22",
@@ -9274,6 +11284,11 @@
    "image": "/catalog/1982-1985/801-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 803 103 A",
+     "desc": "Side member"
+    },
+    {
      "pos": "2",
      "pn": "999 703 119 40",
      "desc": "Stopper"
@@ -9287,6 +11302,16 @@
      "pos": "4",
      "pn": "477 803 283",
      "desc": "Side member"
+    },
+    {
+     "pos": "5",
+     "pn": "477 803 105 A",
+     "desc": "Side member"
+    },
+    {
+     "pos": "6",
+     "pn": "477 803 125 A",
+     "desc": "End piece"
     },
     {
      "pos": "7",
@@ -9312,6 +11337,16 @@
      "pos": "11",
      "pn": "411 803 595",
      "desc": "Lid"
+    },
+    {
+     "pos": "12",
+     "pn": "477 803 871 A",
+     "desc": "Jacking point"
+    },
+    {
+     "pos": "13",
+     "pn": "477 809 214 A",
+     "desc": "Separator"
     },
     {
      "pos": "14",
@@ -9351,6 +11386,11 @@
      "pn": "N 022 148 12",
      "desc": "Lock nut",
      "spec": "M6"
+    },
+    {
+     "pos": "18",
+     "pn": "477 803 387 B",
+     "desc": "Heat shield"
     },
     {
      "pos": "19",
@@ -9524,6 +11564,11 @@
      "desc": "Corner plate"
     },
     {
+     "pos": "10",
+     "pn": "477 805 057 A",
+     "desc": "Reinforcement"
+    },
+    {
      "pos": "11",
      "pn": "944 502 202 00",
      "desc": "Cross panel"
@@ -9537,6 +11582,11 @@
      "pos": "13",
      "pn": "944 502 079 00",
      "desc": "Cross member"
+    },
+    {
+     "pos": "14",
+     "pn": "477 805 571 A",
+     "desc": "Windscreen frame"
     },
     {
      "pos": "15",
@@ -9579,6 +11629,16 @@
      "pos": "21",
      "pn": "477 809 119",
      "desc": "Side member"
+    },
+    {
+     "pos": "22",
+     "pn": "311 881 945 A",
+     "desc": "Stopper"
+    },
+    {
+     "pos": "23",
+     "pn": "803 803 583 A",
+     "desc": "Stopper"
     },
     {
      "pos": "23",
@@ -9701,6 +11761,11 @@
      "desc": "Pot"
     },
     {
+     "pos": "7",
+     "pn": "477 809 375 A",
+     "desc": "Support"
+    },
+    {
      "pos": "8",
      "pn": "477 809 445",
      "desc": "Reinforcement"
@@ -9744,6 +11809,11 @@
      "pos": "16",
      "pn": "999 015 005 07",
      "desc": "Half-round screw"
+    },
+    {
+     "pos": "17",
+     "pn": "477 809 393 A",
+     "desc": "Hinge pillar"
     },
     {
      "pos": "18",
@@ -9907,6 +11977,11 @@
      "desc": "Water drain sleeve"
     },
     {
+     "pos": "8",
+     "pn": "477 813 145 B",
+     "desc": "Corner plate"
+    },
+    {
      "pos": "9",
      "pn": "944 503 037 01",
      "desc": "End plate"
@@ -9948,6 +12023,11 @@
     },
     {
      "pos": "17",
+     "pn": "477 817 111 B",
+     "desc": "Roof"
+    },
+    {
+     "pos": "17",
      "pn": "944 503 912 02",
      "desc": "Roof"
     },
@@ -9955,6 +12035,11 @@
      "pos": "18",
      "pn": "477 817 171",
      "desc": "Cross member"
+    },
+    {
+     "pos": "18",
+     "pn": "477 817 171 A",
+     "desc": "Roof frame"
     },
     {
      "pos": "19",
@@ -10128,6 +12213,11 @@
      "pos": "4",
      "pn": "900 025 008 04",
      "desc": "Washer"
+    },
+    {
+     "pos": "5",
+     "pn": "477 807 131 A",
+     "desc": "Bumper reinforcement"
     },
     {
      "pos": "6",
@@ -10823,6 +12913,11 @@
      "desc": "Washer"
     },
     {
+     "pos": "9",
+     "pn": "477 823 363 A",
+     "desc": "Hood stay"
+    },
+    {
      "pos": "10",
      "pn": "171 823 395",
      "desc": "Rubber mounting"
@@ -10887,6 +12982,11 @@
      "spec": "M4"
     },
     {
+     "pos": "21",
+     "pn": "477 823 531 A",
+     "desc": "Lid lock cable"
+    },
+    {
      "pos": "22",
      "pn": "N 012 855 1",
      "desc": "Clamping washer"
@@ -10937,6 +13037,11 @@
      "pos": "30",
      "pn": "900 025 003 02",
      "desc": "Washer"
+    },
+    {
+     "pos": "31",
+     "pn": "477 823 165 A",
+     "desc": "Bush"
     },
     {
      "pos": "33",
@@ -11058,8 +13163,18 @@
    "parts": [
     {
      "pos": "1",
+     "pn": "477 827 027 J",
+     "desc": "Rear lid"
+    },
+    {
+     "pos": "1",
      "pn": "944 512 027 01",
      "desc": "Rear lid"
+    },
+    {
+     "pos": "2",
+     "pn": "477 853 313 A",
+     "desc": "Trim frame"
     },
     {
      "pos": "3",
@@ -11078,6 +13193,11 @@
      "spec": "M5×20"
     },
     {
+     "pos": "7",
+     "pn": "477 827 453 A",
+     "desc": "Washer"
+    },
+    {
      "pos": "8",
      "pn": "N 033 185 1",
      "desc": "Countersunk-head screw",
@@ -11088,6 +13208,16 @@
      "pn": "N 021 255 1",
      "desc": "Slotted nut",
      "spec": "M4"
+    },
+    {
+     "pos": "10",
+     "pn": "477 827 033 A",
+     "desc": "Housing"
+    },
+    {
+     "pos": "10",
+     "pn": "477 827 037 A",
+     "desc": "Housing"
     },
     {
      "pos": "10",
@@ -11109,6 +13239,11 @@
      "pn": "999 219 011 07",
      "desc": "Countersunk-head screw",
      "spec": "M6×16."
+    },
+    {
+     "pos": "13",
+     "pn": "477 827 305 B",
+     "desc": "Hinge half"
     },
     {
      "pos": "14",
@@ -11169,6 +13304,11 @@
     },
     {
      "pos": "24",
+     "pn": "477 827 365 D",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "24",
      "pn": "944 512 365 01",
      "desc": "Gasket"
     },
@@ -11176,6 +13316,11 @@
      "pos": "25",
      "pn": "951 512 447 00",
      "desc": "Reinforcement plate"
+    },
+    {
+     "pos": "26",
+     "pn": "477 827 505 A",
+     "desc": "Rear lid lock"
     },
     {
      "pos": "26",
@@ -11205,9 +13350,19 @@
      "spec": "M6"
     },
     {
+     "pos": "30",
+     "pn": "111 971 911 A",
+     "desc": "Grommet"
+    },
+    {
      "pos": "31",
      "pn": "477 827 547",
      "desc": "Hose"
+    },
+    {
+     "pos": "32",
+     "pn": "477 827 529 A",
+     "desc": "Sealing ring"
     },
     {
      "pos": "33",
@@ -11385,6 +13540,11 @@
      "desc": "Sleeve"
     },
     {
+     "pos": "6",
+     "pn": "477 827 305 B",
+     "desc": "Hinge half"
+    },
+    {
      "pos": "7",
      "pn": "944 512 311 00",
      "desc": "Hinge pin"
@@ -11419,6 +13579,11 @@
      "pn": "999 219 011 07",
      "desc": "Countersunk-head screw",
      "spec": "M6×16"
+    },
+    {
+     "pos": "12",
+     "pn": "477 827 348 F",
+     "desc": "Gas-pressure spring"
     },
     {
      "pos": "13",
@@ -11464,6 +13629,11 @@
     },
     {
      "pos": "20",
+     "pn": "477 827 365 A",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "20",
      "pn": "944 512 365 01",
      "desc": "Gasket"
     },
@@ -11471,6 +13641,11 @@
      "pos": "21",
      "pn": "951 512 447 00",
      "desc": "Reinforcement plate"
+    },
+    {
+     "pos": "22",
+     "pn": "477 827 505 A",
+     "desc": "Rear lid lock"
     },
     {
      "pos": "22",
@@ -11500,9 +13675,19 @@
      "spec": "M6"
     },
     {
+     "pos": "26",
+     "pn": "111 971 911 A",
+     "desc": "Grommet"
+    },
+    {
      "pos": "27",
      "pn": "477 827 547",
      "desc": "Hose"
+    },
+    {
+     "pos": "28",
+     "pn": "477 827 529 A",
+     "desc": "Sealing ring"
     },
     {
      "pos": "29",
@@ -11580,6 +13765,11 @@
     {
      "pos": "1",
      "pn": "944 531 005 01",
+     "desc": "Door in white"
+    },
+    {
+     "pos": "1",
+     "pn": "478 831 051 R",
      "desc": "Door in white"
     },
     {
@@ -11701,6 +13891,11 @@
      "pos": "20",
      "pn": "477 971 910",
      "desc": "Bellows"
+    },
+    {
+     "pos": "21",
+     "pn": "477 831 139 C",
+     "desc": "Reinforcement"
     }
    ]
   },
@@ -11712,6 +13907,11 @@
    "page": 248,
    "image": "/catalog/1982-1985/804-05.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 837 037 H",
+     "desc": "Outer door handle"
+    },
     {
      "pos": "2",
      "pn": "823 837 239",
@@ -11726,6 +13926,11 @@
      "pos": "4",
      "pn": "477 837 219",
      "desc": "Blank key"
+    },
+    {
+     "pos": "5",
+     "pn": "111 837 227 B",
+     "desc": "Sealing ring"
     },
     {
      "pos": "6",
@@ -11743,6 +13948,11 @@
      "desc": "Ball socket"
     },
     {
+     "pos": "9",
+     "pn": "477 837 505 A",
+     "desc": "Connecting piece"
+    },
+    {
      "pos": "10",
      "pn": "N 033 165 1",
      "desc": "Countersunk-head screw"
@@ -11758,9 +13968,24 @@
      "desc": "Desk pad"
     },
     {
+     "pos": "13",
+     "pn": "171 837 211 A",
+     "desc": "Desk pad"
+    },
+    {
+     "pos": "14",
+     "pn": "477 837 017 A",
+     "desc": "Bowden cable"
+    },
+    {
      "pos": "15",
      "pn": "900 116 002 02",
      "desc": "Lock washer"
+    },
+    {
+     "pos": "16",
+     "pn": "477 837 115 A",
+     "desc": "Support"
     },
     {
      "pos": "17",
@@ -11781,6 +14006,11 @@
      "pos": "171",
      "pn": "837 020 041",
      "desc": "Black"
+    },
+    {
+     "pos": "19",
+     "pn": "477 831 304 A",
+     "desc": "Seal"
     },
     {
      "pos": "20",
@@ -11844,9 +14074,19 @@
      "spec": "M8×35"
     },
     {
+     "pos": "31",
+     "pn": "477 837 183 A",
+     "desc": "Locking rod"
+    },
+    {
      "pos": "32",
      "pn": "477 837 187",
      "desc": "Clip"
+    },
+    {
+     "pos": "33",
+     "pn": "111 837 187 B",
+     "desc": "Knob"
     },
     {
      "pos": "34",
@@ -11885,6 +14125,31 @@
      "desc": "Window guide"
     },
     {
+     "pos": "2",
+     "pn": "477 837 469 A",
+     "desc": "Sealing strip"
+    },
+    {
+     "pos": "3",
+     "pn": "477 837 471 A",
+     "desc": "Sealing for door slot"
+    },
+    {
+     "pos": "4",
+     "pn": "477 837 479 A",
+     "desc": "Window guide"
+    },
+    {
+     "pos": "5",
+     "pn": "477 837 493 A",
+     "desc": "Window guide"
+    },
+    {
+     "pos": "6",
+     "pn": "477 837 441 A",
+     "desc": "Power windows"
+    },
+    {
      "pos": "7",
      "pn": "171 837 485",
      "desc": "Clamp"
@@ -11911,9 +14176,34 @@
      "desc": "Window crank"
     },
     {
+     "pos": "12",
+     "pn": "111 837 595 A",
+     "desc": "Desk pad"
+    },
+    {
+     "pos": "13",
+     "pn": "477 837 391 C",
+     "desc": "Cross-arm"
+    },
+    {
+     "pos": "14",
+     "pn": "477 959 123 A",
+     "desc": "Engine and transmission"
+    },
+    {
      "pos": "15",
      "pn": "N 014 228 4",
      "desc": "Countersunk-head screw"
+    },
+    {
+     "pos": "16",
+     "pn": "477 867 185 A",
+     "desc": "Trim for switch"
+    },
+    {
+     "pos": "17",
+     "pn": "477 867 187 A",
+     "desc": "Mounting piece"
     },
     {
      "pos": "18",
@@ -11936,9 +14226,19 @@
    "image": "/catalog/1982-1985/805-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 845 011 D",
+     "desc": "Windscreen"
+    },
+    {
      "pos": "2",
      "pn": "944 542 023 00",
      "desc": "Door window glass"
+    },
+    {
+     "pos": "3",
+     "pn": "477 898 011 A",
+     "desc": "Sealing set"
     },
     {
      "pos": "4",
@@ -11949,6 +14249,11 @@
      "pos": "5",
      "pn": "944 557 321 00",
      "desc": "Rubber seal"
+    },
+    {
+     "pos": "6",
+     "pn": "477 845 613 A",
+     "desc": "Stop"
     },
     {
      "pos": "7",
@@ -12186,6 +14491,16 @@
      "desc": "Sound absorber"
     },
     {
+     "pos": "7",
+     "pn": "477 863 855 E",
+     "desc": "Insulation"
+    },
+    {
+     "pos": "8",
+     "pn": "477 863 667 A",
+     "desc": "Sound absorber"
+    },
+    {
      "pos": "9",
      "pn": "477 863 775",
      "desc": "Sound absorber"
@@ -12208,6 +14523,11 @@
     {
      "pos": "13",
      "pn": "944 556 085 00",
+     "desc": "Sound absorber"
+    },
+    {
+     "pos": "14",
+     "pn": "477 863 846 A",
      "desc": "Sound absorber"
     },
     {
@@ -12281,6 +14601,16 @@
    "image": "/catalog/1982-1985/807-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 863 703 G",
+     "desc": "Floor mat"
+    },
+    {
+     "pos": "2",
+     "pn": "477 863 582 A",
+     "desc": "Lining"
+    },
+    {
      "pos": "3",
      "pn": "477 820 412",
      "desc": "Knee protection trim"
@@ -12319,6 +14649,11 @@
      "pos": "8",
      "pn": "900 143 097 01",
      "desc": "Tapping screw"
+    },
+    {
+     "pos": "10",
+     "pn": "477 863 572 A",
+     "desc": "Lining"
     },
     {
      "pos": "11",
@@ -12451,6 +14786,16 @@
    "image": "/catalog/1982-1985/807-10.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 867 011 K",
+     "desc": "Door trim panel"
+    },
+    {
+     "pos": "2",
+     "pn": "477 867 034 A",
+     "desc": "Package box"
+    },
+    {
      "pos": "3",
      "pn": "N 013 962 2",
      "desc": "Oval-head sheetmetal screw"
@@ -12527,6 +14872,11 @@
      "desc": "Washer"
     },
     {
+     "pos": "15",
+     "pn": "477 867 178 D",
+     "desc": "Sealing film"
+    },
+    {
      "pos": "16",
      "pn": "823 867 299",
      "desc": "Clip"
@@ -12534,6 +14884,16 @@
     {
      "pos": "17",
      "pn": "477 867 367",
+     "desc": "Piping"
+    },
+    {
+     "pos": "17",
+     "pn": "477 867 367 A",
+     "desc": "Piping"
+    },
+    {
+     "pos": "17",
+     "pn": "477 867 367 B",
      "desc": "Piping"
     },
     {
@@ -12587,6 +14947,11 @@
      "desc": "Roof frame padding"
     },
     {
+     "pos": "28",
+     "pn": "477 867 553 A",
+     "desc": "Lining"
+    },
+    {
      "pos": "29",
      "pn": "N 013 962 2",
      "desc": "Oval-head sheetmetal screw"
@@ -12605,6 +14970,11 @@
      "pos": "32",
      "pn": "477 867 655",
      "desc": "Lining"
+    },
+    {
+     "pos": "",
+     "pn": "477 867 923 A",
+     "desc": "Cap"
     },
     {
      "pos": "34",
@@ -12626,6 +14996,11 @@
    "page": 274,
    "image": "/catalog/1982-1985/808-00.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 881 021 E",
+     "desc": "Front seat"
+    },
     {
      "pos": "2",
      "pn": "911 521 037 58",
@@ -12752,6 +15127,21 @@
      "pos": "18",
      "pn": "311 881 247",
      "desc": "Clip"
+    },
+    {
+     "pos": "19",
+     "pn": "311 881 287 A",
+     "desc": "Tension spring"
+    },
+    {
+     "pos": "20",
+     "pn": "311 881 607 A",
+     "desc": "Cover"
+    },
+    {
+     "pos": "21",
+     "pn": "113 881 633 E",
+     "desc": "Control button"
     }
    ]
   },
@@ -12912,6 +15302,11 @@
      "desc": "Clip"
     },
     {
+     "pos": "12",
+     "pn": "311 881 287 A",
+     "desc": "Tension spring"
+    },
+    {
      "pos": "13",
      "pn": "911 521 815 00",
      "desc": "Rosette"
@@ -12973,8 +15368,18 @@
    "parts": [
     {
      "pos": "1",
+     "pn": "477 885 045 C",
+     "desc": "Backrest"
+    },
+    {
+     "pos": "1",
      "pn": "944 522 045 00",
      "desc": "Backrest"
+    },
+    {
+     "pos": "2",
+     "pn": "477 885 871 B",
+     "desc": "Seat cushion"
     }
    ]
   },
@@ -12987,6 +15392,11 @@
    "image": "/catalog/1982-1985/808-25.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 885 045 C",
+     "desc": "Backrest"
+    },
+    {
      "pos": "2",
      "pn": "111 885 657",
      "desc": "Spring"
@@ -12995,6 +15405,11 @@
      "pos": "3",
      "pn": "113 881 899",
      "desc": "Special tack"
+    },
+    {
+     "pos": "4",
+     "pn": "477 885 699 B",
+     "desc": "Plug"
     },
     {
      "pos": "5",
@@ -13027,6 +15442,11 @@
      "desc": "Washer"
     },
     {
+     "pos": "10",
+     "pn": "111 867 329 A",
+     "desc": "Locking lug"
+    },
+    {
      "pos": "11",
      "pn": "N 014 002 1",
      "desc": "Counters. head tapp. screw"
@@ -13045,6 +15465,11 @@
      "pos": "12",
      "pn": "999 591 327 01",
      "desc": "Speed nut"
+    },
+    {
+     "pos": "13",
+     "pn": "477 885 831 A",
+     "desc": "Cover"
     },
     {
      "pos": "13",
@@ -13071,6 +15496,11 @@
      "pos": "17",
      "pn": "N 014 096 3",
      "desc": "Rais. counters. h. tap. s."
+    },
+    {
+     "pos": "18",
+     "pn": "477 885 041 B",
+     "desc": "Back seat extension"
     },
     {
      "pos": "19",
@@ -13128,6 +15558,16 @@
    "page": 319,
    "image": "/catalog/1982-1985/809-00.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 857 881 C",
+     "desc": "Dashboard"
+    },
+    {
+     "pos": "1",
+     "pn": "477 857 881 A",
+     "desc": "Dashboard"
+    },
     {
      "pos": "2",
      "pn": "N 011 612 3",
@@ -13187,6 +15627,11 @@
      "desc": "Washer"
     },
     {
+     "pos": "9",
+     "pn": "477 857 195 B",
+     "desc": "Support"
+    },
+    {
      "pos": "10",
      "pn": "N 015 429 2",
      "desc": "Speed nut"
@@ -13222,6 +15667,11 @@
      "desc": "Grommet"
     },
     {
+     "pos": "15",
+     "pn": "477 857 283 A",
+     "desc": "Dashboard trim"
+    },
+    {
      "pos": "16",
      "pn": "999 591 722 02",
      "desc": "Speed nut"
@@ -13233,8 +15683,18 @@
     },
     {
      "pos": "18",
+     "pn": "477 857 137 A",
+     "desc": "Cover"
+    },
+    {
+     "pos": "18",
      "pn": "477 857 137",
      "desc": "Cover"
+    },
+    {
+     "pos": "19",
+     "pn": "477 857 931 A",
+     "desc": "Centre console"
     },
     {
      "pos": "20",
@@ -13245,6 +15705,11 @@
      "pos": "21",
      "pn": "477 863 749",
      "desc": "Carpet"
+    },
+    {
+     "pos": "22",
+     "pn": "477 857 067 A",
+     "desc": "Support"
     },
     {
      "pos": "23",
@@ -13267,6 +15732,16 @@
      "desc": "Speed nut"
     },
     {
+     "pos": "27",
+     "pn": "477 857 977 B",
+     "desc": "Instrument insert"
+    },
+    {
+     "pos": "27",
+     "pn": "477 857 977 C",
+     "desc": "Instrument insert"
+    },
+    {
      "pos": "28",
      "pn": "944 552 387 00",
      "desc": "Cover"
@@ -13287,6 +15762,11 @@
      "desc": "Support frame"
     },
     {
+     "pos": "31",
+     "pn": "481 857 233 A",
+     "desc": "Package box"
+    },
+    {
      "pos": "32",
      "pn": "944 552 305 00",
      "desc": "Ashtray"
@@ -13295,6 +15775,11 @@
      "pos": "33",
      "pn": "911 552 469 00",
      "desc": "Trim cover"
+    },
+    {
+     "pos": "34",
+     "pn": "477 857 095 B",
+     "desc": "Glove compartment"
     },
     {
      "pos": "35",
@@ -13347,6 +15832,11 @@
      "desc": "Glove compartment cover"
     },
     {
+     "pos": "42",
+     "pn": "477 857 123 A",
+     "desc": "Glove compartment cover"
+    },
+    {
      "pos": "43",
      "pn": "N 013 209 2",
      "desc": "Straight pin"
@@ -13355,6 +15845,21 @@
      "pos": "44",
      "pn": "133 857 119",
      "desc": "Clamp"
+    },
+    {
+     "pos": "45",
+     "pn": "477 857 133 C",
+     "desc": "Lock"
+    },
+    {
+     "pos": "46",
+     "pn": "477 857 135 A",
+     "desc": "Blank key"
+    },
+    {
+     "pos": "46",
+     "pn": "477 857 136 A",
+     "desc": "Key"
     },
     {
      "pos": "47",
@@ -13512,6 +16017,11 @@
    "image": "/catalog/1982-1985/809-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 857 521 E",
+     "desc": "Door mirror"
+    },
+    {
      "pos": "2",
      "pn": "477 857 579",
      "desc": "Desk pad"
@@ -13653,6 +16163,16 @@
      "desc": "Interior mirror"
     },
     {
+     "pos": "25",
+     "pn": "477 857 511 A",
+     "desc": "Interior mirror"
+    },
+    {
+     "pos": "25",
+     "pn": "477 857 511 B",
+     "desc": "Interior mirror"
+    },
+    {
      "pos": "26",
      "pn": "477 857 551",
      "desc": "Sun visor"
@@ -13661,6 +16181,11 @@
      "pos": "27",
      "pn": "N 014 096 3",
      "desc": "Rais. counters. h. tap. s."
+    },
+    {
+     "pos": "",
+     "pn": "803 857 561 A",
+     "desc": "Support"
     },
     {
      "pos": "29",
@@ -13702,6 +16227,21 @@
    "page": 331,
    "image": "/catalog/1982-1985/809-10.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 863 511 A",
+     "desc": "Luggage compartment cover"
+    },
+    {
+     "pos": "2",
+     "pn": "477 863 517 A",
+     "desc": "Lid"
+    },
+    {
+     "pos": "3",
+     "pn": "477 863 518 A",
+     "desc": "Lid"
+    },
     {
      "pos": "4",
      "pn": "900 025 003 02",
@@ -13746,6 +16286,51 @@
      "pos": "3",
      "pn": "944 559 045 00",
      "desc": "Moulding"
+    },
+    {
+     "pos": "5",
+     "pn": "477 853 659 B",
+     "desc": "Clamp"
+    },
+    {
+     "pos": "5",
+     "pn": "477 853 659 C",
+     "desc": "Clamp"
+    },
+    {
+     "pos": "6",
+     "pn": "431 805 121 A",
+     "desc": "Bolt"
+    },
+    {
+     "pos": "7",
+     "pn": "477 853 313 A",
+     "desc": "Trim frame"
+    },
+    {
+     "pos": "8",
+     "pn": "477 853 373 B",
+     "desc": "Moulding"
+    },
+    {
+     "pos": "9",
+     "pn": "477 853 371 B",
+     "desc": "Moulding"
+    },
+    {
+     "pos": "10",
+     "pn": "477 853 375 A",
+     "desc": "Moulding"
+    },
+    {
+     "pos": "11",
+     "pn": "477 853 365 A",
+     "desc": "Trim frame"
+    },
+    {
+     "pos": "12",
+     "pn": "477 853 657 A",
+     "desc": "Scuff plate"
     },
     {
      "pos": "13",
@@ -13833,6 +16418,21 @@
      "desc": "Logo"
     },
     {
+     "pos": "2",
+     "pn": "477 853 635 B",
+     "desc": "Logo"
+    },
+    {
+     "pos": "2",
+     "pn": "477 853 635 C",
+     "desc": "Logo"
+    },
+    {
+     "pos": "2",
+     "pn": "477 853 635 D",
+     "desc": "Logo"
+    },
+    {
      "pos": "3",
      "pn": "944 559 321 00",
      "desc": "Stone guard film"
@@ -13893,6 +16493,11 @@
      "desc": "Black"
     },
     {
+     "pos": "4",
+     "pn": "477 871 047 B",
+     "desc": "Lining"
+    },
+    {
      "pos": "5",
      "pn": "477 871 053",
      "desc": "Expansion rivet"
@@ -13944,6 +16549,11 @@
      "desc": "Gasket"
     },
     {
+     "pos": "14",
+     "pn": "477 871 635 A",
+     "desc": "Hinge"
+    },
+    {
      "pos": "15",
      "pn": "477 871 649",
      "desc": "Roof catch"
@@ -13959,6 +16569,21 @@
      "desc": "Spring washer"
     },
     {
+     "pos": "18",
+     "pn": "477 871 651 A",
+     "desc": "Locking bracket"
+    },
+    {
+     "pos": "19",
+     "pn": "477 871 665 A",
+     "desc": "Centring wedge"
+    },
+    {
+     "pos": "20",
+     "pn": "477 871 683 A",
+     "desc": "Bearing"
+    },
+    {
      "pos": "21",
      "pn": "N 013 964 4",
      "desc": "Oval-head sheetmetal screw"
@@ -13969,9 +16594,19 @@
      "desc": "Oval-head sheetmetal screw"
     },
     {
+     "pos": "23",
+     "pn": "477 871 701 A",
+     "desc": "Cap nut"
+    },
+    {
      "pos": "24",
      "pn": "477 837 959",
      "desc": "Self-lock. fillister screw"
+    },
+    {
+     "pos": "25",
+     "pn": "321 877 233 C",
+     "desc": "Water drain hose"
     },
     {
      "pos": "26",
@@ -14079,6 +16714,11 @@
      "desc": "Spring washer"
     },
     {
+     "pos": "10",
+     "pn": "477 871 763 A",
+     "desc": "Threaded bush"
+    },
+    {
      "pos": "11",
      "pn": "477 871 217",
      "desc": "Roof catch"
@@ -14099,6 +16739,11 @@
      "pn": "900 269 001 01",
      "desc": "Countersunk-head screw",
      "spec": "M3×6"
+    },
+    {
+     "pos": "14",
+     "pn": "477 871 665 A",
+     "desc": "Centring wedge"
     },
     {
      "pos": "15",
@@ -14193,9 +16838,19 @@
      "desc": "Cap"
     },
     {
+     "pos": "32",
+     "pn": "477 871 635 A",
+     "desc": "Hinge"
+    },
+    {
      "pos": "33",
      "pn": "477 837 959",
      "desc": "Self-lock. fillister screw"
+    },
+    {
+     "pos": "34",
+     "pn": "477 871 701 A",
+     "desc": "Cap nut"
     },
     {
      "pos": "35",
@@ -14216,6 +16871,11 @@
      "pos": "38",
      "pn": "021 119 569",
      "desc": "Rubber sleeve"
+    },
+    {
+     "pos": "39",
+     "pn": "321 877 233 C",
+     "desc": "Water drain hose"
     },
     {
      "pos": "40",
@@ -14297,6 +16957,11 @@
      "pos": "51",
      "pn": "N 011 524 27",
      "desc": "Washer"
+    },
+    {
+     "pos": "52",
+     "pn": "431 951 253 D",
+     "desc": "Relay"
     },
     {
      "pos": "52",
@@ -14400,6 +17065,11 @@
    "image": "/catalog/1982-1985/812-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 857 705 E",
+     "desc": "Seat belt"
+    },
+    {
      "pos": "2",
      "pn": "928 803 151 02",
      "desc": "Clip"
@@ -14425,14 +17095,29 @@
      "desc": "Seat-belt buckle"
     },
     {
+     "pos": "7",
+     "pn": "111 857 707 A",
+     "desc": "Spacer"
+    },
+    {
      "pos": "8",
      "pn": "911 803 533 00",
      "desc": "Cup spring"
     },
     {
+     "pos": "9",
+     "pn": "111 857 793 E",
+     "desc": "Hexagon-head bolt"
+    },
+    {
      "pos": "10",
      "pn": "811 857 845",
      "desc": "Cap"
+    },
+    {
+     "pos": "11",
+     "pn": "111 857 799 A",
+     "desc": "Hexagon-head bolt"
     },
     {
      "pos": "13",
@@ -14448,6 +17133,11 @@
      "pos": "15",
      "pn": "928 803 259 02",
      "desc": "Spacer sleeve"
+    },
+    {
+     "pos": "16",
+     "pn": "111 857 793 E",
+     "desc": "Hexagon-head bolt"
     },
     {
      "pos": "17",
@@ -14468,6 +17158,26 @@
      "pos": "1",
      "pn": "477 857 795",
      "desc": "Seat belt"
+    },
+    {
+     "pos": "2",
+     "pn": "477 857 739 A",
+     "desc": "Seat-belt buckle"
+    },
+    {
+     "pos": "2",
+     "pn": "477 857 739 B",
+     "desc": "Seat-belt buckle"
+    },
+    {
+     "pos": "3",
+     "pn": "803 019 811 B",
+     "desc": "Hexagon-head bolt"
+    },
+    {
+     "pos": "3",
+     "pn": "111 857 793 E",
+     "desc": "Hexagon-head bolt"
     },
     {
      "pos": "4",
@@ -14495,6 +17205,11 @@
      "desc": "Cap"
     },
     {
+     "pos": "9",
+     "pn": "477 857 375 A",
+     "desc": "Support for seatbelt"
+    },
+    {
      "pos": "10",
      "pn": "900 151 027 02",
      "desc": "Washer"
@@ -14509,6 +17224,21 @@
      "pn": "900 146 003 02",
      "desc": "Oval-head screw",
      "spec": "M5×11"
+    },
+    {
+     "pos": "12",
+     "pn": "478 857 811 A",
+     "desc": "Seat belt"
+    },
+    {
+     "pos": "13",
+     "pn": "477 857 739 A",
+     "desc": "Seat-belt buckle"
+    },
+    {
+     "pos": "13",
+     "pn": "477 857 739 B",
+     "desc": "Seat-belt buckle"
     },
     {
      "pos": "14",
@@ -14526,9 +17256,19 @@
      "desc": "Hexagon-head bolt"
     },
     {
+     "pos": "18",
+     "pn": "111 857 793 E",
+     "desc": "Hexagon-head bolt"
+    },
+    {
      "pos": "19",
      "pn": "810 019 829",
      "desc": "Spacer"
+    },
+    {
+     "pos": "20",
+     "pn": "477 857 825 A",
+     "desc": "Suspension hook"
     },
     {
      "pos": "21",
@@ -14641,9 +17381,19 @@
      "desc": "Cover"
     },
     {
+     "pos": "16",
+     "pn": "321 959 511 A",
+     "desc": "Blower switch"
+    },
+    {
      "pos": "17",
      "pn": "477 971 281",
      "desc": "Resistor"
+    },
+    {
+     "pos": "18",
+     "pn": "321 820 015 B",
+     "desc": "Blower"
     },
     {
      "pos": "19",
@@ -14659,6 +17409,11 @@
      "pos": "20",
      "pn": "N 011 692 3",
      "desc": "Washer"
+    },
+    {
+     "pos": "21",
+     "pn": "321 819 045 C",
+     "desc": "Control switch"
     },
     {
      "pos": "22",
@@ -14706,9 +17461,24 @@
      "desc": "Spring clamp"
     },
     {
+     "pos": "29",
+     "pn": "171 819 031 D",
+     "desc": "Heat exchanger"
+    },
+    {
+     "pos": "30",
+     "pn": "321 819 069 B",
+     "desc": "Gasket"
+    },
+    {
      "pos": "31",
      "pn": "191 819 069",
      "desc": "Gasket"
+    },
+    {
+     "pos": "32",
+     "pn": "823 819 699 A",
+     "desc": "Drain bush"
     },
     {
      "pos": "33",
@@ -14826,6 +17596,11 @@
      "desc": "Adapter"
     },
     {
+     "pos": "11",
+     "pn": "478 820 211 A",
+     "desc": "Intermediate piece"
+    },
+    {
      "pos": "12",
      "pn": "478 820 231",
      "desc": "Hose"
@@ -14833,6 +17608,11 @@
     {
      "pos": "13",
      "pn": "477 819 175",
+     "desc": "Cover"
+    },
+    {
+     "pos": "14",
+     "pn": "477 819 179 A",
      "desc": "Cover"
     },
     {
@@ -14880,6 +17660,11 @@
      "pos": "4",
      "pn": "N 011 612 3",
      "desc": "Washer"
+    },
+    {
+     "pos": "5",
+     "pn": "056 129 669 B",
+     "desc": "Grommet"
     },
     {
      "pos": "6",
@@ -15046,6 +17831,11 @@
      "pos": "32",
      "pn": "N 011 524 27",
      "desc": "Washer"
+    },
+    {
+     "pos": "33",
+     "pn": "477 820 002 A",
+     "desc": "Air conditioner"
     },
     {
      "pos": "34",
@@ -15275,6 +18065,11 @@
    "image": "/catalog/1982-1985/813-20.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 820 002 A",
+     "desc": "Air conditioner"
+    },
+    {
      "pos": "2",
      "pn": "477 820 903",
      "desc": "Evaporator"
@@ -15320,6 +18115,11 @@
      "desc": "Retaining bow"
     },
     {
+     "pos": "11",
+     "pn": "477 820 447 A",
+     "desc": "Rubber boot"
+    },
+    {
      "pos": "12",
      "pn": "477 820 901",
      "desc": "Temperature sensor"
@@ -15335,6 +18135,16 @@
      "desc": "Tapping screw"
     },
     {
+     "pos": "15",
+     "pn": "477 820 435 A",
+     "desc": "Tapping screw"
+    },
+    {
+     "pos": "16",
+     "pn": "477 820 507 A",
+     "desc": "Insulator"
+    },
+    {
      "pos": "17",
      "pn": "477 820 557",
      "desc": "Vacuum line"
@@ -15343,6 +18153,11 @@
      "pos": "18",
      "pn": "477 820 545",
      "desc": "Vacuum unit"
+    },
+    {
+     "pos": "19",
+     "pn": "477 820 435 D",
+     "desc": "Tapping screw"
     },
     {
      "pos": "20",
@@ -15369,6 +18184,11 @@
    "page": 362,
    "image": "/catalog/1982-1985/813-25.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "478 820 017 A",
+     "desc": "Evaporator"
+    },
     {
      "pos": "2",
      "pn": "901 573 903 00",
@@ -15777,6 +18597,11 @@
      "desc": "Support"
     },
     {
+     "pos": "22",
+     "pn": "052 905 471 A",
+     "desc": "Support"
+    },
+    {
      "pos": "23",
      "pn": "999 072 005 09",
      "desc": "Hexagon nut",
@@ -15841,7 +18666,17 @@
     },
     {
      "pos": "1",
+     "pn": "944 618 111 X",
+     "desc": "Control unit"
+    },
+    {
+     "pos": "1",
      "pn": "944 618 111 01",
+     "desc": "Control unit"
+    },
+    {
+     "pos": "1",
+     "pn": "944 618 111 AX",
      "desc": "Control unit"
     },
     {
@@ -16238,6 +19073,16 @@
      "desc": "Starter"
     },
     {
+     "pos": "1",
+     "pn": "951 604 101 X",
+     "desc": "Starter"
+    },
+    {
+     "pos": "1",
+     "pn": "951 604 101 AX",
+     "desc": "Starter"
+    },
+    {
      "pos": "2",
      "pn": "944 611 101 00",
      "desc": "Battery"
@@ -16253,9 +19098,19 @@
      "desc": "Battery"
     },
     {
+     "pos": "2",
+     "pn": "477 915 107 A",
+     "desc": "Battery"
+    },
+    {
      "pos": "3",
      "pn": "477 915 429",
      "desc": "Pole covering"
+    },
+    {
+     "pos": "4",
+     "pn": "281 915 411 F",
+     "desc": "Battery cover"
     },
     {
      "pos": "5",
@@ -16349,14 +19204,34 @@
      "desc": "Wiring harness"
     },
     {
+     "pos": "3",
+     "pn": "477 971 563 A",
+     "desc": "Wiring harness"
+    },
+    {
      "pos": "4",
      "pn": "477 971 205",
      "desc": "Wiring harness"
     },
     {
+     "pos": "5",
+     "pn": "477 971 322 B",
+     "desc": "Double line"
+    },
+    {
      "pos": "6",
      "pn": "477 971 235",
      "desc": "Ground strap"
+    },
+    {
+     "pos": "7",
+     "pn": "171 971 999 A",
+     "desc": "Terminal sleeve housing"
+    },
+    {
+     "pos": "8",
+     "pn": "171 971 999 B",
+     "desc": "Terminal sleeve housing"
     }
    ]
   },
@@ -16367,7 +19242,33 @@
    "title": "Wiring harnesses",
    "page": 387,
    "image": "/catalog/1982-1985/902-25.webp",
-   "parts": []
+   "parts": [
+    {
+     "pos": "1",
+     "pn": "477 971 050 DF",
+     "desc": "Wiring harness"
+    },
+    {
+     "pos": "2",
+     "pn": "477 971 196 CB",
+     "desc": "Wiring harness"
+    },
+    {
+     "pos": "2",
+     "pn": "477 971 196 DB",
+     "desc": "Wiring harness"
+    },
+    {
+     "pos": "3",
+     "pn": "477 971 565 C",
+     "desc": "Wiring harness"
+    },
+    {
+     "pos": "4",
+     "pn": "478 971 109 B",
+     "desc": "Wiring harness"
+    }
+   ]
   },
   {
    "id": "902-30",
@@ -16381,6 +19282,16 @@
      "pos": "1",
      "pn": "944 612 004 00",
      "desc": "Wiring harness"
+    },
+    {
+     "pos": "2",
+     "pn": "477 971 257 B",
+     "desc": "Single line"
+    },
+    {
+     "pos": "3",
+     "pn": "477 971 263 B",
+     "desc": "Ground strap"
     },
     {
      "pos": "4",
@@ -16408,9 +19319,29 @@
      "desc": "Connector housing"
     },
     {
+     "pos": "2",
+     "pn": "113 971 998 B",
+     "desc": "Connector housing"
+    },
+    {
      "pos": "3",
      "pn": "803 971 979",
      "desc": "Plug socket"
+    },
+    {
+     "pos": "4",
+     "pn": "171 971 998 A",
+     "desc": "Connector housing"
+    },
+    {
+     "pos": "5",
+     "pn": "171 971 998 E",
+     "desc": "Connector housing"
+    },
+    {
+     "pos": "6",
+     "pn": "171 971 999 A",
+     "desc": "Terminal sleeve housing"
     },
     {
      "pos": "7",
@@ -16426,6 +19357,11 @@
      "pos": "10",
      "pn": "914 612 327 10",
      "desc": "Connector housing"
+    },
+    {
+     "pos": "12",
+     "pn": "803 971 835 A",
+     "desc": "Terminal sleeve housing"
     },
     {
      "pos": "13",
@@ -16448,6 +19384,16 @@
      "desc": "Connector housing"
     },
     {
+     "pos": "17",
+     "pn": "815 971 988 A",
+     "desc": "Connector housing"
+    },
+    {
+     "pos": "18",
+     "pn": "815 971 989 A",
+     "desc": "Connector housing"
+    },
+    {
      "pos": "19",
      "pn": "810 971 993",
      "desc": "Terminal sleeve housing"
@@ -16455,6 +19401,11 @@
     {
      "pos": "20",
      "pn": "810 971 989",
+     "desc": "Connector housing"
+    },
+    {
+     "pos": "21",
+     "pn": "022 906 231 A",
      "desc": "Connector housing"
     },
     {
@@ -16488,9 +19439,19 @@
      "desc": "Protection cap"
     },
     {
+     "pos": "30",
+     "pn": "803 957 855 B",
+     "desc": "Protective grommet"
+    },
+    {
      "pos": "31",
      "pn": "431 971 866",
      "desc": "Grommet"
+    },
+    {
+     "pos": "32",
+     "pn": "477 971 871 B",
+     "desc": "Protective grommet"
     },
     {
      "pos": "33",
@@ -16521,6 +19482,16 @@
      "pos": "38",
      "pn": "059 971 891",
      "desc": "Sleeve"
+    },
+    {
+     "pos": "39",
+     "pn": "477 971 850 A",
+     "desc": "Tie-wrap"
+    },
+    {
+     "pos": "40",
+     "pn": "171 971 519 A",
+     "desc": "Ground connector"
     },
     {
      "pos": "41",
@@ -16598,14 +19569,29 @@
    "image": "/catalog/1982-1985/903-00.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 941 531 F",
+     "desc": "Light switch"
+    },
+    {
      "pos": "2",
      "pn": "477 959 623",
      "desc": "Switch"
     },
     {
+     "pos": "3",
+     "pn": "477 953 235 A",
+     "desc": "Emergency light switch"
+    },
+    {
      "pos": "4",
      "pn": "944 613 110 00",
      "desc": "Switch for rear fog light"
+    },
+    {
+     "pos": "5",
+     "pn": "477 941 563 A",
+     "desc": "Switch"
     },
     {
      "pos": "6",
@@ -16678,9 +19664,24 @@
      "desc": "Safety fuse"
     },
     {
+     "pos": "20",
+     "pn": "111 953 227 D",
+     "desc": "Flasher relay"
+    },
+    {
+     "pos": "20",
+     "pn": "191 953 227 A",
+     "desc": "Flasher relay"
+    },
+    {
      "pos": "22",
      "pn": "477 971 923",
      "desc": "Protection cap"
+    },
+    {
+     "pos": "23",
+     "pn": "135 937 501 A",
+     "desc": "Relay carrier"
     },
     {
      "pos": "24",
@@ -16691,6 +19692,11 @@
      "pos": "25",
      "pn": "944 613 129 01",
      "desc": "Tip switch"
+    },
+    {
+     "pos": "26",
+     "pn": "477 867 185 B",
+     "desc": "Mounting piece"
     },
     {
      "pos": "27",
@@ -16713,6 +19719,11 @@
    "image": "/catalog/1982-1985/903-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "321 905 851 D",
+     "desc": "Steering lock housing"
+    },
+    {
      "pos": "2",
      "pn": "477 953 902",
      "desc": "Wiper switch"
@@ -16733,9 +19744,29 @@
      "desc": "Oval-head screw"
     },
     {
+     "pos": "6",
+     "pn": "111 905 865 L",
+     "desc": "Ignition starter switch"
+    },
+    {
      "pos": "7",
      "pn": "900 146 104 02",
      "desc": "Combination screw"
+    },
+    {
+     "pos": "8",
+     "pn": "477 905 855 C",
+     "desc": "Lock cylinder"
+    },
+    {
+     "pos": "9",
+     "pn": "477 953 515 B",
+     "desc": "Lining"
+    },
+    {
+     "pos": "10",
+     "pn": "477 953 516 B",
+     "desc": "Lining"
     },
     {
      "pos": "11",
@@ -16818,6 +19849,26 @@
      "pos": "2",
      "pn": "477 955 028",
      "desc": "Wiper arm"
+    },
+    {
+     "pos": "3",
+     "pn": "477 955 035 B",
+     "desc": "Connecting rod"
+    },
+    {
+     "pos": "4",
+     "pn": "477 955 036 B",
+     "desc": "Connecting rod"
+    },
+    {
+     "pos": "5",
+     "pn": "477 955 041 B",
+     "desc": "Frame"
+    },
+    {
+     "pos": "6",
+     "pn": "477 955 113 B",
+     "desc": "Windscreen wiper motor"
     },
     {
      "pos": "7",
@@ -16906,7 +19957,12 @@
     {
      "pos": "22",
      "pn": "477 955 205",
-     "desc": "Cap",
+     "desc": "Cap"
+    },
+    {
+     "pos": "23",
+     "pn": "481 955 243 A",
+     "desc": "Hexagon nut",
      "spec": "M16×1"
     },
     {
@@ -16936,6 +19992,17 @@
    "image": "/catalog/1982-1985/904-05.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "311 955 243 A",
+     "desc": "Hexagon nut",
+     "spec": "M12×1"
+    },
+    {
+     "pos": "2",
+     "pn": "211 955 275 A",
+     "desc": "Housing"
+    },
+    {
      "pos": "4",
      "pn": "999 084 045 02",
      "desc": "Lock nut"
@@ -16944,6 +20011,16 @@
      "pos": "7",
      "pn": "477 955 439",
      "desc": "Grommet"
+    },
+    {
+     "pos": "8",
+     "pn": "477 955 713 A",
+     "desc": "Wiper motor"
+    },
+    {
+     "pos": "9",
+     "pn": "477 955 715 B",
+     "desc": "Mounting plate"
     },
     {
      "pos": "10",
@@ -16982,6 +20059,11 @@
    "page": 407,
    "image": "/catalog/1982-1985/904-10.webp",
    "parts": [
+    {
+     "pos": "1",
+     "pn": "477 955 451 D",
+     "desc": "Water reservoir"
+    },
     {
      "pos": "2",
      "pn": "477 955 455",
@@ -17092,6 +20174,16 @@
      "desc": "Motor pump"
     },
     {
+     "pos": "2",
+     "pn": "431 955 465 A",
+     "desc": "Gasket"
+    },
+    {
+     "pos": "6",
+     "pn": "113 955 975 B",
+     "desc": "T-piece"
+    },
+    {
      "pos": "7",
      "pn": "477 955 183",
      "desc": "Pressure control valve"
@@ -17132,9 +20224,19 @@
      "desc": "Relay"
     },
     {
+     "pos": "15",
+     "pn": "135 937 501 A",
+     "desc": "Relay carrier"
+    },
+    {
      "pos": "16",
      "pn": "825 971 990",
      "desc": "Terminal sleeve housing"
+    },
+    {
+     "pos": "17",
+     "pn": "111 937 077 E",
+     "desc": "Cable connection"
     }
    ]
   },
@@ -17214,6 +20316,11 @@
      "desc": "Oval-head screw"
     },
     {
+     "pos": "13",
+     "pn": "477 941 379 B",
+     "desc": "Electric motor"
+    },
+    {
      "pos": "14",
      "pn": "477 941 386",
      "desc": "Protection cap"
@@ -17251,9 +20358,24 @@
      "desc": "Lock ring"
     },
     {
+     "pos": "19",
+     "pn": "477 941 659 A",
+     "desc": "Cap"
+    },
+    {
      "pos": "20",
      "pn": "477 941 715",
      "desc": "Gasket"
+    },
+    {
+     "pos": "21",
+     "pn": "477 941 751 D",
+     "desc": "High-beam headlight"
+    },
+    {
+     "pos": "22",
+     "pn": "477 941 771 B",
+     "desc": "Headlamp"
     },
     {
      "pos": "23",
@@ -17456,6 +20578,11 @@
    "image": "/catalog/1982-1985/905-15.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "477 943 021 A",
+     "desc": "License plate light"
+    },
+    {
      "pos": "2",
      "pn": "900 631 103 90",
      "desc": "Bulb"
@@ -17538,6 +20665,11 @@
    "image": "/catalog/1982-1985/905-20.webp",
    "parts": [
     {
+     "pos": "1",
+     "pn": "823 947 105 B",
+     "desc": "Interior light"
+    },
+    {
      "pos": "2",
      "pn": "171 947 311",
      "desc": "Glove compartment light"
@@ -17566,6 +20698,11 @@
      "pos": "7",
      "pn": "477 947 633",
      "desc": "Clip"
+    },
+    {
+     "pos": "8",
+     "pn": "477 947 601 A",
+     "desc": "Engine compartment lamp"
     },
     {
      "pos": "9",
@@ -17668,6 +20805,11 @@
      "desc": "Bulb socket"
     },
     {
+     "pos": "9",
+     "pn": "321 919 115 C",
+     "desc": "Retaining bar"
+    },
+    {
      "pos": "10",
      "pn": "477 919 115",
      "desc": "Retaining bar"
@@ -17687,6 +20829,11 @@
      "pos": "13",
      "pn": "111 919 243",
      "desc": "Bulb socket"
+    },
+    {
+     "pos": "14",
+     "pn": "477 919 210 A",
+     "desc": "Indicator light"
     },
     {
      "pos": "15",
@@ -17729,6 +20876,11 @@
      "desc": "Hexagon nut"
     },
     {
+     "pos": "21",
+     "pn": "047 919 501 A",
+     "desc": "Temperature sensor"
+    },
+    {
      "pos": "22",
      "pn": "N 013 806 2",
      "desc": "Sealing ring"
@@ -17763,6 +20915,11 @@
      "pos": "28",
      "pn": "900 123 101 30",
      "desc": "Sealing ring"
+    },
+    {
+     "pos": "29",
+     "pn": "477 919 051 B",
+     "desc": "Tank gauge"
     },
     {
      "pos": "30",
@@ -17827,6 +20984,11 @@
      "desc": "Bulb"
     },
     {
+     "pos": "5",
+     "pn": "142 957 801 C",
+     "desc": "Drive shaft"
+    },
+    {
      "pos": "6",
      "pn": "944 641 801 00",
      "desc": "Drive shaft"
@@ -17835,6 +20997,16 @@
      "pos": "7",
      "pn": "477 957 861",
      "desc": "Rubber sleeve"
+    },
+    {
+     "pos": "8",
+     "pn": "477 957 809 E",
+     "desc": "Drive shaft"
+    },
+    {
+     "pos": "9",
+     "pn": "477 957 901 B",
+     "desc": "Switch"
     },
     {
      "pos": "10",
@@ -18144,6 +21316,11 @@
      "pos": "4",
      "pn": "999 651 168 40",
      "desc": "Cable holder"
+    },
+    {
+     "pos": "5",
+     "pn": "823 959 481 F",
+     "desc": "Temperature switch"
     },
     {
      "pos": "6",
