@@ -1,5 +1,12 @@
 name: Deploy to GitHub Pages
 
+# Legacy mirror. The primary home is https://944.limitlezz.tech (own server,
+# built with the repo defaults). This workflow pins the old Pages base/site so
+# itslimitlezz.github.io/944-Hub keeps working until (and after) cutover.
+env:
+  PAGES_BASE: /944-Hub
+  PAGES_SITE: https://itslimitlezz.github.io
+
 on:
   # Deploy on every push to the default branch.
   push:

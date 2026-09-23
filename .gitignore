@@ -12,6 +12,7 @@ __pycache__/
 
 # local tooling
 .claude/
+.serena/
 
 # env / editor
 .DS_Store

@@ -77,23 +77,35 @@ npm run port:clarks                  # re-run the port (HTML + images are cached
 > The 177 ported articles are preserved out of respect for a foundational community resource; each
 > links back to its source. Rights holders can request changes via a GitHub issue.
 
-## Deployment (GitHub Pages)
+## Deployment
 
-The site auto-deploys to **https://itslimitlezz.github.io/944-Hub/** via GitHub Actions
-([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)) on every push to `main`.
+The site's home is **https://944.limitlezz.tech**, served from our own server at the domain
+root. A plain `npm run build` targets it (base `/`, canonical URLs and sitemap on that domain)
+and produces a fully static `dist/` — serve it with any static file server. A minimal
+[Caddy](https://caddyserver.com) site block:
 
-One-time setup (already done for this repo): **Settings → Pages → Build and deployment →
-Source: GitHub Actions**.
+```caddy
+944.limitlezz.tech {
+    root * /var/www/944hub/dist
+    encode zstd gzip
+    file_server
+    handle_errors {
+        rewrite * /404.html
+        file_server
+    }
+}
+```
 
-The project lives under the `/944-Hub/` subpath, so `astro.config.mjs` sets `base: '/944-Hub'`.
 Internal links use the `withBase()` helper and a rehype plugin rewrites links/images inside the
-ported Markdown — so content files stay portable (no base baked in).
+ported Markdown, so the same source also builds for a subpath — content files stay portable
+(no base baked in).
 
-### Moving to a custom domain
+### Legacy GitHub Pages mirror
 
-1. Set `base: '/'` (or run with `PAGES_BASE=/`) and `site` to your domain in `astro.config.mjs`.
-2. Add a `public/CNAME` file containing the domain (e.g. `944hub.org`).
-3. Point your DNS at GitHub Pages and set the custom domain under Settings → Pages.
+**https://itslimitlezz.github.io/944-Hub/** still auto-deploys on every push to `main` via
+[`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which pins `PAGES_BASE=/944-Hub`
+and `PAGES_SITE=https://itslimitlezz.github.io` for its build. Delete the workflow (and turn off
+Pages) once the cutover to the new server is done.
 
 ## Attribution Tags
 

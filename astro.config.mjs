@@ -4,11 +4,11 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 // ── Deployment target ────────────────────────────────────────────────
-// GitHub Pages project site → https://itslimitlezz.github.io/944-Hub/
-// To move to a custom domain later: set BASE = '/', SITE to your domain,
-// and add a public/CNAME file (see README → Deployment).
-const BASE = process.env.PAGES_BASE ?? '/944-Hub';
-const SITE = process.env.PAGES_SITE ?? 'https://itslimitlezz.github.io';
+// Primary home: https://944.limitlezz.tech (own server, served at the root).
+// The legacy GitHub Pages mirror keeps working because its workflow pins
+// PAGES_BASE=/944-Hub and PAGES_SITE=https://itslimitlezz.github.io.
+const BASE = process.env.PAGES_BASE ?? '/';
+const SITE = process.env.PAGES_SITE ?? 'https://944.limitlezz.tech';
 const basePrefix = BASE.replace(/\/$/, '');
 
 /**
