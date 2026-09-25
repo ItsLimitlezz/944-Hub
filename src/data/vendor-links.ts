@@ -1,7 +1,7 @@
 // Vendor product links for catalog parts, keyed by normalized part number
 // (spaces removed, uppercased). When a catalog part matches, the visual catalog
 // shows the vendor's buy link(s) in place of the generic find links.
-export type Vendor = 'FFP' | '944online';
+export type Vendor = 'FFP' | '944online' | 'Clewett';
 
 export interface VendorLink {
   vendor: Vendor;
@@ -12,11 +12,17 @@ export interface VendorLink {
 export const VENDOR_STYLE: Record<Vendor, { label: string; class: string }> = {
   FFP: { label: 'FFP', class: 'border-guards/50 bg-guards/15 text-guards-light hover:border-guards hover:bg-guards/25' },
   '944online': { label: '944online', class: 'border-amber-400/50 bg-amber-400/10 text-amber-300 hover:border-amber-400 hover:bg-amber-400/20' },
+  Clewett: { label: 'Clewett', class: 'border-sky-400/50 bg-sky-400/10 text-sky-300 hover:border-sky-400 hover:bg-sky-400/20' },
 };
 
 const ONLINE944 = (slug: string): VendorLink => ({
   vendor: '944online',
   url: `https://944online.com/${slug}/`,
+});
+
+const CLEWETT = (productId: number): VendorLink => ({
+  vendor: 'Clewett',
+  url: `https://www.clewett.com/index.php?main_page=product_info&products_id=${productId}`,
 });
 
 export const VENDOR_LINKS: Record<string, VendorLink[]> = {
@@ -67,6 +73,18 @@ export const VENDOR_LINKS: Record<string, VendorLink[]> = {
   '99906301540': [ONLINE944('windshield-washer-tank-stopper')],
   '99970717140': [ONLINE944('windshield-washer-tank-stopper')],
   '99916800440': [ONLINE944('door-handle-linkage-ball-socket')],
+
+  // ── Clewett Engineering ──
+  // Spark plug wire set 9192-32 — 944 / 944 Turbo 1983-89 (8 valve); coil lead + plug leads
+  '94460901701': [CLEWETT(113)],
+  '94460901515': [CLEWETT(113)],
+  '94460901519': [CLEWETT(113)],
+  // Spark plug wire set 9192-33 — 944 S / S2 / Turbo S (16 valve); coil lead (…09) + plug leads (…05–08)
+  '94460206005': [CLEWETT(114)],
+  '94460206006': [CLEWETT(114)],
+  '94460206007': [CLEWETT(114)],
+  '94460206008': [CLEWETT(114)],
+  '94460206009': [CLEWETT(114)],
 };
 
 export function getVendorLinks(pn: string): VendorLink[] {
