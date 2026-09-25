@@ -10,9 +10,9 @@ export interface VendorLink {
 
 // Per-vendor badge styling. FFP uses the FormFactor teal (brand colour).
 export const VENDOR_STYLE: Record<Vendor, { label: string; class: string }> = {
-  FFP: { label: 'FFP', class: 'border-guards/50 bg-guards/15 text-guards-light hover:border-guards hover:bg-guards/25' },
+  FFP: { label: 'FFP', class: 'border-ffp/50 bg-ffp/15 text-ffp-light hover:border-ffp hover:bg-ffp/25' },
   '944online': { label: '944online', class: 'border-amber-400/50 bg-amber-400/10 text-amber-300 hover:border-amber-400 hover:bg-amber-400/20' },
-  Clewett: { label: 'Clewett', class: 'border-sky-400/50 bg-sky-400/10 text-sky-300 hover:border-sky-400 hover:bg-sky-400/20' },
+  Clewett: { label: 'Clewett', class: 'border-violet-400/50 bg-violet-400/10 text-violet-300 hover:border-violet-400 hover:bg-violet-400/20' },
 };
 
 const ONLINE944 = (slug: string): VendorLink => ({

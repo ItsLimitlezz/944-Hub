@@ -15,7 +15,7 @@ const searchEndpoint = withBase('/search-index.json');
   </div>
 
   <div id="filters" class="mt-4 flex flex-wrap gap-2">
-    <button data-cat="all" class="cat-chip rounded-full border border-guards bg-guards px-3 py-1 text-xs font-semibold text-white">All</button>
+    <button data-cat="all" class="cat-chip rounded-full border border-guards bg-guards px-3 py-1 text-xs font-semibold text-carbon">All</button>
     {CATEGORIES.map((c) => (
       <button data-cat={c.id} class="cat-chip rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40">{c.short}</button>
     ))}
@@ -23,7 +23,7 @@ const searchEndpoint = withBase('/search-index.json');
 
   <div id="diff-filters" class="mt-2 flex flex-wrap items-center gap-2">
     <span class="mr-1 font-mono text-[0.62rem] font-bold uppercase tracking-wider text-ink-soft/50">Difficulty</span>
-    <button data-diff="all" class="diff-chip rounded-full border border-guards bg-guards px-3 py-1 text-xs font-semibold text-white">All</button>
+    <button data-diff="all" class="diff-chip rounded-full border border-guards bg-guards px-3 py-1 text-xs font-semibold text-carbon">All</button>
     <button data-diff="beginner" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>Beginner</button>
     <button data-diff="intermediate" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-amber-400"></span>Intermediate</button>
     <button data-diff="advanced" class="diff-chip inline-flex items-center gap-1.5 rounded-full border border-line bg-surface px-3 py-1 text-xs font-semibold text-ink-soft hover:border-guards/40"><span class="h-1.5 w-1.5 rounded-full bg-red-400"></span>Advanced</button>
@@ -82,10 +82,10 @@ const searchEndpoint = withBase('/search-index.json');
     btn.addEventListener('click', () => {
       cat = btn.dataset.cat!;
       document.querySelectorAll('.cat-chip').forEach((b) => {
-        b.classList.remove('bg-guards', 'text-white', 'border-guards');
+        b.classList.remove('bg-guards', 'text-carbon', 'border-guards');
         b.classList.add('bg-surface', 'text-ink-soft', 'border-line');
       });
-      btn.classList.add('bg-guards', 'text-white', 'border-guards');
+      btn.classList.add('bg-guards', 'text-carbon', 'border-guards');
       btn.classList.remove('bg-surface', 'text-ink-soft', 'border-line');
       render();
     }),
@@ -95,10 +95,10 @@ const searchEndpoint = withBase('/search-index.json');
     btn.addEventListener('click', () => {
       difficulty = btn.dataset.diff!;
       document.querySelectorAll('.diff-chip').forEach((b) => {
-        b.classList.remove('bg-guards', 'text-white', 'border-guards');
+        b.classList.remove('bg-guards', 'text-carbon', 'border-guards');
         b.classList.add('bg-surface', 'text-ink-soft', 'border-line');
       });
-      btn.classList.add('bg-guards', 'text-white', 'border-guards');
+      btn.classList.add('bg-guards', 'text-carbon', 'border-guards');
       btn.classList.remove('bg-surface', 'text-ink-soft', 'border-line');
       render();
     }),

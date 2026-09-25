@@ -2,26 +2,39 @@
 @plugin '@tailwindcss/typography';
 
 /* ── 944 Hub design tokens ─────────────────────────────────────────── */
+/* 80s neon look, shared with limitlezz.tech: deep teal-black "void", Miami cyan +
+   hot pink accents, Chakra Petch display type and Space Mono labels. */
 @theme {
   --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-display: 'Archivo', 'Inter', ui-sans-serif, system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', monospace;
+  --font-display: 'Chakra Petch', 'Arial Narrow', ui-sans-serif, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
 
-  /* FormFactor Performance teal brand accent + a deeper brick red for legacy/CG. */
-  --color-guards: #0e9b91; /* primary accent — buttons, badges, highlights */
-  --color-guards-dark: #0a766e; /* hover / deeper teal */
-  --color-guards-light: #5fd0c5; /* links/accents on dark surfaces */
+  /* Primary accent (historically "guards") is now Miami cyan. */
+  --color-guards: #13a5dc; /* primary accent — buttons, badges, highlights */
+  --color-guards-dark: #0e86b4; /* hover / deeper cyan */
+  --color-guards-light: #5cc8f0; /* links/accents on dark surfaces */
+  --color-hot: #ff3ea5; /* hot pink — secondary accent, offset shadows */
+  --color-hot-light: #ff7cc2;
+  --color-ffp: #0e9b91; /* FormFactor Performance teal — FFP attribution only */
+  --color-ffp-light: #5fd0c5;
   --color-brick: #b21a0e;
 
-  /* Permanent dark palette — graphite + carbon. */
-  --color-ink: #f1f2f4; /* primary text */
-  --color-ink-soft: #9aa1aa; /* secondary text */
-  --color-paper: #0e0f11; /* page background */
-  --color-surface: #16181c; /* cards / raised surfaces */
-  --color-surface-2: #1c1f24; /* hover / nested surfaces */
-  --color-carbon: #0a0b0d; /* header / footer / darkest */
-  --color-carbon-700: #15181c;
-  --color-line: #282c33; /* borders */
+  /* Permanent dark palette — teal-black void. */
+  --color-ink: #f4fbfa; /* primary text */
+  --color-ink-soft: #a9bdb9; /* secondary text */
+  --color-paper: #0a0e0f; /* page background */
+  --color-surface: #0d1214; /* cards / raised surfaces */
+  --color-surface-2: #121b1e; /* hover / nested surfaces */
+  --color-carbon: #070a0b; /* header / footer / darkest */
+  --color-carbon-700: #111719;
+  --color-line: #1e3036; /* borders */
+
+  /* Sharper, more "hardware" corners. */
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 4px;
+  --radius-xl: 6px;
+  --radius-2xl: 8px;
 }
 
 html {
@@ -31,19 +44,111 @@ html {
 
 body {
   background-color: var(--color-paper);
+  /* Faint neon grid over the whole page, fading out below the fold. */
+  background-image:
+    radial-gradient(ellipse 80% 50% at 100% 0%, rgba(19, 165, 220, 0.08), transparent 70%),
+    radial-gradient(ellipse 60% 40% at 0% 0%, rgba(255, 62, 165, 0.05), transparent 70%),
+    linear-gradient(rgba(19, 165, 220, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(19, 165, 220, 0.045) 1px, transparent 1px);
+  background-size: auto, auto, 48px 48px, 48px 48px;
+  background-attachment: fixed;
   color: var(--color-ink);
   font-family: var(--font-sans);
   font-feature-settings: 'cv05', 'ss01';
   -webkit-font-smoothing: antialiased;
 }
 
-/* Subtle carbon-fiber texture for dark sections. */
+::selection {
+  background: var(--color-hot);
+  color: var(--color-carbon);
+}
+
+/* Display headings: Chakra Petch, uppercase, tight — the Limitlezz poster look. */
+:where(h1, h2).font-display {
+  text-transform: uppercase;
+  letter-spacing: -0.005em;
+}
+
+/* Neon grid for dark bands (hero, footer, CTA). */
 .bg-carbon-grid {
   background-color: var(--color-carbon);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-  background-size: 22px 22px;
+    linear-gradient(rgba(19, 165, 220, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(19, 165, 220, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* ── 80s effects ─────────────────────────────────────────────────── */
+
+/* Chromatic-aberration offset: pink one way, cyan the other. */
+.text-chroma {
+  text-shadow:
+    -0.045em 0.03em 0 var(--color-hot),
+    0.045em 0.03em 0 var(--color-guards);
+}
+.text-chroma-sm {
+  text-shadow:
+    -2px 1px 0 var(--color-hot),
+    2px 1px 0 var(--color-guards);
+}
+
+/* Hollow neon lettering. */
+.text-outline {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--color-guards);
+  text-shadow: 0 0 18px rgba(19, 165, 220, 0.35);
+}
+.text-outline-dim {
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--color-line);
+}
+
+/* Cyan → white → pink racing stripe. */
+.stripe-neon {
+  background: linear-gradient(90deg, var(--color-guards) 0 45%, #f4fbfa 45% 55%, var(--color-hot) 55% 100%);
+}
+
+/* Mono kicker labels with wide tracking. */
+.kicker {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-guards);
+}
+
+/* Primary buttons get a hard offset "print" shadow in hot pink. */
+a.bg-guards:not(.rounded-full),
+button.bg-guards:not(.rounded-full) {
+  box-shadow: 4px 4px 0 var(--color-hot);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    background-color 0.15s ease;
+}
+a.bg-guards:not(.rounded-full):hover,
+button.bg-guards:not(.rounded-full):hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--color-hot);
+}
+
+/* Perspective "outrun" floor for the hero. */
+.outrun-floor {
+  background-image:
+    linear-gradient(rgba(255, 62, 165, 0.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 62, 165, 0.35) 1px, transparent 1px);
+  background-size: 56px 28px;
+  transform: perspective(320px) rotateX(62deg);
+  transform-origin: 50% 100%;
+  mask-image: linear-gradient(to top, #000 10%, transparent 85%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.bg-guards,
+  button.bg-guards {
+    transition: none;
+  }
 }
 
 .text-balance {
@@ -57,7 +162,7 @@ body {
   --tw-prose-links: var(--color-guards-light);
   --tw-prose-bold: #ffffff;
   --tw-prose-counters: var(--color-ink-soft);
-  --tw-prose-bullets: var(--color-guards);
+  --tw-prose-bullets: var(--color-hot);
   --tw-prose-quotes: var(--color-ink);
   --tw-prose-quote-borders: var(--color-guards);
   --tw-prose-hr: var(--color-line);
@@ -75,6 +180,11 @@ body {
   background: #fff;
   padding: 0.4rem;
   margin-inline: auto;
+}
+
+.prose-944 :where(h2, h3, h4) {
+  font-family: var(--font-display);
+  letter-spacing: 0;
 }
 
 .prose-944 :where(table) {

@@ -9,7 +9,7 @@ const { class: cls = '' } = Astro.props;
 <a href={withBase('/')} class={`group inline-flex items-center gap-2.5 ${cls}`} aria-label="944 Hub home">
   <!-- Stylized 944 hex badge -->
   <span
-    class="relative grid h-9 w-9 place-items-center rounded-md bg-guards text-white shadow-sm transition-transform group-hover:-translate-y-0.5"
+    class="relative grid h-9 w-9 place-items-center rounded-full border-2 border-guards text-guards shadow-[0_0_14px_rgba(19,165,220,0.35)] transition-transform group-hover:-translate-y-0.5"
   >
     <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
       <path d="M3 13.5 5 7a3 3 0 0 1 2.8-2h8.4A3 3 0 0 1 19 7l2 6.5" />
@@ -18,10 +18,10 @@ const { class: cls = '' } = Astro.props;
     </svg>
   </span>
   <span class="flex flex-col leading-none">
-    <span class="font-display text-lg font-extrabold tracking-tight text-white">
-      944<span class="text-guards"> Hub</span>
+    <span class="font-display text-xl font-bold uppercase tracking-wide text-white">
+      944<span class="text-guards">Hub</span>
     </span>
-    <span class="mt-0.5 text-[0.6rem] font-medium uppercase tracking-[0.18em] text-white/45">
+    <span class="mt-1 font-mono text-[0.55rem] uppercase tracking-[0.22em] text-white/45">
       by FormFactor Performance
     </span>
   </span>
